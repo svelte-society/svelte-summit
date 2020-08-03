@@ -1,23 +1,82 @@
-<script type="text/typescript">
-  import Nested from './Nested.svelte';
-  export let label: string = '';
-
-  $: console.log(label);
+<script>
+  import { highlightMenuItem } from "./actions/highlightMenuItem.js";
+  import { Hero } from "./components/Hero";
+  import CallForPeople from "./components/Sections/CallForPeople.svelte";
 </script>
 
-<style type="text/stylus">
-  .note
-    color #ff3e00
-  h1
-    color blue
+<style>
+  section {
+    max-width: 800px;
+    margin: 100px;
+  }
 </style>
 
-<template type="text/pug">
-  h1.note This is the svelte-preproces example - built with svite
-  hr
-  h1 Hello!
-  br
-  input(bind:value="{label}")
-  br
-  Nested("{label}")
-</template>
+<div id="intro" use:highlightMenuItem />
+<Hero />
+<CallForPeople />
+<section id="sponsors" use:highlightMenuItem>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti illum
+  temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in.
+</section>
+<section id="faq" use:highlightMenuItem>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti illum
+  temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corrupti
+  illum temporibus cum, nam officia. Placeat, culpa. Veniam molestias porro eos
+  deserunt corrupti exercitationem laudantium expedita veritatis, doloribus cum
+  in.
+</section>

@@ -6,6 +6,7 @@
     "build": "svite build"
   },
   "dependencies": {
+    "css-media-vars": "^1.0.1",
     "svelte": "^3.24.0"
   },
   "devDependencies": {
