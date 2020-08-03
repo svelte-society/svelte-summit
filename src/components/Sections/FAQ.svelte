@@ -12,7 +12,6 @@
     place-items: center;
   }
   .container {
-    width: 100%;
     max-width: var(--container-width);
   }
   .questions {
@@ -24,7 +23,7 @@
 
 <div class="background">
   <div class="container">
-    <h2 id="sponsors" use:highlightMenuItem>Frequently Asked Questions</h2>
+    <h2 id="faq" use:highlightMenuItem>Frequently Asked Questions</h2>
     <div class="questions">
       <slot />
     </div>

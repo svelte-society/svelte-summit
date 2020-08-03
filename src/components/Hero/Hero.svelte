@@ -1,8 +1,12 @@
 <script>
   import { Background } from "./Background/";
+  import MobileMenu from "./MobileMenu.svelte";
   import Navigation from "./Navigation.svelte";
   import Info from "./Info.svelte";
   import Title from "./Title.svelte";
+  import { writable } from "svelte/store";
+
+  const menuOpen = writable(false);
 </script>
 
 <style>
@@ -65,7 +69,7 @@
 </style>
 
 <div class="container">
-  <Navigation />
+  <Navigation on:click={() => ($menuOpen = true)} />
   <div class="logo">
     <img src="/images/svelte-society-logo.svg" alt="Svelte Society Logo" />
     <span class="present">PRESENTS</span>
@@ -76,3 +80,7 @@
   </div>
   <Background />
 </div>
+
+{#if $menuOpen}
+  <MobileMenu on:click={() => ($menuOpen = false)} />
+{/if}

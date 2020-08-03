@@ -12,16 +12,8 @@
       url: "#cfp",
     },
     {
-      name: "TEST",
-      url: "#sponsors",
-    },
-    {
       name: "FAQ",
       url: "#faq",
-    },
-    {
-      name: "🐧 Twitter",
-      url: "https://twitter.com/sveltesociety",
     },
   ];
 </script>
@@ -74,11 +66,22 @@
 
   .hamburger {
     position: absolute;
-    top: 0;
-    right: 0;
+    padding: 30px;
+    top: 6px;
+    right: 6px;
 
     --small: var(--media-lte-sm) initial;
     display: var(--small, none);
+  }
+  img {
+    height: 16px;
+    place-self: center;
+  }
+  span {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: auto auto;
+    justify-items: center;
   }
 </style>
 
@@ -89,5 +92,13 @@
       {name}
     </a>
   {/each}
+  <a target="_blank" href="twitter.com/sveltesociety" class:scrolled>
+    <span>
+      <img src="/images/twitter.svg" alt="" />
+      Twitter
+    </span>
+  </a>
 </div>
-<div class="hamburger">M</div>
+<div class="hamburger" on:click>
+  <img src="/images/burger.svg" alt="" />
+</div>

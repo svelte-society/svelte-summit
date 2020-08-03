@@ -51,7 +51,7 @@
       </p>
       <Button>Send proposal</Button>
     </Card>
-    <Card center darker>
+    <Card center darkest>
       <h3>Looking for sponsors</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
@@ -59,7 +59,7 @@
         aspernatur? Omnis ad unde optio, tempore ipsum laboriosam aliquid
         voluptates!
       </p>
-      <Button>Send proposal</Button>
+      <Button black>Send proposal</Button>
     </Card>
   </div>
 </div>

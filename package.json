@@ -7,13 +7,14 @@
   },
   "dependencies": {
     "css-media-vars": "^1.0.1",
-    "svelte": "^3.24.0"
+    "svelte": "^3.24.0",
+    "svelte-css-vars": "0.0.1"
   },
   "devDependencies": {
     "pug": "^3.0.0",
     "stylus": "^0.54.8",
     "svelte-preprocess": "^4.0.8",
-    "svite": "^0.3.2",
+    "svite": "^0.4.1",
     "vite": "1.0.0-beta.12"
   }
 }

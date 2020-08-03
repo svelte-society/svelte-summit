@@ -1,5 +1,5 @@
 <script>
-  export let darker;
+  export let black;
 </script>
 
 <style>
@@ -13,11 +13,11 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  .darker {
-    background: #09191c;
+  .black {
+    background: #000000;
   }
 </style>
 
-<button class:darker on:click>
+<button class:black on:click>
   <slot />
 </button>
