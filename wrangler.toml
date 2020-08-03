@@ -3,4 +3,5 @@ account_id = "8d17b159c1762092c249ba7ed2318384"
 workers_dev = true
 zone_id = "c9c97df5f17700b0070fbe0771b3f78e"
 name = "sveltesociety-summit"
+route = "staging-summit.sveltesociety.dev/*"
 bucket = "./dist"
