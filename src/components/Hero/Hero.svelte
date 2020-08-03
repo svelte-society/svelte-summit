@@ -6,6 +6,21 @@
   import Title from "./Title.svelte";
   import { writable } from "svelte/store";
 
+  const menu = [
+    {
+      name: "Intro",
+      url: "#intro",
+    },
+    {
+      name: "Call For Proposals",
+      url: "#cfp",
+    },
+    {
+      name: "FAQ",
+      url: "#faq",
+    },
+  ];
+
   const menuOpen = writable(false);
 </script>
 
@@ -69,7 +84,7 @@
 </style>
 
 <div class="container">
-  <Navigation on:click={() => ($menuOpen = true)} />
+  <Navigation {menu} on:click={() => ($menuOpen = true)} />
   <div class="logo">
     <img src="/images/svelte-society-logo.svg" alt="Svelte Society Logo" />
     <span class="present">PRESENTS</span>
@@ -82,5 +97,5 @@
 </div>
 
 {#if $menuOpen}
-  <MobileMenu on:click={() => ($menuOpen = false)} />
+  <MobileMenu {menu} on:click={() => ($menuOpen = false)} />
 {/if}

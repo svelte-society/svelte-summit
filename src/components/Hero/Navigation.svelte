@@ -2,20 +2,7 @@
   import { currentSection } from "../../actions/highlightMenuItem";
   let y;
   $: scrolled = y > 100;
-  let menu = [
-    {
-      name: "Intro",
-      url: "#intro",
-    },
-    {
-      name: "Call For Proposals",
-      url: "#cfp",
-    },
-    {
-      name: "FAQ",
-      url: "#faq",
-    },
-  ];
+  export let menu;
 </script>
 
 <style>
