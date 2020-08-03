@@ -5,7 +5,7 @@
 </script>
 
 <style>
-  .container {
+  .background {
     --small-padding: var(--media-lte-sm) 0 0 220px 0;
     padding: var(--small-padding, 200px 40px 270px 40px);
 
@@ -19,8 +19,12 @@
 
     display: grid;
     justify-content: center;
+  }
+  .container {
+    display: grid;
     --small-grid: var(--media-lte-sm) 0;
     grid-gap: var(--small-grid, 30px);
+    max-width: var(--container-width);
   }
   h3 {
     font-size: 28px;
@@ -31,28 +35,31 @@
     margin: 0;
     --small-width: var(--media-lte-sm) 100%;
     width: var(--small-width, 90%);
+    color: var(--sky-blue);
   }
 </style>
 
-<div class="container" id="cfp" use:highlightMenuItem>
-  <Card center>
-    <h3>Call for initial proposals - Deadline September 1st!</h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
-      illum ratione soluta reiciendis eligendi expedita. Id quasi ab quis et
-      aspernatur? Omnis ad unde optio, tempore ipsum laboriosam aliquid
-      voluptates!
-    </p>
-    <Button>Send proposal</Button>
-  </Card>
-  <Card center darker>
-    <h3>Looking for sponsors</h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
-      illum ratione soluta reiciendis eligendi expedita. Id quasi ab quis et
-      aspernatur? Omnis ad unde optio, tempore ipsum laboriosam aliquid
-      voluptates!
-    </p>
-    <Button>Send proposal</Button>
-  </Card>
+<div class="background" id="cfp" use:highlightMenuItem>
+  <div class="container">
+    <Card center>
+      <h3>Call for initial proposals - Deadline September 1st!</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+        illum ratione soluta reiciendis eligendi expedita. Id quasi ab quis et
+        aspernatur? Omnis ad unde optio, tempore ipsum laboriosam aliquid
+        voluptates!
+      </p>
+      <Button>Send proposal</Button>
+    </Card>
+    <Card center darker>
+      <h3>Looking for sponsors</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+        illum ratione soluta reiciendis eligendi expedita. Id quasi ab quis et
+        aspernatur? Omnis ad unde optio, tempore ipsum laboriosam aliquid
+        voluptates!
+      </p>
+      <Button>Send proposal</Button>
+    </Card>
+  </div>
 </div>

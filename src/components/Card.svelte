@@ -9,7 +9,6 @@
     display: grid;
     grid-gap: 20px;
     place-items: start;
-    max-width: 900px;
   }
   .darkest {
     background: var(--primary-dark);
