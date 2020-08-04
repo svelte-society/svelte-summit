@@ -1,5 +1,4 @@
 <script>
-  import { currentSection } from "../../actions/highlightMenuItem";
   export let menu;
 </script>
 
@@ -15,26 +14,23 @@
   ul {
     padding-top: 100px;
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 40px;
     list-style: none;
   }
   li {
     text-transform: uppercase;
     font-family: Anton;
     font-size: 48px;
+    line-height: 120%;
+  }
+  li:hover {
+    color: white;
+    opacity: 1;
   }
   a {
     color: var(--sky-blue);
     opacity: 0.6;
     text-decoration: none;
-  }
-  a.active {
-    opacity: 1;
-  }
-
-  li:hover {
-    color: white;
-    opacity: 1;
   }
   img {
     padding: 30px;
@@ -48,9 +44,7 @@
   <ul>
     {#each menu as { name, url }}
       <li>
-        <a on:click class:active={$currentSection == url} href="/{url}">
-          {name}
-        </a>
+        <a on:click href="/{url}">{name}</a>
       </li>
     {/each}
     <li>
