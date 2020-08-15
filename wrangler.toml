@@ -1,9 +1,9 @@
 type = "webpack"
 account_id = "8d17b159c1762092c249ba7ed2318384"
 workers_dev = false
-zone_id = "c9c97df5f17700b0070fbe0771b3f78e"
-name = "sveltesociety-summit"
-route = "staging-summit.sveltesociety.dev/*"
+zone_id = "2f26e10be154be3411d718541fb12d3a"
+name = "sveltesummit"
+route = "sveltesummit.com/*"
 
 [site]
 entry-point = "workers-site"
