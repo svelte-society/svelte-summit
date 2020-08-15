@@ -26,6 +26,9 @@ addEventListener('fetch', event => {
 
 async function handleEvent(event) {
   const url = new URL(event.request.url)
+  if (url.hostname.startsWith('www')) {
+    return Response('https://sveltesummit.com' + url.pathname, 301)
+  }
   if (url.pathname.startsWith('/api')) {
     return new Response('', { status: 301, headers: { 'Location': '/' } })
   }

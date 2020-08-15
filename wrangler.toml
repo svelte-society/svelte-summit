@@ -3,7 +3,7 @@ account_id = "8d17b159c1762092c249ba7ed2318384"
 workers_dev = false
 zone_id = "2f26e10be154be3411d718541fb12d3a"
 name = "sveltesummit"
-route = "sveltesummit.com/*"
+route = "*sveltesummit.com/*"
 
 [site]
 entry-point = "workers-site"
