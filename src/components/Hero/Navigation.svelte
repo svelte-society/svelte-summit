@@ -79,10 +79,20 @@
       {name}
     </a>
   {/each}
-  <a href="https://forms.gle/6PBKXng9jfrvxjhX8" target="_blank" class:scrolled>
-    Sign up
+
+  <a
+    rel="noreferrer"
+    href="https://forms.gle/6PBKXng9jfrvxjhX8"
+    target="_blank"
+    class:scrolled>
+    Sign Up
   </a>
-  <a target="_blank" href="https://twitter.com/sveltesociety" class:scrolled>
+
+  <a
+    rel="noreferrer"
+    target="_blank"
+    href="https://twitter.com/sveltesociety"
+    class:scrolled>
     <span>
       <img src="/images/twitter.svg" alt="" />
       Twitter

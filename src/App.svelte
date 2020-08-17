@@ -56,7 +56,7 @@
       rel="noreferrer"
       href="https://forms.gle/6PBKXng9jfrvxjhX8"
       target="_blank">
-      here
+      enter your email here.
     </a>
   </Question>
 </FAQ>
