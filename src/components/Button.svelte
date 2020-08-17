@@ -26,6 +26,6 @@
   }
 </style>
 
-<a {href} target="_blank" class:black>
+<a {href} rel="noreferrer" target="_blank" class:black>
   <slot />
 </a>

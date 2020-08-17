@@ -48,12 +48,15 @@
       </li>
     {/each}
     <li>
-      <a href="https://forms.gle/6PBKXng9jfrvxjhX8" target="_blank">SIGN UP</a>
+      <a
+        href="https://forms.gle/6PBKXng9jfrvxjhX8"
+        rel="noreferrer"
+        target="_blank">
+        SIGN UP
+      </a>
     </li>
     <li>
-      <a on:click target="_blank" href="https://twitter.com/sveltesociety">
-        Twitter
-      </a>
+      <a target="_blank" href="https://twitter.com/sveltesociety">Twitter</a>
     </li>
   </ul>
 </div>

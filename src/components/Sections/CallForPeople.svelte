@@ -48,7 +48,7 @@
         the right place! First time doing a talk? No Problem! We welcome talks
         of all levels, from beginner to advanced, long and short. If you have
         more specific questions you can reach us on the
-        <a target="_blank" href="https://discord.gg/qzfM2JU">
+        <a rel="noreferrer" target="_blank" href="https://discord.gg/qzfM2JU">
           Svelte discord server
         </a>
         .

@@ -30,7 +30,7 @@
     doesn't matter if you're a beginner or a pro or how long your talk is
     (although, we might be a bit hesitant if you're going to talk for hours on
     end). If it's your first time, talk to us on the
-    <a target="_blank" href="https://discord.gg/qzfM2JU">
+    <a target="_blank" rel="noreferrer" href="https://discord.gg/qzfM2JU">
       Svelte discord server
     </a>
     and we can try to help you out!
@@ -38,6 +38,7 @@
   <Question title="Will it be recorded">
     Absolutely! You'll find it on the Svelte Society
     <a
+      rel="noreferrer"
       target="_blank"
       href="https://www.youtube.com/channel/UCZSr5B0l07JXK2FIeWA0-jw">
       YouTube channel
@@ -51,7 +52,12 @@
   </Question>
   <Question title="Can you remind me when the date gets closer?">
     Yes, enter your email
-    <a href="https://forms.gle/6PBKXng9jfrvxjhX8" target="_blank">here</a>
+    <a
+      rel="noreferrer"
+      href="https://forms.gle/6PBKXng9jfrvxjhX8"
+      target="_blank">
+      here
+    </a>
   </Question>
 </FAQ>
 <Footer />
