@@ -23,7 +23,8 @@
 
   .design-by {
     display: grid;
-    justify-items: end;
+    --small-justify: var(--media-lte-sm) center;
+    justify-content: var(--small-justify, end);
   }
 </style>
 
