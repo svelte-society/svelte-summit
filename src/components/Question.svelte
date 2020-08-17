@@ -7,6 +7,9 @@
     color: var(--sky-blue);
     font-size: 14px;
   }
+  .container {
+    min-width: 0;
+  }
 </style>
 
 <div class="container">

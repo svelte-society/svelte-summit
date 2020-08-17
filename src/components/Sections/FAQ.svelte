@@ -17,7 +17,12 @@
   .questions {
     display: grid;
     grid-gap: 40px 50px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+    --small-grid: var(--media-lte-sm) auto;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(var(--small-grid, 350px), 1fr)
+    );
   }
 </style>
 
