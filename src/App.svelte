@@ -49,5 +49,9 @@
     start watching. We'll also make sure to post a notice at the top of this
     page if you forget where to go.
   </Question>
+  <Question title="Can you remind me when the date gets closer?">
+    Yes, enter your email
+    <a href="https://forms.gle/6PBKXng9jfrvxjhX8" target="_blank">here</a>
+  </Question>
 </FAQ>
 <Footer />

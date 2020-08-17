@@ -53,7 +53,7 @@
         </a>
         .
       </p>
-      <Button>Send proposal</Button>
+      <Button href="https://forms.gle/sGLyg5sLd4kKwRXZ6">Send proposal</Button>
     </Card>
     <Card center darkest>
       <h3>Looking for sponsors</h3>
@@ -63,7 +63,7 @@
         interested in sponsoring the event, reach out to us via email using the
         link below and we can have a chat.
       </p>
-      <Button black>Send email</Button>
+      <Button href="mailto:sponsors@sveltesociety.dev" black>Send email</Button>
     </Card>
   </div>
 </div>

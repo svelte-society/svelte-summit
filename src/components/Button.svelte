@@ -5,6 +5,7 @@
 
 <style>
   a {
+    text-decoration: none;
     border: 0;
     padding: 12px 30px;
     background: #307f8b;
