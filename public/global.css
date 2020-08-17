@@ -30,6 +30,11 @@ body {
     line-height: 170%;
 }
 
+a, a:visited {
+    color: white;
+    font-weight: bold;
+}
+
 h1.display {
     font-family: 'Anton';
     line-height: 110%;

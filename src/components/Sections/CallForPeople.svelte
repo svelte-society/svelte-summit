@@ -44,22 +44,24 @@
     <Card center>
       <h3>Call for initial proposals - Deadline September 1st!</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
-        illum ratione soluta reiciendis eligendi expedita. Id quasi ab quis et
-        aspernatur? Omnis ad unde optio, tempore ipsum laboriosam aliquid
-        voluptates!
+        If you're interested in doing a talk, the button below will bring you to
+        the right place! First time doing a talk? No Problem! We welcome talks
+        of all levels, from beginner to advanced, long and short. If you have
+        more specific questions you can reach us on the
+        <a href="https://discord.gg/qzfM2JU">Svelte discord server</a>
+        .
       </p>
       <Button>Send proposal</Button>
     </Card>
     <Card center darkest>
       <h3>Looking for sponsors</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
-        illum ratione soluta reiciendis eligendi expedita. Id quasi ab quis et
-        aspernatur? Omnis ad unde optio, tempore ipsum laboriosam aliquid
-        voluptates!
+        Since last time we've decided to try to bring the online experience to
+        another level by improving the quality. If you (or your company) are
+        interested in sponsoring the event, reach out to us via email using the
+        link below and we can have a chat.
       </p>
-      <Button black>Send proposal</Button>
+      <Button black>Send email</Button>
     </Card>
   </div>
 </div>

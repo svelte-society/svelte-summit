@@ -79,7 +79,7 @@
       {name}
     </a>
   {/each}
-  <a target="_blank" href="twitter.com/sveltesociety" class:scrolled>
+  <a target="_blank" href="https://twitter.com/sveltesociety" class:scrolled>
     <span>
       <img src="/images/twitter.svg" alt="" />
       Twitter

@@ -16,6 +16,12 @@
   .black {
     background: #000000;
   }
+  button:hover {
+    background: #26636d;
+  }
+  .black:hover {
+    background: #131313;
+  }
 </style>
 
 <button class:black on:click>

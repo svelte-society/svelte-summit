@@ -23,7 +23,7 @@
     font-size: 48px;
     line-height: 120%;
   }
-  li:hover {
+  a:hover {
     color: white;
     opacity: 1;
   }
@@ -48,7 +48,9 @@
       </li>
     {/each}
     <li>
-      <a on:click target="_blank" href="twitter.com/sveltesociety">Twitter</a>
+      <a on:click target="_blank" href="https://twitter.com/sveltesociety">
+        Twitter
+      </a>
     </li>
   </ul>
 </div>
