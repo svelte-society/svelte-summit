@@ -1,9 +1,10 @@
 <script>
   export let black;
+  export let href;
 </script>
 
 <style>
-  button {
+  a {
     border: 0;
     padding: 12px 30px;
     background: #307f8b;
@@ -16,7 +17,7 @@
   .black {
     background: #000000;
   }
-  button:hover {
+  a:hover {
     background: #26636d;
   }
   .black:hover {
@@ -24,6 +25,6 @@
   }
 </style>
 
-<button class:black on:click>
+<a {href} target="_blank" class:black>
   <slot />
-</button>
+</a>

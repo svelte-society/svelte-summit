@@ -20,9 +20,25 @@
 
     line-height: 200%;
   }
+
+  .design-by {
+    display: grid;
+    justify-items: end;
+  }
 </style>
 
 <div class="container">
-  <div class="info">Svelte Summit is a volunteer effort. Code of Conduct.</div>
-  <div class="design-by">Design by @mono_company</div>
+  <div class="info">Svelte Summit is a volunteer effort.</div>
+  <div class="design-by">
+    <span>
+      Design by
+      <a target="_blank" href="https://twitter.com/mono_company">
+        @mono_company
+      </a>
+    </span>
+    <span>
+      Built by
+      <a target="_blank" href="https://svelte.school">Svelte School</a>
+    </span>
+  </div>
 </div>

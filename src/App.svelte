@@ -11,35 +11,43 @@
 <Hero />
 <CallForPeople />
 <FAQ>
-  <Question title="This is a question">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti
-    assumenda obcaecati voluptate sunt, accusamus voluptas beatae iure
-    recusandae natus itaque officia in a soluta inventore molestias architecto
-    temporibus ad.
+  <Question title="What is this?">
+    Svelte Summit is an event dedicated to Svelte and everything that is
+    happening in the community. You'll be able to tune in to a full day of talks
+    and discussions all while chatting to other Svelthusiats on the Discord
+    server.
   </Question>
-  <Question title="This is a question">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti
-    assumenda obcaecati voluptate sunt, accusamus voluptas beatae iure
-    recusandae natus itaque officia in a soluta inventore molestias architecto
-    temporibus ad.
+  <Question title="When is it? What time?">
+    October 18th, 2020! The exact hour of the day is not set in stone but we
+    will aim to do what we did last time and have talks all throughout the day.
+    In practice this means that we will start around 12GMT and continue until
+    we're done. This has the added benefit of making it possible for our
+    speakers to be present when their talks are given so that they can answer
+    questions.
   </Question>
-  <Question title="This is a question">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti
-    assumenda obcaecati voluptate sunt, accusamus voluptas beatae iure
-    recusandae natus itaque officia in a soluta inventore molestias architecto
-    temporibus ad.
+  <Question title="Can I give a talk?">
+    Yes. For sure! We encourage anyone that wants to do a talk to apply. It
+    doesn't matter if you're a beginner or a pro or how long your talk is
+    (although, we might be a bit hesitant if you're going to talk for hours on
+    end). If it's your first time, talk to us on the
+    <a target="_blank" href="https://discord.gg/qzfM2JU">
+      Svelte discord server
+    </a>
+    and we can try to help you out!
   </Question>
-  <Question title="This is a question">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti
-    assumenda obcaecati voluptate sunt, accusamus voluptas beatae iure
-    recusandae natus itaque officia in a soluta inventore molestias architecto
-    temporibus ad.
+  <Question title="Will it be recorded">
+    Absolutely! You'll find it on the Svelte Society
+    <a
+      target="_blank"
+      href="https://www.youtube.com/channel/UCZSr5B0l07JXK2FIeWA0-jw">
+      YouTube channel
+    </a>
+    once the event has been finished.
   </Question>
-  <Question title="This is a question">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti
-    assumenda obcaecati voluptate sunt, accusamus voluptas beatae iure
-    recusandae natus itaque officia in a soluta inventore molestias architecto
-    temporibus ad.
+  <Question title="How do I watch it?">
+    Once the day arrives, tune in to the Svelte Society YouTube channel and
+    start watching. We'll also make sure to post a notice at the top of this
+    page if you forget where to go.
   </Question>
 </FAQ>
 <Footer />
