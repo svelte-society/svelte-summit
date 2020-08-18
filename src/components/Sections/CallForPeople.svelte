@@ -42,7 +42,7 @@
 <div class="background" id="cfp" use:highlightMenuItem>
   <div class="container">
     <Card center>
-      <h3>Call for initial proposals - Deadline September 1st!</h3>
+      <h3>Call for initial proposals - Deadline September 18th!</h3>
       <p>
         If you're interested in doing a talk, the button below will bring you to
         the right place! First time doing a talk? No Problem! We welcome talks
