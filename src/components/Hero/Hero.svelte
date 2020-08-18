@@ -58,6 +58,7 @@
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 0.5em;
+    text-transform: uppercase;
 
     color: #38332d;
   }
@@ -86,8 +87,8 @@
 <div class="container">
   <Navigation {menu} on:click={() => ($menuOpen = true)} />
   <div class="logo">
-    <img src="/images/svelte-society-logo.svg" alt="Svelte Society Logo" />
-    <span class="present">PRESENTS</span>
+    <img src="/images/svelte-society-logo.svg" alt="Svelte Society" />
+    <span class="present">presents</span>
   </div>
   <div class="text">
     <Title />
