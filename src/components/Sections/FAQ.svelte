@@ -26,9 +26,9 @@
   }
 </style>
 
-<div class="background">
+<div class="background" id="faq" use:highlightMenuItem>
   <div class="container">
-    <h2 id="faq" use:highlightMenuItem>Frequently Asked Questions</h2>
+    <h2>Frequently Asked Questions</h2>
     <div class="questions">
       <slot />
     </div>
