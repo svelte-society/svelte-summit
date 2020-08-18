@@ -30,6 +30,10 @@
     font-size: 28px;
     font-weight: normal;
   }
+  p {
+    font-size: 16px;
+    --small-font-size: var(--media-lte-sm) 14px;
+  }
   h3,
   p {
     margin: 0;
