@@ -32,12 +32,16 @@
 
     transition: background-color 0.3s ease;
   }
+
   a:visited {
     color: #2a8290;
   }
-  a.active {
-    color: white;
-    background: #6aa8b3;
+
+
+
+  a:hover,
+  a:focus {
+    background: rgba(255,255,255,0.2);
   }
 
   a.scrolled {
@@ -46,6 +50,12 @@
 
   a.scrolled:visited {
     color: white;
+  }
+  
+  a.active,
+  a.active:focus {
+    color: white;
+    background: #6aa8b3;
   }
 
   a.scrolled.active {
