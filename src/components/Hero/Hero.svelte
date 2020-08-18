@@ -87,7 +87,7 @@
 <div class="container">
   <Navigation {menu} on:click={() => ($menuOpen = true)} />
   <div class="logo">
-    <img src="/images/svelte-society-logo.svg" alt="Svelte Society" />
+    <a href="https://sveltesociety.dev/"><img src="/images/svelte-society-logo.svg" alt="Svelte Society" /></a>
     <span class="present">presents</span>
   </div>
   <div class="text">
