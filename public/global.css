@@ -15,7 +15,7 @@
     --container-width: 1100px;
 
     /* Font settings */
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: var(--body-text);
 
     --small: var(--media-lte-sm) 18px;
@@ -44,7 +44,7 @@ h1.display {
 }
 
 h2.display, time.display, .sub.display {
-    font-family: 'Anton';
+    font-family: 'Anton', sans-serif;
     line-height: 110%;
     
     --small: var(--media-lte-sm) 40px;
