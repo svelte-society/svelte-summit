@@ -28,6 +28,7 @@
     margin: 0 24px;
     padding: 8px 20px;
     text-decoration: none;
+    display: inline-flex;
 
     transition: background-color 0.3s ease;
   }
@@ -74,30 +75,32 @@
 
 <svelte:window bind:scrollY={y} />
 <div class="container" class:scrolled>
-  {#each menu as { url, name }}
-    <a href={url} class:active={$currentSection == url} class:scrolled>
-      {name}
+  <nav>
+    {#each menu as { url, name }}
+      <a href={url} class:active={$currentSection == url} class:scrolled>
+        {name}
+      </a>
+    {/each}
+
+    <a
+      rel="noreferrer"
+      href="https://forms.gle/6PBKXng9jfrvxjhX8"
+      target="_blank"
+      class:scrolled>
+      Sign Up
     </a>
-  {/each}
 
-  <a
-    rel="noreferrer"
-    href="https://forms.gle/6PBKXng9jfrvxjhX8"
-    target="_blank"
-    class:scrolled>
-    Sign Up
-  </a>
-
-  <a
-    rel="noreferrer"
-    target="_blank"
-    href="https://twitter.com/sveltesociety"
-    class:scrolled>
-    <span>
-      <img src="/images/twitter.svg" alt="" />
-      Twitter
-    </span>
-  </a>
+    <a
+      rel="noreferrer"
+      target="_blank"
+      href="https://twitter.com/sveltesociety"
+      class:scrolled>
+      <span>
+        <img src="/images/twitter.svg" alt="" />
+        Twitter
+      </span>
+    </a>
+  </nav>
 </div>
 <div class="hamburger" on:click>
   <img src="/images/burger.svg" alt="" />
