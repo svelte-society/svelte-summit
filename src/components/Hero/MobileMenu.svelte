@@ -33,6 +33,7 @@
     color: var(--sky-blue);
     opacity: 0.6;
     text-decoration: none;
+    letter-spacing: 0.6px
   }
   img {
     padding: 30px;
