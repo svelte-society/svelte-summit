@@ -26,7 +26,7 @@
     color: #2a8290;
     font-size: 19px;
     margin: 0 24px;
-    padding: 8px 20px;
+    padding: 4px 20px;
     text-decoration: none;
     display: inline-flex;
 
@@ -36,8 +36,6 @@
   a:visited {
     color: #2a8290;
   }
-
-
 
   a:hover,
   a:focus {

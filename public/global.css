@@ -27,7 +27,7 @@ body {
     margin: 0;
     background: var(--background);
     display: grid;
-    line-height: 170%;
+    line-height: 1.7;
 }
 
 a, a:visited {
