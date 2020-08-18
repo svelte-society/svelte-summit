@@ -84,6 +84,16 @@
   }
 </style>
 
+<svelte:head>
+   {#if $menuOpen}
+      <style>
+         html {
+            overflow: hidden;
+         }
+      </style>
+   {/if}
+</svelte:head>
+
 <div class="container">
   <Navigation {menu} on:click={() => ($menuOpen = true)} />
   <div class="logo">
@@ -100,3 +110,4 @@
 {#if $menuOpen}
   <MobileMenu {menu} on:click={() => ($menuOpen = false)} />
 {/if}
+
