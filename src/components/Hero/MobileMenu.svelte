@@ -55,7 +55,7 @@
         href="https://forms.gle/6PBKXng9jfrvxjhX8"
         rel="noreferrer"
         target="_blank">
-        SIGN UP
+        Sign up
       </a>
     </li>
     <li>
