@@ -14,7 +14,7 @@
   <Question title="What is this?">
     Svelte Summit is an event dedicated to Svelte and everything that is
     happening in the community. You'll be able to tune in to a full day of talks
-    and discussions all while chatting to other Svelthusiats on the Discord
+    and discussions all while chatting to other Svelthusiasts on the Discord
     server.
   </Question>
   <Question title="When is it? What time?">
@@ -51,7 +51,7 @@
     page if you forget where to go.
   </Question>
   <Question title="Can you remind me when the date gets closer?">
-    Yes, enter your email
+    Yes,
     <a
       rel="noreferrer"
       href="https://forms.gle/6PBKXng9jfrvxjhX8"
