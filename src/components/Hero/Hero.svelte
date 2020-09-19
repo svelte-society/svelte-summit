@@ -12,8 +12,12 @@
       url: "#intro",
     },
     {
-      name: "Call For Proposals",
-      url: "#cfp",
+      name: "Speakers",
+      url: "#speakers",
+    },
+    {
+      name: "Schedule",
+      url: "#schedule",
     },
     {
       name: "FAQ",

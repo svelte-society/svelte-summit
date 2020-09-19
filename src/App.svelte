@@ -2,14 +2,14 @@
   import { highlightMenuItem } from "./actions/highlightMenuItem.js";
   import { Hero } from "./components/Hero";
   import Question from "./components/Question.svelte";
-  import CallForPeople from "./components/Sections/CallForPeople.svelte";
+  import Sponsors from "./components/Sections/Sponsors.svelte";
   import FAQ from "./components/Sections/FAQ.svelte";
   import Footer from "./components/Sections/Footer.svelte";
 </script>
 
 <div id="intro" use:highlightMenuItem />
 <Hero />
-<CallForPeople />
+<Sponsors />
 <FAQ>
   <Question title="What is this?">
     Svelte Summit is an event dedicated to Svelte and everything that is
@@ -24,16 +24,6 @@
     we're done. This has the added benefit of making it possible for our
     speakers to be present when their talks are given so that they can answer
     questions.
-  </Question>
-  <Question title="Can I give a talk?">
-    Yes. For sure! We encourage anyone that wants to do a talk to apply. It
-    doesn't matter if you're a beginner or a pro or how long your talk is
-    (although, we might be a bit hesitant if you're going to talk for hours on
-    end). If it's your first time, talk to us on the
-    <a target="_blank" rel="noreferrer" href="https://discord.gg/qzfM2JU">
-      Svelte discord server
-    </a>
-    and we can try to help you out!
   </Question>
   <Question title="Will it be recorded">
     Absolutely! You'll find it on the Svelte Society
