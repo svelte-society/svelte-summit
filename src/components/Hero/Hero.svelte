@@ -12,13 +12,13 @@
       url: "#intro",
     },
     {
-      name: "Speakers",
-      url: "#speakers",
+      name: "Sponsors",
+      url: "#sponsors",
     },
-    {
-      name: "Schedule",
-      url: "#schedule",
-    },
+    // {
+    //   name: "Schedule",
+    //   url: "#schedule",
+    // },
     {
       name: "FAQ",
       url: "#faq",
