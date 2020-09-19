@@ -62,6 +62,7 @@
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 0.5em;
+    text-transform: uppercase;
 
     color: #38332d;
   }
@@ -87,11 +88,21 @@
   }
 </style>
 
+<svelte:head>
+   {#if $menuOpen}
+      <style>
+         html {
+            overflow: hidden;
+         }
+      </style>
+   {/if}
+</svelte:head>
+
 <div class="container">
   <Navigation {menu} on:click={() => ($menuOpen = true)} />
   <div class="logo">
-    <img src="/images/svelte-society-logo.svg" alt="Svelte Society Logo" />
-    <span class="present">PRESENTS</span>
+    <a href="https://sveltesociety.dev/"><img src="/images/svelte-society-logo.svg" alt="Svelte Society" /></a>
+    <span class="present">presents</span>
   </div>
   <div class="text">
     <Title />
@@ -103,3 +114,4 @@
 {#if $menuOpen}
   <MobileMenu {menu} on:click={() => ($menuOpen = false)} />
 {/if}
+

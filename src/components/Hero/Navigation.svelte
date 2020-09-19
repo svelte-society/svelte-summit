@@ -26,17 +26,20 @@
     color: #2a8290;
     font-size: 19px;
     margin: 0 24px;
-    padding: 8px 20px;
+    padding: 4px 20px;
     text-decoration: none;
+    display: inline-flex;
 
     transition: background-color 0.3s ease;
   }
+
   a:visited {
     color: #2a8290;
   }
-  a.active {
-    color: white;
-    background: #6aa8b3;
+
+  a:hover,
+  a:focus {
+    background: rgba(255,255,255,0.2);
   }
 
   a.scrolled {
@@ -45,6 +48,12 @@
 
   a.scrolled:visited {
     color: white;
+  }
+  
+  a.active,
+  a.active:focus {
+    color: white;
+    background: #6aa8b3;
   }
 
   a.scrolled.active {
@@ -74,30 +83,32 @@
 
 <svelte:window bind:scrollY={y} />
 <div class="container" class:scrolled>
-  {#each menu as { url, name }}
-    <a href={url} class:active={$currentSection == url} class:scrolled>
-      {name}
+  <nav>
+    {#each menu as { url, name }}
+      <a href={url} class:active={$currentSection == url} class:scrolled>
+        {name}
+      </a>
+    {/each}
+
+    <a
+      rel="noreferrer"
+      href="https://forms.gle/6PBKXng9jfrvxjhX8"
+      target="_blank"
+      class:scrolled>
+      Sign Up
     </a>
-  {/each}
 
-  <a
-    rel="noreferrer"
-    href="https://forms.gle/6PBKXng9jfrvxjhX8"
-    target="_blank"
-    class:scrolled>
-    Sign Up
-  </a>
-
-  <a
-    rel="noreferrer"
-    target="_blank"
-    href="https://twitter.com/sveltesociety"
-    class:scrolled>
-    <span>
-      <img src="/images/twitter.svg" alt="" />
-      Twitter
-    </span>
-  </a>
+    <a
+      rel="noreferrer"
+      target="_blank"
+      href="https://twitter.com/sveltesociety"
+      class:scrolled>
+      <span>
+        <img src="/images/twitter.svg" alt="" />
+        Twitter
+      </span>
+    </a>
+  </nav>
 </div>
 <div class="hamburger" on:click>
   <img src="/images/burger.svg" alt="" />

@@ -10,9 +10,11 @@
     left: 0;
     right: 0;
     bottom: 0;
+    overflow: scroll;
   }
   ul {
     padding-top: 100px;
+    padding-bottom: 100px;
     display: grid;
     grid-gap: 40px;
     list-style: none;
@@ -31,6 +33,7 @@
     color: var(--sky-blue);
     opacity: 0.6;
     text-decoration: none;
+    letter-spacing: 0.6px
   }
   img {
     padding: 30px;
@@ -52,7 +55,7 @@
         href="https://forms.gle/6PBKXng9jfrvxjhX8"
         rel="noreferrer"
         target="_blank">
-        SIGN UP
+        Sign up
       </a>
     </li>
     <li>
