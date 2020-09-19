@@ -1,7 +1,6 @@
 <script>
-  import { highlightMenuItem } from "../../actions/highlightMenuItem";
-  import Card from "../Card.svelte";
-  import Button from "../Button.svelte";
+  import Card from '../Card.svelte';
+  import Button from '../Button.svelte';
 </script>
 
 <style>
@@ -43,29 +42,28 @@
   }
 </style>
 
-<div class="background" id="cfp" use:highlightMenuItem>
+<div class="background" id="cfp">
   <div class="container">
     <Card center>
       <h3>Call for initial proposals - Deadline September 18th!</h3>
       <p>
-        If you're interested in doing a talk, the button below will bring you to
-        the right place! First time doing a talk? No Problem! We welcome talks
-        of all levels, from beginner to advanced, long and short. If you have
-        more specific questions you can reach us on the
-        <a rel="noreferrer" target="_blank" href="https://discord.gg/qzfM2JU">
+        If you're interested in doing a talk, the button below will bring you to the right place! First time doing a
+        talk? No Problem! We welcome talks of all levels, from beginner to advanced, long and short. If you have more
+        specific questions you can reach us on the <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://discord.gg/qzfM2JU">
           Svelte discord server
-        </a>
-        .
+        </a> .
       </p>
       <Button href="https://forms.gle/sGLyg5sLd4kKwRXZ6">Send proposal</Button>
     </Card>
     <Card center darkest>
       <h3>Looking for sponsors</h3>
       <p>
-        Since last time we've decided to try to bring the online experience to
-        another level by improving the quality. If you (or your company) are
-        interested in sponsoring the event, reach out to us via email using the
-        link below and we can have a chat.
+        Since last time we've decided to try to bring the online experience to another level by improving the quality.
+        If you (or your company) are interested in sponsoring the event, reach out to us via email using the link below
+        and we can have a chat.
       </p>
       <Button href="mailto:sponsors@sveltesociety.dev" black>Send email</Button>
     </Card>

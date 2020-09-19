@@ -7,4 +7,4 @@ route = "*sveltesummit.com/*"
 
 [site]
 entry-point = "workers-site"
-bucket = "./dist"
+bucket = "./public"

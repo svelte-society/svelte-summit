@@ -9,4 +9,4 @@
   }
 </style>
 
-<img src="/images/evening-sun.svg" alt="A moon" />
+<img src="/dist/static/images/evening-sun.svg" alt="A moon" />
