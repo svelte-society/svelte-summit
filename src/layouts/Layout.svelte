@@ -9,7 +9,7 @@
 <svelte:head>
   <link
     rel="preload"
-    href="/dist/static/fonts/Anton-Regular.woff2"
+    href="/dist/static/fonts/Anton-Regular.woff"
     as="font"
     type="font/woff2"
     crossorigin />

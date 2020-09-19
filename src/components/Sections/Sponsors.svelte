@@ -4,7 +4,8 @@
     padding: var(--small-padding, 200px 40px 270px 40px);
 
     background: #2b636c;
-    background-image: url(/dist/static/images/forest.svg), url(/dist/static/images/lake.svg);
+    background-image: url(/dist/static/images/forest.svg),
+      url(/dist/static/images/lake.svg);
     background-position: bottom left, top;
     background-repeat: repeat-x, no-repeat;
 
@@ -17,12 +18,16 @@
     grid-gap: var(--small-grid, 30px);
     max-width: var(--container-width);
 
-    --small-margin: var(--media-lte-sm) 0 20px -50px 20px;
+    --small-margin: var(--media-lte-sm) 0px 20px -50px 20px;
     margin: var(--small-margin, -120px auto 70px auto);
+
+    --small-padding: var(--media-lte-sm) 50px 0;
+    padding: var(--small-padding, initial);
   }
   h2 {
-    font-size: 60px;
-    font-family: 'Anton';
+    --small-font: var(--media-lte-sm) 34px;
+    font-size: var(--small-font, 60px);
+    font-family: "Anton";
     line-height: 150%;
     text-align: center;
   }
@@ -141,7 +146,11 @@
         data-tooltip="AWS Amplify – The fastest, easiest way to develop mobile and web apps that scale">
         <img src="/dist/static/images/sponsors/aws.svg" alt="" />
       </a>
-      <a href="https://www.b3.se/en" rel="noopener noreferrer" target="_blank" class="sponsor">
+      <a
+        href="https://www.b3.se/en"
+        rel="noopener noreferrer"
+        target="_blank"
+        class="sponsor">
         <img src="/dist/static/images/sponsors/b3coderight.svg" alt="" />
       </a>
       <div class="sponsor"><span>Sponsor spot open</span></div>
@@ -160,8 +169,9 @@
       <div class="sponsor"><span>Sponsor spot open</span></div>
     </div>
     <p class="info">
-      *We’re looking for more sponsors for the event. Any financial backing will be used to support the event and
-      further development of Svelte itself. <a href="mailto:sponsors@sveltesociety.dev">Get in touch</a>.
+      *We’re looking for more sponsors for the event. Any financial backing will
+      be used to support the event and further development of Svelte itself. <a
+        href="mailto:sponsors@sveltesociety.dev">Get in touch</a>.
     </p>
   </div>
 </div>
