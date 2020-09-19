@@ -1,16 +1,10 @@
-<script>
-  import { highlightMenuItem } from "../../actions/highlightMenuItem";
-  import Card from "../Card.svelte";
-  import Button from "../Button.svelte";
-</script>
-
 <style>
   .background {
     --small-padding: var(--media-lte-sm) 0 0 220px 0;
     padding: var(--small-padding, 200px 40px 270px 40px);
 
     background: #2b636c;
-    background-image: url(/images/forest.svg), url(/images/lake.svg);
+    background-image: url(/dist/static/images/forest.svg), url(/dist/static/images/lake.svg);
     background-position: bottom left, top;
     background-repeat: repeat-x, no-repeat;
 
@@ -28,7 +22,7 @@
   }
   h2 {
     font-size: 60px;
-    font-family: "Anton";
+    font-family: 'Anton';
     line-height: 150%;
     text-align: center;
   }
@@ -129,11 +123,13 @@
   [data-tooltip]:before,
   [data-tooltip]:after {
     top: 100%;
-    left: calc(70% - 138px);
+
+    --small-adjust: var(--media-lte-sm) calc(50% - 138px);
+    left: var(--small-adjust, calc(70% - 138px));
   }
 </style>
 
-<div class="background" id="sponsors" use:highlightMenuItem>
+<div class="background" id="sponsors">
   <div class="container">
     <h2>SPONSORED BY*</h2>
     <div class="gold sponsors">
@@ -143,14 +139,10 @@
         target="_blank"
         class="sponsor"
         data-tooltip="AWS Amplify – The fastest, easiest way to develop mobile and web apps that scale">
-        <img src="/images/sponsors/aws.svg" alt="" />
+        <img src="/dist/static/images/sponsors/aws.svg" alt="" />
       </a>
-      <a
-        href="https://www.b3.se/en"
-        rel="noopener noreferrer"
-        target="_blank"
-        class="sponsor">
-        <img src="/images/sponsors/b3coderight.svg" alt="" />
+      <a href="https://www.b3.se/en" rel="noopener noreferrer" target="_blank" class="sponsor">
+        <img src="/dist/static/images/sponsors/b3coderight.svg" alt="" />
       </a>
       <div class="sponsor"><span>Sponsor spot open</span></div>
     </div>
@@ -161,16 +153,15 @@
         target="_blank"
         class="sponsor"
         data-tooltip="Oasis Digital delivers advanced software product development and training services, focused on web technology and full stack solutions.">
-        <img src="/images/sponsors/oasis.svg" alt="" />
+        <img src="/dist/static/images/sponsors/oasis.svg" alt="" />
       </a>
       <div class="sponsor"><span>Sponsor spot open</span></div>
       <div class="sponsor"><span>Sponsor spot open</span></div>
       <div class="sponsor"><span>Sponsor spot open</span></div>
     </div>
     <p class="info">
-      *We’re looking for more sponsors for the event. Any financial backing will
-      be used to support the event and further development of Svelte itself. <a
-        href="mailto:sponsors@sveltesociety.dev">Get in touch</a>.
+      *We’re looking for more sponsors for the event. Any financial backing will be used to support the event and
+      further development of Svelte itself. <a href="mailto:sponsors@sveltesociety.dev">Get in touch</a>.
     </p>
   </div>
 </div>

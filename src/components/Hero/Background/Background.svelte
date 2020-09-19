@@ -1,22 +1,5 @@
 <script>
-  import cssVars from "svelte-css-vars";
-  import {
-    BackMountain,
-    MidMountain,
-    FrontMountain,
-    Reflection,
-    Bears,
-    Moon,
-    EveningSun,
-    MorningSun,
-  } from "./SVG/";
-
-  let type = "morning";
-
-  $: styleVars = {
-    background:
-      type === "night" ? "#17353A" : type === "evening" ? "#E4D6D5" : "#D6F1F5",
-  };
+  import { BackMountain, MidMountain, FrontMountain, Reflection, Bears, MorningSun } from './SVG/';
 </script>
 
 <style>
@@ -29,21 +12,15 @@
     right: 0;
     z-index: -1;
 
-    background: var(--background);
+    background: #d6f1f5;
   }
 </style>
 
-<div class="container" use:cssVars={styleVars}>
-  {#if type === 'night'}
-    <Moon />
-  {:else if type === 'evening'}
-    <EveningSun />
-  {:else}
-    <MorningSun />
-  {/if}
-  <BackMountain {type} />
-  <MidMountain {type} />
-  <FrontMountain {type} />
+<div class="container">
+  <MorningSun />
+  <BackMountain type="morning" />
+  <MidMountain type="morning" />
+  <FrontMountain type="morning" />
   <Bears />
   <Reflection />
 </div>

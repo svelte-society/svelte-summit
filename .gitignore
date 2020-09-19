@@ -1,3 +1,5 @@
 node_modules
+.routify
 dist
+dist-ssr
 **/.DS_Store

@@ -1,5 +1,4 @@
 <script>
-  import { highlightMenuItem } from "../../actions/highlightMenuItem.js";
 </script>
 
 <style>
@@ -19,14 +18,11 @@
     grid-gap: 40px 50px;
 
     --small-grid: var(--media-lte-sm) auto;
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(var(--small-grid, 350px), 1fr)
-    );
+    grid-template-columns: repeat(auto-fit, minmax(var(--small-grid, 350px), 1fr));
   }
 </style>
 
-<div class="background" id="faq" use:highlightMenuItem>
+<div class="background" id="faq">
   <div class="container">
     <h2>Frequently Asked Questions</h2>
     <div class="questions">

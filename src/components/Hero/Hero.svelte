@@ -1,36 +1,33 @@
 <script>
-  import { Background } from "./Background/";
-  import MobileMenu from "./MobileMenu.svelte";
-  import Navigation from "./Navigation.svelte";
-  import Info from "./Info.svelte";
-  import Title from "./Title.svelte";
-  import { writable } from "svelte/store";
+  import { Background } from './Background/';
+  import Navigation from './Navigation.svelte';
+  import Info from './Info.svelte';
+  import Title from './Title.svelte';
 
   const menu = [
     {
-      name: "Intro",
-      url: "#intro",
+      name: 'Intro',
+      url: '#intro',
     },
     {
-      name: "Sponsors",
-      url: "#sponsors",
+      name: 'Sponsors',
+      url: '#sponsors',
     },
     // {
     //   name: "Schedule",
     //   url: "#schedule",
     // },
     {
-      name: "FAQ",
-      url: "#faq",
+      name: 'FAQ',
+      url: '#faq',
     },
   ];
-
-  const menuOpen = writable(false);
 </script>
 
 <style>
   .container {
     position: relative;
+    z-index: 1001;
 
     --small-padding: var(--media-lte-sm) 43px;
     padding-bottom: var(--small-padding, 125px);
@@ -88,20 +85,10 @@
   }
 </style>
 
-<svelte:head>
-   {#if $menuOpen}
-      <style>
-         html {
-            overflow: hidden;
-         }
-      </style>
-   {/if}
-</svelte:head>
-
-<div class="container">
-  <Navigation {menu} on:click={() => ($menuOpen = true)} />
+<div class="container" id="intro">
+  <Navigation hydrate-client={{ menu }} />
   <div class="logo">
-    <a href="https://sveltesociety.dev/"><img src="/images/svelte-society-logo.svg" alt="Svelte Society" /></a>
+    <a href="https://sveltesociety.dev/"><img src="/dist/static/images/svelte-society-logo.svg" alt="Svelte Society" /></a>
     <span class="present">presents</span>
   </div>
   <div class="text">
@@ -110,8 +97,3 @@
   </div>
   <Background />
 </div>
-
-{#if $menuOpen}
-  <MobileMenu {menu} on:click={() => ($menuOpen = false)} />
-{/if}
-
