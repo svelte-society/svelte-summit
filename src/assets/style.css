@@ -84,7 +84,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   src: local('Anton Regular'), local('Anton-Regular'),
-       url('./fonts/Anton-Regular.woff2') format('woff2')
+       url('./fonts/Anton-Regular.woff') format('woff')
 }
 
 /* overpass-regular - latin */
@@ -109,7 +109,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('./fonts/Inter-Regular.woff2') format('woff2')
+       url('./fonts/Inter-Regular.woff') format('woff')
 }
 
 /**
