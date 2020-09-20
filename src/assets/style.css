@@ -36,7 +36,7 @@ a, a:visited {
 }
 
 h1.display {
-  font-family: 'Anton';
+  font-family: 'Anton', Impact, sans-serif;
   line-height: 110%;
 
   --small: var(--media-lte-sm) 84px;
@@ -44,7 +44,7 @@ h1.display {
 }
 
 h2.display, time.display, .sub.display {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Anton', Impact, sans-serif;
   line-height: 110%;
   
   --small: var(--media-lte-sm) 40px;
@@ -52,7 +52,7 @@ h2.display, time.display, .sub.display {
 }
 
 h1 {
-  font-family: 'Overpass';
+  font-family: 'Overpass', Arial, sans-serif;
   font-weight: 700;
 
   --small: var(--media-lte-sm) 29px;
@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Overpass';
+  font-family: 'Overpass', Arial, sans-serif;
   font-weight: 700;
 
   --small: var(--media-lte-sm) 22px;
@@ -70,7 +70,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Overpass';
+  font-family: 'Overpass', Arial, sans-serif;
   font-weight: 700;
 
   --small: var(--media-lte-sm) 20px;
@@ -83,6 +83,7 @@ h3 {
   font-family: 'Anton';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Anton Regular'), local('Anton-Regular'),
        url('./fonts/Anton-Regular.woff') format('woff')
 }
@@ -92,6 +93,7 @@ h3 {
   font-family: 'Overpass';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Overpass Regular'), local('Overpass-Regular'),
        url('./fonts/Overpass-Regular.woff2') format('woff2')
 }
@@ -100,6 +102,7 @@ h3 {
   font-family: 'Overpass';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local('Overpass Bold'), local('Overpass-Bold'),
   url('./fonts/Overpass-Bold.woff2') format('woff2')
 }
@@ -108,6 +111,7 @@ h3 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local(''),
        url('./fonts/Inter-Regular.woff') format('woff')
 }

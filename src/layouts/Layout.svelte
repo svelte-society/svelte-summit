@@ -27,7 +27,7 @@
     crossorigin />
   <link
     rel="preload"
-    href="/dist/static/fonts/Inter-Regular.woff2"
+    href="/dist/static/fonts/Inter-Regular.woff"
     as="font"
     type="font/woff2"
     crossorigin />
