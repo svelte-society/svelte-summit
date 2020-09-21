@@ -1,6 +1,6 @@
 ---
 name: 'Nick Reese'
-title: 'Building SEO Friendly Sites with Svelte and Elder.jst'
+title: 'Building SEO Friendly Sites with Svelte and Elder.js'
 twitter: 'https://twitter.com/nickreese'
 twitterUser: '@nickreese'
 image: 'nick.jpeg'
