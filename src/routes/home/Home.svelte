@@ -1,4 +1,5 @@
 <script>
+  export let data;
   import { Hero } from "../../components/Hero";
   import Question from "../../components/Question.svelte";
   import Sponsors from "../../components/Sections/Sponsors.svelte";
@@ -49,7 +50,7 @@
 
 <Hero />
 <Sponsors />
-<Speakers />
+<Speakers talks={data.markdown} />
 <FAQ>
   <Question title="What is this?">
     Svelte Summit is an event dedicated to Svelte and everything that is

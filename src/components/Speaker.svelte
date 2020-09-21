@@ -1,6 +1,7 @@
 <script>
+  export let link = false;
   export let speaker;
-  const { image, title, name, blurb, twitter, twitterUser } = speaker;
+  const { image, title, name, twitter, twitterUser } = speaker.data;
 </script>
 
 <style>
@@ -26,6 +27,9 @@
     line-height: 140%;
     padding-top: 5px;
     font-size: 2em;
+  }
+  a {
+    text-decoration: none;
   }
   .twitter {
     display: grid;
@@ -54,8 +58,10 @@
   </div>
   <div>
     <span class="name">{name}</span>
-    <h3>{title}</h3>
-    {@html blurb}
+    <h3>
+      {#if link}<a href="/talks/{speaker.slug}">{title}</a>{:else}{title}{/if}
+    </h3>
+    {@html speaker.content}
     <div class="twitter">
       <img src="/dist/static/images/twitter.svg" alt="Twitter logo" />
       <a href={twitter}>{twitterUser}</a>

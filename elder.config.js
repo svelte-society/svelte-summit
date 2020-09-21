@@ -24,6 +24,9 @@ module.exports = {
     // disable: ['elderWriteHtmlFileToPublic'], // this is used to disable internal hooks. Uncommenting this would disabled writing your files on build.
   },
   plugins: {
+    'elderjs-plugin-markdown': {
+      routes: ['talks'],
+    },
     '@elderjs/browser-reload': {}, // this reloads your browser when nodemon restarts your server.
-  }
+  },
 }

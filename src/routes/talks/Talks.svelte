@@ -1,13 +1,18 @@
 <script>
+  import { Background } from "../../components/Hero/Background/";
   export let data; // data is mainly being populated from the /plugins/edlerjs-plugin-markdown/index.js
+  const { html, frontmatter } = data;
 </script>
 
 <style>
+  a {
+    text-decoration: none;
+  }
   h1 {
     margin-bottom: 10px;
   }
 
-  .title {
+  .content {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -32,7 +37,7 @@
     border-radius: 1rem;
   }
   :global(blockquote:after) {
-    content: '>';
+    content: ">";
     color: #aaa;
     font-size: 30px;
     position: absolute;
@@ -44,3 +49,20 @@
     padding: 0;
   }
 </style>
+
+<svelte:head>
+  <title>{frontmatter.title}</title>
+</svelte:head>
+<a href="/">&LeftArrow; Home</a>
+
+{#if html}
+  {@html html}
+{:else}
+  <h1>Oops!! Markdown not found!</h1>
+{/if}
+
+<div class="container" id="intro">
+  <div class="content">
+    {@html html}
+  </div>
+</div>

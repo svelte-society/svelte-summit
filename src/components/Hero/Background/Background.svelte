@@ -1,5 +1,12 @@
 <script>
-  import { BackMountain, MidMountain, FrontMountain, Reflection, Bears, MorningSun } from './SVG/';
+  import {
+    BackMountain,
+    MidMountain,
+    FrontMountain,
+    Reflection,
+    Bears,
+    MorningSun,
+  } from "./SVG/";
 </script>
 
 <style>
