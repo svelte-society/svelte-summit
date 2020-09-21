@@ -55,10 +55,7 @@
   </div>
   <div class="design-by">
     <span> Design by </span>
-    <a
-      target="_blank"
-      rel="noreferrer"
-      href="https://twitter.com/mono_company"><img
+    <a target="_blank" rel="noreferrer" href="https://mono.company/"><img
         src="dist/static/images/mono.svg"
         alt="mono logo" />
     </a>
