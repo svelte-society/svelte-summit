@@ -25,5 +25,5 @@ module.exports = {
   },
   plugins: {
     '@elderjs/browser-reload': {}, // this reloads your browser when nodemon restarts your server.
-  },
-};
+  }
+}

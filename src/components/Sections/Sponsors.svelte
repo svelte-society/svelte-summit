@@ -1,13 +1,12 @@
 <style>
   .background {
-    --small-padding: var(--media-lte-sm) 0 0 220px 0;
-    padding: var(--small-padding, 200px 40px 270px 40px);
+    --small-padding: var(--media-lte-sm) 50px;
+    padding: var(--small-padding, 200px 40px 50px 40px);
 
     background: #2b636c;
-    background-image: url(/dist/static/images/forest.svg),
-      url(/dist/static/images/lake.svg);
-    background-position: bottom left, top;
-    background-repeat: repeat-x, no-repeat;
+    background-image: url(/dist/static/images/lake.svg);
+    background-position: top;
+    background-repeat: no-repeat;
 
     --mobile-backgrounds: var(--media-lte-sm) auto 130px;
     background-size: var(--mobile-backgrounds, auto 150px);
@@ -147,7 +146,7 @@
         <img src="/dist/static/images/sponsors/aws.svg" alt="" />
       </a>
       <a
-        href="https://www.b3.se/en"
+        href="https://www.coderight.se"
         rel="noopener noreferrer"
         target="_blank"
         class="sponsor">

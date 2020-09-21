@@ -1,25 +1,25 @@
 <script>
-  import { Background } from './Background/';
-  import Navigation from './Navigation.svelte';
-  import Info from './Info.svelte';
-  import Title from './Title.svelte';
+  import { Background } from "./Background/";
+  import Navigation from "./Navigation.svelte";
+  import Info from "./Info.svelte";
+  import Title from "./Title.svelte";
 
   const menu = [
     {
-      name: 'Intro',
-      url: '#intro',
+      name: "Intro",
+      url: "#intro",
     },
     {
-      name: 'Sponsors',
-      url: '#sponsors',
+      name: "Sponsors",
+      url: "#sponsors",
     },
-    // {
-    //   name: "Schedule",
-    //   url: "#schedule",
-    // },
     {
-      name: 'FAQ',
-      url: '#faq',
+      name: "Speakers",
+      url: "#speakers",
+    },
+    {
+      name: "FAQ",
+      url: "#faq",
     },
   ];
 </script>
@@ -88,7 +88,9 @@
 <div class="container" id="intro">
   <Navigation hydrate-client={{ menu }} />
   <div class="logo">
-    <a href="https://sveltesociety.dev/"><img src="/dist/static/images/svelte-society-logo.svg" alt="Svelte Society" /></a>
+    <a href="https://sveltesociety.dev/"><img
+        src="/dist/static/images/svelte-society-logo.svg"
+        alt="Svelte Society" /></a>
     <span class="present">presents</span>
   </div>
   <div class="text">

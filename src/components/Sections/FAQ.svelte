@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <style>
   .background {
     --small-padding: var(--media-lte-sm) 45px 25px;
@@ -18,7 +15,10 @@
     grid-gap: 40px 50px;
 
     --small-grid: var(--media-lte-sm) auto;
-    grid-template-columns: repeat(auto-fit, minmax(var(--small-grid, 350px), 1fr));
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(var(--small-grid, 350px), 1fr)
+    );
   }
 </style>
 
