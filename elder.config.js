@@ -1,17 +1,12 @@
+
 module.exports = {
+  origin: 'sveltesummit.com', // TODO: update this.
+  srcDir: 'src',
+  distDir: 'public',
+  rootDir: process.cwd(),
+  build: {},
   server: {
     prefix: '',
-  },
-  build: {},
-  locations: {
-    assets: './public/dist/static/',
-    public: './public/',
-    svelte: {
-      ssrComponents: './___ELDER___/compiled/',
-      clientComponents: './public/dist/svelte/',
-    },
-    systemJs: '/dist/static/s.min.js',
-    intersectionObserverPoly: '/dist/static/intersection-observer.js',
   },
   debug: {
     stacks: false,
@@ -24,9 +19,13 @@ module.exports = {
     // disable: ['elderWriteHtmlFileToPublic'], // this is used to disable internal hooks. Uncommenting this would disabled writing your files on build.
   },
   plugins: {
-    'elderjs-plugin-markdown': {
+    '@elderjs/plugin-markdown': {
       routes: ['talks'],
     },
-    '@elderjs/browser-reload': {}, // this reloads your browser when nodemon restarts your server.
+    '@elderjs/plugin-browser-reload': {
+      // this reloads your browser when nodemon restarts your server.
+      port: 8080,
+    },
   },
-}
+  shortcodes: { closePattern: '}}', openPattern: '{{' },
+};

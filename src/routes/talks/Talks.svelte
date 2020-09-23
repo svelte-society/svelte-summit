@@ -1,5 +1,4 @@
 <script>
-  import { Background } from "../../components/Hero/Background/";
   export let data; // data is mainly being populated from the /plugins/edlerjs-plugin-markdown/index.js
   const { html, frontmatter } = data;
 </script>

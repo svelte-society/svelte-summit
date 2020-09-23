@@ -50,7 +50,7 @@
 
 <Hero />
 <Sponsors />
-<Speakers talks={data.markdown} />
+<Speakers talks={data.markdown.talks} />
 <FAQ>
   <Question title="What is this?">
     Svelte Summit is an event dedicated to Svelte and everything that is
