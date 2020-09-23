@@ -32,7 +32,7 @@
     content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on October 18th." />
   <meta
     property="og:image"
-    content="https://sveltesummit.com/dist/static/images/metatagimg.png" />
+    content="https://sveltesummit.com/images/metatagimg.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
@@ -45,7 +45,7 @@
     content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on October 18th." />
   <meta
     property="twitter:image"
-    content="https://sveltesummit.com/dist/static/images/metatagimg.png" />
+    content="https://sveltesummit.com/images/metatagimg.png" />
 </svelte:head>
 
 <Hero />

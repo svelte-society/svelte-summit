@@ -415,7 +415,7 @@ System.register([], function (exports) {
             			attr_dev(a, "class", "big-nav svelte-fpzbx8");
             			attr_dev(a, "href", a_href_value = /*url*/ ctx[9]);
             			toggle_class(a, "scrolled", /*scrolled*/ ctx[3]);
-            			add_location(a, file, 118, 33, 1870);
+            			add_location(a, file, 119, 6, 1877);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, a, anchor);
@@ -448,7 +448,7 @@ System.register([], function (exports) {
             	return block;
             }
 
-            // (132:0) {#if menuOpen}
+            // (148:0) {#if menuOpen}
             function create_if_block(ctx) {
             	let div;
             	let ul;
@@ -550,26 +550,26 @@ System.register([], function (exports) {
             			attr_dev(a0, "href", "https://forms.gle/6PBKXng9jfrvxjhX8");
             			attr_dev(a0, "rel", "noreferrer");
             			attr_dev(a0, "target", "_blank");
-            			add_location(a0, file, 138, 8, 2646);
+            			add_location(a0, file, 159, 8, 2768);
             			attr_dev(li0, "class", "svelte-fpzbx8");
-            			add_location(li0, file, 137, 6, 2633);
+            			add_location(li0, file, 158, 6, 2755);
             			attr_dev(a1, "class", "small-nav svelte-fpzbx8");
             			attr_dev(a1, "target", "_blank");
             			attr_dev(a1, "rel", "noreferrer");
             			attr_dev(a1, "href", "https://twitter.com/sveltesociety");
-            			add_location(a1, file, 141, 8, 2788);
+            			add_location(a1, file, 168, 8, 2968);
             			attr_dev(li1, "class", "svelte-fpzbx8");
-            			add_location(li1, file, 140, 6, 2775);
+            			add_location(li1, file, 167, 6, 2955);
             			attr_dev(ul, "class", "svelte-fpzbx8");
-            			add_location(ul, file, 133, 4, 2473);
+            			add_location(ul, file, 149, 4, 2539);
             			attr_dev(img, "class", "close svelte-fpzbx8");
-            			if (img.src !== (img_src_value = "dist/static/images/close.svg")) attr_dev(img, "src", img_src_value);
+            			if (img.src !== (img_src_value = "images/close.svg")) attr_dev(img, "src", img_src_value);
             			attr_dev(img, "alt", "");
-            			add_location(img, file, 145, 6, 2972);
+            			add_location(img, file, 176, 6, 3192);
             			attr_dev(button, "class", "svelte-fpzbx8");
-            			add_location(button, file, 144, 4, 2921);
+            			add_location(button, file, 175, 4, 3141);
             			attr_dev(div, "class", "container svelte-fpzbx8");
-            			add_location(div, file, 132, 2, 2445);
+            			add_location(div, file, 148, 2, 2511);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, div, anchor);
@@ -633,14 +633,14 @@ System.register([], function (exports) {
             		block,
             		id: create_if_block.name,
             		type: "if",
-            		source: "(132:0) {#if menuOpen}",
+            		source: "(148:0) {#if menuOpen}",
             		ctx
             	});
 
             	return block;
             }
 
-            // (135:6) {#each menu as { name, url }}
+            // (151:6) {#each menu as { name, url }}
             function create_each_block(ctx) {
             	let li;
             	let a;
@@ -670,9 +670,9 @@ System.register([], function (exports) {
             		h: function hydrate() {
             			attr_dev(a, "class", "small-nav svelte-fpzbx8");
             			attr_dev(a, "href", a_href_value = "/" + /*url*/ ctx[9]);
-            			add_location(a, file, 135, 12, 2526);
+            			add_location(a, file, 152, 10, 2603);
             			attr_dev(li, "class", "svelte-fpzbx8");
-            			add_location(li, file, 135, 8, 2522);
+            			add_location(li, file, 151, 8, 2588);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, li, anchor);
@@ -702,7 +702,7 @@ System.register([], function (exports) {
             		block,
             		id: create_each_block.name,
             		type: "each",
-            		source: "(135:6) {#each menu as { name, url }}",
+            		source: "(151:6) {#each menu as { name, url }}",
             		ctx
             	});
 
@@ -828,28 +828,28 @@ System.register([], function (exports) {
             			attr_dev(a0, "href", "https://forms.gle/6PBKXng9jfrvxjhX8");
             			attr_dev(a0, "target", "_blank");
             			toggle_class(a0, "scrolled", /*scrolled*/ ctx[3]);
-            			add_location(a0, file, 120, 4, 1940);
+            			add_location(a0, file, 122, 4, 1952);
             			attr_dev(img0, "class", "twitter svelte-fpzbx8");
-            			if (img0.src !== (img0_src_value = "/dist/static/images/twitter.svg")) attr_dev(img0, "src", img0_src_value);
+            			if (img0.src !== (img0_src_value = "/images/twitter.svg")) attr_dev(img0, "src", img0_src_value);
             			attr_dev(img0, "alt", "");
-            			add_location(img0, file, 125, 13, 2201);
+            			add_location(img0, file, 138, 8, 2281);
             			attr_dev(span, "class", "svelte-fpzbx8");
-            			add_location(span, file, 125, 6, 2194);
+            			add_location(span, file, 137, 6, 2266);
             			attr_dev(a1, "class", "big-nav svelte-fpzbx8");
             			attr_dev(a1, "rel", "noreferrer");
             			attr_dev(a1, "target", "_blank");
             			attr_dev(a1, "href", "https://twitter.com/sveltesociety");
             			toggle_class(a1, "scrolled", /*scrolled*/ ctx[3]);
-            			add_location(a1, file, 124, 4, 2079);
+            			add_location(a1, file, 131, 4, 2121);
             			add_location(nav, file, 117, 2, 1831);
             			attr_dev(div0, "class", "navcontainer svelte-fpzbx8");
             			toggle_class(div0, "scrolled", /*scrolled*/ ctx[3]);
             			add_location(div0, file, 116, 0, 1787);
-            			if (img1.src !== (img1_src_value = "/dist/static/images/burger.svg")) attr_dev(img1, "src", img1_src_value);
+            			if (img1.src !== (img1_src_value = "/images/burger.svg")) attr_dev(img1, "src", img1_src_value);
             			attr_dev(img1, "alt", "");
-            			add_location(img1, file, 129, 58, 2369);
+            			add_location(img1, file, 144, 2, 2446);
             			attr_dev(div1, "class", "hamburger svelte-fpzbx8");
-            			add_location(div1, file, 129, 0, 2311);
+            			add_location(div1, file, 143, 0, 2385);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, div0, anchor);

@@ -50,13 +50,13 @@
   <div class="info">Svelte Summit is a volunteer effort.</div>
   <div class="organised-by">
     <span>Organized by</span><a target="_blank" rel="noreferrer" href="https://svelte.school"><img
-        src="dist/static/images/svelteschool.svg"
+        src="/images/svelteschool.svg"
         alt="Svelte School Logo" /></a>
   </div>
   <div class="design-by">
     <span> Design by </span>
     <a target="_blank" rel="noreferrer" href="https://mono.company/"><img
-        src="dist/static/images/mono.svg"
+        src="/images/mono.svg"
         alt="mono logo" />
     </a>
   </div>

@@ -8,7 +8,7 @@
     --small-padding: var(--media-lte-sm) 0 25px 120px 25px;
     padding: var(--small-padding, 0 40px 170px 40px);
     background: var(--background);
-    background-image: url(/dist/static/images/forest.svg);
+    background-image: url(/images/forest.svg);
     background-position: bottom left;
     background-repeat: repeat-x;
   }

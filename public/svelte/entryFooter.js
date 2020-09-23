@@ -411,7 +411,7 @@ System.register([], function (exports) {
             			attr_dev(div0, "class", "info");
             			add_location(div0, file, 48, 2, 1009);
             			add_location(span0, file, 50, 4, 1103);
-            			if (img0.src !== (img0_src_value = "dist/static/images/svelteschool.svg")) attr_dev(img0, "src", img0_src_value);
+            			if (img0.src !== (img0_src_value = "/images/svelteschool.svg")) attr_dev(img0, "src", img0_src_value);
             			attr_dev(img0, "alt", "Svelte School Logo");
             			attr_dev(img0, "class", "svelte-1hu0v7a");
             			add_location(img0, file, 50, 94, 1193);
@@ -421,17 +421,17 @@ System.register([], function (exports) {
             			add_location(a0, file, 50, 29, 1128);
             			attr_dev(div1, "class", "organised-by svelte-1hu0v7a");
             			add_location(div1, file, 49, 2, 1072);
-            			add_location(span1, file, 55, 4, 1327);
-            			if (img1.src !== (img1_src_value = "dist/static/images/mono.svg")) attr_dev(img1, "src", img1_src_value);
+            			add_location(span1, file, 55, 4, 1316);
+            			if (img1.src !== (img1_src_value = "/images/mono.svg")) attr_dev(img1, "src", img1_src_value);
             			attr_dev(img1, "alt", "mono logo");
             			attr_dev(img1, "class", "svelte-1hu0v7a");
-            			add_location(img1, file, 56, 69, 1421);
+            			add_location(img1, file, 56, 69, 1410);
             			attr_dev(a1, "target", "_blank");
             			attr_dev(a1, "rel", "noreferrer");
             			attr_dev(a1, "href", "https://mono.company/");
-            			add_location(a1, file, 56, 4, 1356);
+            			add_location(a1, file, 56, 4, 1345);
             			attr_dev(div2, "class", "design-by svelte-1hu0v7a");
-            			add_location(div2, file, 54, 2, 1299);
+            			add_location(div2, file, 54, 2, 1288);
             			attr_dev(div3, "class", "container svelte-1hu0v7a");
             			add_location(div3, file, 47, 0, 983);
             		},

@@ -54,7 +54,7 @@
 
 <div class="speaker">
   <div class="image">
-    <img src="/dist/static/images/speakers/{image}" alt="Speaker profile" />
+    <img src="/images/speakers/{image}" alt="Speaker profile" />
   </div>
   <div>
     <span class="name">{name}</span>
@@ -63,7 +63,7 @@
     </h3>
     {@html speaker.html}
     <div class="twitter">
-      <img src="/dist/static/images/twitter.svg" alt="Twitter logo" />
+      <img src="/images/twitter.svg" alt="Twitter logo" />
       <a href={twitter}>{twitterUser}</a>
     </div>
   </div>

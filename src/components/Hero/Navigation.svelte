@@ -117,34 +117,65 @@
 <svelte:window bind:scrollY={y} />
 <div class="navcontainer" class:scrolled>
   <nav>
-    {#each menu as { url, name }}<a class="big-nav" href={url} class:scrolled> {name} </a>{/each}
+    {#each menu as { url, name }}
+      <a class="big-nav" href={url} class:scrolled> {name} </a>
+    {/each}
 
-    <a class="big-nav" rel="noreferrer" href="https://forms.gle/6PBKXng9jfrvxjhX8" target="_blank" class:scrolled>
+    <a
+      class="big-nav"
+      rel="noreferrer"
+      href="https://forms.gle/6PBKXng9jfrvxjhX8"
+      target="_blank"
+      class:scrolled>
       Sign Up
     </a>
 
-    <a class="big-nav" rel="noreferrer" target="_blank" href="https://twitter.com/sveltesociety" class:scrolled>
-      <span> <img class="twitter" src="/dist/static/images/twitter.svg" alt="" /> Twitter </span>
+    <a
+      class="big-nav"
+      rel="noreferrer"
+      target="_blank"
+      href="https://twitter.com/sveltesociety"
+      class:scrolled>
+      <span>
+        <img class="twitter" src="/images/twitter.svg" alt="" /> Twitter
+      </span>
     </a>
   </nav>
 </div>
-<div class="hamburger" on:click={() => (menuOpen = true)}><img src="/dist/static/images/burger.svg" alt="" /></div>
+<div class="hamburger" on:click={() => (menuOpen = true)}>
+  <img src="/images/burger.svg" alt="" />
+</div>
 
 {#if menuOpen}
   <div class="container">
     <ul>
       {#each menu as { name, url }}
-        <li><a class="small-nav" on:click={() => (menuOpen = false)} href="/{url}">{name}</a></li>
+        <li>
+          <a
+            class="small-nav"
+            on:click={() => (menuOpen = false)}
+            href="/{url}">{name}</a>
+        </li>
       {/each}
       <li>
-        <a class="small-nav" href="https://forms.gle/6PBKXng9jfrvxjhX8" rel="noreferrer" target="_blank"> Sign up </a>
+        <a
+          class="small-nav"
+          href="https://forms.gle/6PBKXng9jfrvxjhX8"
+          rel="noreferrer"
+          target="_blank">
+          Sign up
+        </a>
       </li>
       <li>
-        <a class="small-nav" target="_blank" rel="noreferrer" href="https://twitter.com/sveltesociety">Twitter</a>
+        <a
+          class="small-nav"
+          target="_blank"
+          rel="noreferrer"
+          href="https://twitter.com/sveltesociety">Twitter</a>
       </li>
     </ul>
     <button on:click={() => (menuOpen = false)}>
-      <img class="close" src="dist/static/images/close.svg" alt="" />
+      <img class="close" src="images/close.svg" alt="" />
     </button>
   </div>
 {/if}

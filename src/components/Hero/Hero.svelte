@@ -89,7 +89,7 @@
   <Navigation hydrate-client={{ preload: true, loading: 'eager', menu }} />
   <div class="logo">
     <a href="https://sveltesociety.dev/"><img
-        src="/dist/static/images/svelte-society-logo.svg"
+        src="/images/svelte-society-logo.svg"
         alt="Svelte Society" /></a>
     <span class="present">presents</span>
   </div>

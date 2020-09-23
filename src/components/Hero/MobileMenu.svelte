@@ -51,8 +51,17 @@
     {#each menu as { name, url }}
       <li><a on:click href="/{url}">{name}</a></li>
     {/each}
-    <li><a href="https://forms.gle/6PBKXng9jfrvxjhX8" rel="noreferrer" target="_blank"> Sign up </a></li>
-    <li><a target="_blank" href="https://twitter.com/sveltesociety">Twitter</a></li>
+    <li>
+      <a
+        href="https://forms.gle/6PBKXng9jfrvxjhX8"
+        rel="noreferrer"
+        target="_blank">
+        Sign up
+      </a>
+    </li>
+    <li>
+      <a target="_blank" href="https://twitter.com/sveltesociety">Twitter</a>
+    </li>
   </ul>
-  <button on:click> <img src="dist/static/images/close.svg" alt="" /> </button>
+  <button on:click> <img src="/images/close.svg" alt="" /> </button>
 </div>

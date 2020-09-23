@@ -4,7 +4,7 @@
     padding: var(--small-padding, 200px 40px 50px 40px);
 
     background: #2b636c;
-    background-image: url(/dist/static/images/lake.svg);
+    background-image: url(/images/lake.svg);
     background-position: top;
     background-repeat: no-repeat;
 
@@ -143,14 +143,14 @@
         target="_blank"
         class="sponsor"
         data-tooltip="AWS Amplify – The fastest, easiest way to develop mobile and web apps that scale">
-        <img src="/dist/static/images/sponsors/aws.svg" alt="" />
+        <img src="/images/sponsors/aws.svg" alt="" />
       </a>
       <a
         href="https://www.coderight.se"
         rel="noopener noreferrer"
         target="_blank"
         class="sponsor">
-        <img src="/dist/static/images/sponsors/b3coderight.svg" alt="" />
+        <img src="/images/sponsors/b3coderight.svg" alt="" />
       </a>
       <div class="sponsor"><span>Sponsor spot open</span></div>
     </div>
@@ -161,7 +161,7 @@
         target="_blank"
         class="sponsor"
         data-tooltip="Oasis Digital delivers advanced software product development and training services, focused on web technology and full stack solutions.">
-        <img src="/dist/static/images/sponsors/oasis.svg" alt="" />
+        <img src="/images/sponsors/oasis.svg" alt="" />
       </a>
       <div class="sponsor"><span>Sponsor spot open</span></div>
       <div class="sponsor"><span>Sponsor spot open</span></div>

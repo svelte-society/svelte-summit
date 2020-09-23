@@ -467,7 +467,7 @@ System.register([], function (exports) {
             		h: function hydrate() {
             			attr_dev(a, "href", a_href_value = "/talks/" + /*speaker*/ ctx[1].slug);
             			attr_dev(a, "class", "svelte-1sfnb0p");
-            			add_location(a, file, 62, 16, 1137);
+            			add_location(a, file, 62, 16, 1125);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, a, anchor);
@@ -580,28 +580,28 @@ System.register([], function (exports) {
             			this.h();
             		},
             		h: function hydrate() {
-            			if (img0.src !== (img0_src_value = "/dist/static/images/speakers/" + /*image*/ ctx[2])) attr_dev(img0, "src", img0_src_value);
+            			if (img0.src !== (img0_src_value = "/images/speakers/" + /*image*/ ctx[2])) attr_dev(img0, "src", img0_src_value);
             			attr_dev(img0, "alt", "Speaker profile");
             			attr_dev(img0, "class", "svelte-1sfnb0p");
             			add_location(img0, file, 57, 4, 985);
             			attr_dev(div0, "class", "image svelte-1sfnb0p");
             			add_location(div0, file, 56, 2, 961);
             			attr_dev(span, "class", "name svelte-1sfnb0p");
-            			add_location(span, file, 60, 4, 1079);
+            			add_location(span, file, 60, 4, 1067);
             			attr_dev(h3, "class", "svelte-1sfnb0p");
-            			add_location(h3, file, 61, 4, 1116);
+            			add_location(h3, file, 61, 4, 1104);
             			html_tag = new HtmlTag(t4);
-            			if (img1.src !== (img1_src_value = "/dist/static/images/twitter.svg")) attr_dev(img1, "src", img1_src_value);
+            			if (img1.src !== (img1_src_value = "/images/twitter.svg")) attr_dev(img1, "src", img1_src_value);
             			attr_dev(img1, "alt", "Twitter logo");
             			attr_dev(img1, "class", "svelte-1sfnb0p");
-            			add_location(img1, file, 66, 6, 1267);
+            			add_location(img1, file, 66, 6, 1255);
             			attr_dev(a, "href", /*twitter*/ ctx[5]);
             			attr_dev(a, "class", "svelte-1sfnb0p");
-            			add_location(a, file, 67, 6, 1338);
+            			add_location(a, file, 67, 6, 1314);
             			attr_dev(div1, "class", "twitter svelte-1sfnb0p");
-            			add_location(div1, file, 65, 4, 1239);
+            			add_location(div1, file, 65, 4, 1227);
             			attr_dev(div2, "class", "svelte-1sfnb0p");
-            			add_location(div2, file, 59, 2, 1069);
+            			add_location(div2, file, 59, 2, 1057);
             			attr_dev(div3, "class", "speaker svelte-1sfnb0p");
             			add_location(div3, file, 55, 0, 937);
             		},
@@ -853,14 +853,14 @@ System.register([], function (exports) {
             			this.h();
             		},
             		h: function hydrate() {
-            			add_location(h2, file$1, 36, 4, 832);
-            			attr_dev(div0, "class", "grid svelte-58fk2l");
-            			add_location(div0, file$1, 37, 4, 854);
+            			add_location(h2, file$1, 36, 4, 820);
+            			attr_dev(div0, "class", "grid svelte-u7rpcx");
+            			add_location(div0, file$1, 37, 4, 842);
             			attr_dev(section, "id", "speakers");
-            			attr_dev(section, "class", "svelte-58fk2l");
-            			add_location(section, file$1, 35, 2, 804);
-            			attr_dev(div1, "class", "shaded svelte-58fk2l");
-            			add_location(div1, file$1, 34, 0, 781);
+            			attr_dev(section, "class", "svelte-u7rpcx");
+            			add_location(section, file$1, 35, 2, 792);
+            			attr_dev(div1, "class", "shaded svelte-u7rpcx");
+            			add_location(div1, file$1, 34, 0, 769);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, div1, anchor);
