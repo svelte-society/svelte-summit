@@ -171,7 +171,7 @@
         target="_blank"
         class="sponsor"
         data-tooltip="Whether it is a website, a business application or a mobile app; we take care of the entire process, from the first consultation to an end product with maximum added value for the customer and end users.">
-        <img src="/images/sponsors/humancontentlogo.png" alt="" />
+        <img src="/images/sponsors/humancontent.svg" alt="" />
       </a>
       <div class="sponsor"><span>Sponsor spot open</span></div>
       <div class="sponsor"><span>Sponsor spot open</span></div>
