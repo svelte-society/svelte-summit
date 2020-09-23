@@ -74,6 +74,8 @@
   .silver img {
     height: 50px;
     max-height: 50px;
+    max-width: 100%;
+    object-fit: contain;
   }
   .info {
     margin: 0 auto;
@@ -162,6 +164,14 @@
         class="sponsor"
         data-tooltip="Oasis Digital delivers advanced software product development and training services, focused on web technology and full stack solutions.">
         <img src="/images/sponsors/oasis.svg" alt="" />
+      </a>
+      <a
+        href="https://www.humancontent.nl"
+        rel="noopener noreferrer"
+        target="_blank"
+        class="sponsor"
+        data-tooltip="Whether it is a website, a business application or a mobile app; we take care of the entire process, from the first consultation to an end product with maximum added value for the customer and end users.">
+        <img src="/images/sponsors/humancontentlogo.png" alt="" />
       </a>
       <div class="sponsor"><span>Sponsor spot open</span></div>
       <div class="sponsor"><span>Sponsor spot open</span></div>
