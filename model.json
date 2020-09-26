@@ -34,6 +34,9 @@
       "name": {
         ":type": "line"
       },
+      "url": {
+        ":type": "line"
+      },
       "description": {
         ":type": "line"
       },
