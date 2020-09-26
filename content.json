@@ -1,1 +1,28 @@
-{}
+{
+  "speaker": [
+    {
+      "name": "Luke Edwards",
+      "title": "Svelte at the Edge: Powering Svelte Apps with Cloudflare Workers",
+      "twitter": "lukeed05",
+      "slug": "svelte-at-the-edge-using-cloudflare-workers",
+      "image": "lukeed.jpeg",
+      "content": "<p>Will Svelte run inside a Cloudflare Worker? What are the benefits? Are there trade-offs? Can we make this easier?</p>"
+    },
+    {
+      "name": "Nick Reese",
+      "title": "Building SEO Friendly Sites with Svelte and Elder.js",
+      "twitter": "nickreese",
+      "slug": "building-seo-friendly-sites-with-svelte-and-elderjs",
+      "image": "nick.jpeg",
+      "content": "<p>Svelte makes interactivity a breeze but building SEO focused websites with Svelte isn't as easy as it seems.</p><p>In this talk we'll explore how you can use Svelte and Elder.js to build flagship SEO sites. We'll cover routing, partial hydration, hooks, and shortcodes so you can hit the ground running.</p>"
+    },
+    {
+      "name": "Peter Allen",
+      "title": "REPLicant",
+      "slug": "replicant",
+      "twitter": "evilpingwin",
+      "image": "peter.png",
+      "content": "<p>A REPL, or online playground, is a great way to allow users to test-drive tools you have built without needing to install a thing, but they are also great for interactive tutorials, sharing snippets and reporting bugs!</p><p>The Svelte REPL has been a feature of the svelte ecosystem since time immemorial and while REPLs can be complex, the principles are simple when you know them.</p><p>We will take a dive into how the Svelte REPL works and build the simplest possible version. LIVE!</p>"
+    }
+  ]
+}
