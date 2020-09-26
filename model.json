@@ -28,6 +28,9 @@
   "sponsors": {
     ":description": "Sponsor",
     ":items": {
+      "type": {
+        ":type": "line"
+      },
       "name": {
         ":type": "line"
       },
