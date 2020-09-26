@@ -1,6 +1,6 @@
 <style>
   .background {
-    --small-padding: var(--media-lte-sm) 50px;
+    --small-padding: var(--media-lte-sm) 50px 0;
     padding: var(--small-padding, 200px 40px 50px 40px);
 
     background: #2b636c;
@@ -17,11 +17,11 @@
     grid-gap: var(--small-grid, 30px);
     max-width: var(--container-width);
 
-    --small-margin: var(--media-lte-sm) 0px 20px -50px 20px;
+    /* --small-margin: var(--media-lte-sm) 0px 20px -50px 20px;
     margin: var(--small-margin, -120px auto 70px auto);
 
     --small-padding: var(--media-lte-sm) 50px 0;
-    padding: var(--small-padding, initial);
+    padding: var(--small-padding, initial); */
   }
   h2 {
     --small-font: var(--media-lte-sm) 34px;
@@ -31,7 +31,8 @@
     text-align: center;
   }
   .sponsors {
-    width: 100%;
+    --small-margin: var(--media-lte-sm) 0 15px;
+    margin: var(--small-margin, initial);
     display: grid;
     justify-content: center;
     grid-gap: 43px;
@@ -70,6 +71,7 @@
     object-fit: contain;
   }
   .info {
+    min-width: 0;
     color: #e4eef0;
     opacity: 50%;
     margin: 0 auto;

@@ -8,7 +8,8 @@
   .speaker {
     display: grid;
     grid-gap: 32px;
-    grid-template-columns: 80px auto;
+    --small-grid: var(--media-lte-sm) 1fr;
+    grid-template-columns: var(--small-grid, 80px auto);
   }
   .image img {
     width: 80px;
