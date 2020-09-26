@@ -363,7 +363,7 @@ System.register([], function (exports) {
 
             const file = "src/components/Speaker.svelte";
 
-            // (63:59) {:else}
+            // (76:59) {:else}
             function create_else_block(ctx) {
             	let t;
 
@@ -387,14 +387,14 @@ System.register([], function (exports) {
             		block,
             		id: create_else_block.name,
             		type: "else",
-            		source: "(63:59) {:else}",
+            		source: "(76:59) {:else}",
             		ctx
             	});
 
             	return block;
             }
 
-            // (63:6) {#if link}
+            // (76:6) {#if link}
             function create_if_block(ctx) {
             	let a;
             	let t;
@@ -415,8 +415,8 @@ System.register([], function (exports) {
             		},
             		h: function hydrate() {
             			attr_dev(a, "href", a_href_value = "/talks/" + /*speaker*/ ctx[1].slug);
-            			attr_dev(a, "class", "svelte-1sfnb0p");
-            			add_location(a, file, 62, 16, 1125);
+            			attr_dev(a, "class", "svelte-14fm7y8");
+            			add_location(a, file, 75, 16, 1427);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, a, anchor);
@@ -436,7 +436,7 @@ System.register([], function (exports) {
             		block,
             		id: create_if_block.name,
             		type: "if",
-            		source: "(63:6) {#if link}",
+            		source: "(76:6) {#if link}",
             		ctx
             	});
 
@@ -444,26 +444,27 @@ System.register([], function (exports) {
             }
 
             function create_fragment(ctx) {
-            	let div3;
+            	let div4;
             	let div0;
             	let img0;
             	let img0_src_value;
             	let t0;
+            	let div3;
             	let div2;
             	let span;
             	let t1;
             	let t2;
-            	let h3;
-            	let t3;
-            	let html_tag;
-            	let raw_value = /*speaker*/ ctx[1].html + "";
-            	let t4;
             	let div1;
             	let img1;
             	let img1_src_value;
-            	let t5;
+            	let t3;
             	let a;
+            	let t4;
+            	let t5;
+            	let h3;
             	let t6;
+            	let html_tag;
+            	let raw_value = /*speaker*/ ctx[1].html + "";
 
             	function select_block_type(ctx, dirty) {
             		if (/*link*/ ctx[0]) return create_if_block;
@@ -475,33 +476,36 @@ System.register([], function (exports) {
 
             	const block = {
             		c: function create() {
-            			div3 = element("div");
+            			div4 = element("div");
             			div0 = element("div");
             			img0 = element("img");
             			t0 = space();
+            			div3 = element("div");
             			div2 = element("div");
             			span = element("span");
             			t1 = text(/*name*/ ctx[4]);
             			t2 = space();
-            			h3 = element("h3");
-            			if_block.c();
-            			t3 = space();
-            			t4 = space();
             			div1 = element("div");
             			img1 = element("img");
-            			t5 = space();
+            			t3 = space();
             			a = element("a");
-            			t6 = text(/*twitterUser*/ ctx[6]);
+            			t4 = text(/*twitterUser*/ ctx[6]);
+            			t5 = space();
+            			h3 = element("h3");
+            			if_block.c();
+            			t6 = space();
             			this.h();
             		},
             		l: function claim(nodes) {
-            			div3 = claim_element(nodes, "DIV", { class: true });
-            			var div3_nodes = children(div3);
-            			div0 = claim_element(div3_nodes, "DIV", { class: true });
+            			div4 = claim_element(nodes, "DIV", { class: true });
+            			var div4_nodes = children(div4);
+            			div0 = claim_element(div4_nodes, "DIV", { class: true });
             			var div0_nodes = children(div0);
             			img0 = claim_element(div0_nodes, "IMG", { src: true, alt: true, class: true });
             			div0_nodes.forEach(detach_dev);
-            			t0 = claim_space(div3_nodes);
+            			t0 = claim_space(div4_nodes);
+            			div3 = claim_element(div4_nodes, "DIV", { class: true });
+            			var div3_nodes = children(div3);
             			div2 = claim_element(div3_nodes, "DIV", { class: true });
             			var div2_nodes = children(div2);
             			span = claim_element(div2_nodes, "SPAN", { class: true });
@@ -509,70 +513,74 @@ System.register([], function (exports) {
             			t1 = claim_text(span_nodes, /*name*/ ctx[4]);
             			span_nodes.forEach(detach_dev);
             			t2 = claim_space(div2_nodes);
-            			h3 = claim_element(div2_nodes, "H3", { class: true });
-            			var h3_nodes = children(h3);
-            			if_block.l(h3_nodes);
-            			h3_nodes.forEach(detach_dev);
-            			t3 = claim_space(div2_nodes);
-            			t4 = claim_space(div2_nodes);
             			div1 = claim_element(div2_nodes, "DIV", { class: true });
             			var div1_nodes = children(div1);
             			img1 = claim_element(div1_nodes, "IMG", { src: true, alt: true, class: true });
-            			t5 = claim_space(div1_nodes);
+            			t3 = claim_space(div1_nodes);
             			a = claim_element(div1_nodes, "A", { href: true, class: true });
             			var a_nodes = children(a);
-            			t6 = claim_text(a_nodes, /*twitterUser*/ ctx[6]);
+            			t4 = claim_text(a_nodes, /*twitterUser*/ ctx[6]);
             			a_nodes.forEach(detach_dev);
             			div1_nodes.forEach(detach_dev);
             			div2_nodes.forEach(detach_dev);
+            			t5 = claim_space(div3_nodes);
+            			h3 = claim_element(div3_nodes, "H3", { class: true });
+            			var h3_nodes = children(h3);
+            			if_block.l(h3_nodes);
+            			h3_nodes.forEach(detach_dev);
+            			t6 = claim_space(div3_nodes);
             			div3_nodes.forEach(detach_dev);
+            			div4_nodes.forEach(detach_dev);
             			this.h();
             		},
             		h: function hydrate() {
             			if (img0.src !== (img0_src_value = "/images/speakers/" + /*image*/ ctx[2])) attr_dev(img0, "src", img0_src_value);
             			attr_dev(img0, "alt", "Speaker profile");
-            			attr_dev(img0, "class", "svelte-1sfnb0p");
-            			add_location(img0, file, 57, 4, 985);
-            			attr_dev(div0, "class", "image svelte-1sfnb0p");
-            			add_location(div0, file, 56, 2, 961);
-            			attr_dev(span, "class", "name svelte-1sfnb0p");
-            			add_location(span, file, 60, 4, 1067);
-            			attr_dev(h3, "class", "svelte-1sfnb0p");
-            			add_location(h3, file, 61, 4, 1104);
-            			html_tag = new HtmlTag(t4);
+            			attr_dev(img0, "class", "svelte-14fm7y8");
+            			add_location(img0, file, 64, 4, 1105);
+            			attr_dev(div0, "class", "image svelte-14fm7y8");
+            			add_location(div0, file, 63, 2, 1081);
+            			attr_dev(span, "class", "name svelte-14fm7y8");
+            			add_location(span, file, 68, 6, 1212);
             			if (img1.src !== (img1_src_value = "/images/twitter.svg")) attr_dev(img1, "src", img1_src_value);
             			attr_dev(img1, "alt", "Twitter logo");
-            			attr_dev(img1, "class", "svelte-1sfnb0p");
-            			add_location(img1, file, 66, 6, 1255);
+            			attr_dev(img1, "class", "svelte-14fm7y8");
+            			add_location(img1, file, 70, 8, 1281);
             			attr_dev(a, "href", /*twitter*/ ctx[5]);
-            			attr_dev(a, "class", "svelte-1sfnb0p");
-            			add_location(a, file, 67, 6, 1314);
-            			attr_dev(div1, "class", "twitter svelte-1sfnb0p");
-            			add_location(div1, file, 65, 4, 1227);
-            			attr_dev(div2, "class", "svelte-1sfnb0p");
-            			add_location(div2, file, 59, 2, 1057);
-            			attr_dev(div3, "class", "speaker svelte-1sfnb0p");
-            			add_location(div3, file, 55, 0, 937);
+            			attr_dev(a, "class", "svelte-14fm7y8");
+            			add_location(a, file, 71, 8, 1342);
+            			attr_dev(div1, "class", "twitter svelte-14fm7y8");
+            			add_location(div1, file, 69, 6, 1251);
+            			attr_dev(div2, "class", "meta svelte-14fm7y8");
+            			add_location(div2, file, 67, 4, 1187);
+            			attr_dev(h3, "class", "svelte-14fm7y8");
+            			add_location(h3, file, 74, 4, 1406);
+            			html_tag = new HtmlTag(null);
+            			attr_dev(div3, "class", "svelte-14fm7y8");
+            			add_location(div3, file, 66, 2, 1177);
+            			attr_dev(div4, "class", "speaker svelte-14fm7y8");
+            			add_location(div4, file, 62, 0, 1057);
             		},
             		m: function mount(target, anchor) {
-            			insert_dev(target, div3, anchor);
-            			append_dev(div3, div0);
+            			insert_dev(target, div4, anchor);
+            			append_dev(div4, div0);
             			append_dev(div0, img0);
-            			append_dev(div3, t0);
+            			append_dev(div4, t0);
+            			append_dev(div4, div3);
             			append_dev(div3, div2);
             			append_dev(div2, span);
             			append_dev(span, t1);
             			append_dev(div2, t2);
-            			append_dev(div2, h3);
-            			if_block.m(h3, null);
-            			append_dev(div2, t3);
-            			html_tag.m(raw_value, div2);
-            			append_dev(div2, t4);
             			append_dev(div2, div1);
             			append_dev(div1, img1);
-            			append_dev(div1, t5);
+            			append_dev(div1, t3);
             			append_dev(div1, a);
-            			append_dev(a, t6);
+            			append_dev(a, t4);
+            			append_dev(div3, t5);
+            			append_dev(div3, h3);
+            			if_block.m(h3, null);
+            			append_dev(div3, t6);
+            			html_tag.m(raw_value, div3);
             		},
             		p: function update(ctx, [dirty]) {
             			if (current_block_type === (current_block_type = select_block_type(ctx)) && if_block) {
@@ -592,7 +600,7 @@ System.register([], function (exports) {
             		i: noop,
             		o: noop,
             		d: function destroy(detaching) {
-            			if (detaching) detach_dev(div3);
+            			if (detaching) detach_dev(div4);
             			if_block.d();
             		}
             	};

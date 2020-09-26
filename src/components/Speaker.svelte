@@ -16,9 +16,14 @@
     object-fit: cover;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   }
+  .meta {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 8px;
+  }
   .name {
     color: #e4eef0;
-
     opacity: 0.67;
   }
   h3 {
@@ -39,11 +44,13 @@
     color: #005daa;
   }
   .twitter a {
-    color: white;
+    color: #e4eef0;
+
+    opacity: 0.67;
     font-size: 14px;
   }
   .twitter img {
-    height: 16px;
+    width: 15px;
   }
   div :global(p) {
     font-size: 18px;
@@ -57,14 +64,16 @@
     <img src="/images/speakers/{image}" alt="Speaker profile" />
   </div>
   <div>
-    <span class="name">{name}</span>
+    <div class="meta">
+      <span class="name">{name}</span>
+      <div class="twitter">
+        <img src="/images/twitter.svg" alt="Twitter logo" />
+        <a href={twitter}>{twitterUser}</a>
+      </div>
+    </div>
     <h3>
       {#if link}<a href="/talks/{speaker.slug}">{title}</a>{:else}{title}{/if}
     </h3>
     {@html speaker.html}
-    <div class="twitter">
-      <img src="/images/twitter.svg" alt="Twitter logo" />
-      <a href={twitter}>{twitterUser}</a>
-    </div>
   </div>
 </div>
