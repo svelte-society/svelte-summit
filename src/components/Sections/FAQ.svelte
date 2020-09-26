@@ -3,7 +3,7 @@
     --small-padding: var(--media-lte-sm) 45px 25px;
     padding: var(--small-padding, 140px 40px);
 
-    background: var(--background-dark);
+    background: var(--background-super-dark);
     display: grid;
     place-items: center;
   }

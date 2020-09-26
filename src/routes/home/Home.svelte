@@ -4,6 +4,7 @@
   import Question from "../../components/Question.svelte";
   import Sponsors from "../../components/Sections/Sponsors.svelte";
   import Speakers from "../../components/Sections/Speakers.svelte";
+  import SignUp from "../../components/Sections/SignUp.svelte";
   import FAQ from "../../components/Sections/FAQ.svelte";
   import Footer from "../../components/Sections/Footer.svelte";
 </script>
@@ -51,6 +52,7 @@
 <Hero />
 <Sponsors />
 <Speakers talks={data.markdown.talks} />
+<SignUp />
 <FAQ>
   <Question title="What is this?">
     Svelte Summit is an event dedicated to Svelte and everything that is

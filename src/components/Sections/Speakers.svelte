@@ -7,10 +7,16 @@
   .shaded {
     --small-padding: var(--media-lte-sm) 0 25px 120px 25px;
     padding: var(--small-padding, 0 40px 170px 40px);
-    background: var(--background);
     background-image: url(/images/forest.svg);
     background-position: bottom left;
     background-repeat: repeat-x;
+  }
+  h2 {
+    --small-font: var(--media-lte-sm) 34px;
+    font-size: var(--small-font, 60px);
+    font-family: "Anton";
+    line-height: 150%;
+    text-align: center;
   }
   section {
     display: grid;

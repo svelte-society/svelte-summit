@@ -432,14 +432,14 @@ System.register([], function (exports) {
             			this.h();
             		},
             		h: function hydrate() {
-            			add_location(h2, file, 25, 4, 515);
-            			attr_dev(div0, "class", "questions svelte-1ntitv7");
-            			add_location(div0, file, 26, 4, 555);
-            			attr_dev(div1, "class", "container svelte-1ntitv7");
-            			add_location(div1, file, 24, 2, 487);
-            			attr_dev(div2, "class", "background svelte-1ntitv7");
+            			add_location(h2, file, 25, 4, 521);
+            			attr_dev(div0, "class", "questions svelte-eeqrmt");
+            			add_location(div0, file, 26, 4, 561);
+            			attr_dev(div1, "class", "container svelte-eeqrmt");
+            			add_location(div1, file, 24, 2, 493);
+            			attr_dev(div2, "class", "background svelte-eeqrmt");
             			attr_dev(div2, "id", "faq");
-            			add_location(div2, file, 23, 0, 451);
+            			add_location(div2, file, 23, 0, 457);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, div2, anchor);

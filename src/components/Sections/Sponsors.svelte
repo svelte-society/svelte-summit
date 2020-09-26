@@ -53,11 +53,6 @@
     background: #1c464d;
     padding: 30px 50px;
   }
-  .sponsor span {
-    color: #e4eef0;
-    font-size: 18px;
-    opacity: 0.5;
-  }
 
   .silver.sponsors .sponsor {
     padding: 20px 40px;

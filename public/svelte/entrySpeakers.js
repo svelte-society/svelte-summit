@@ -744,7 +744,7 @@ System.register([], function (exports) {
             	return child_ctx;
             }
 
-            // (39:6) {#each talks as speaker}
+            // (45:6) {#each talks as speaker}
             function create_each_block(ctx) {
             	let speaker;
             	let current;
@@ -788,7 +788,7 @@ System.register([], function (exports) {
             		block,
             		id: create_each_block.name,
             		type: "each",
-            		source: "(39:6) {#each talks as speaker}",
+            		source: "(45:6) {#each talks as speaker}",
             		ctx
             	});
 
@@ -835,7 +835,7 @@ System.register([], function (exports) {
             			var div1_nodes = children(div1);
             			section = claim_element(div1_nodes, "SECTION", { id: true, class: true });
             			var section_nodes = children(section);
-            			h2 = claim_element(section_nodes, "H2", {});
+            			h2 = claim_element(section_nodes, "H2", { class: true });
             			var h2_nodes = children(h2);
             			t0 = claim_text(h2_nodes, "SPEAKERS");
             			h2_nodes.forEach(detach_dev);
@@ -853,14 +853,15 @@ System.register([], function (exports) {
             			this.h();
             		},
             		h: function hydrate() {
-            			add_location(h2, file$1, 36, 4, 820);
-            			attr_dev(div0, "class", "grid svelte-u7rpcx");
-            			add_location(div0, file$1, 37, 4, 842);
+            			attr_dev(h2, "class", "svelte-rngfx");
+            			add_location(h2, file$1, 42, 4, 941);
+            			attr_dev(div0, "class", "grid svelte-rngfx");
+            			add_location(div0, file$1, 43, 4, 963);
             			attr_dev(section, "id", "speakers");
-            			attr_dev(section, "class", "svelte-u7rpcx");
-            			add_location(section, file$1, 35, 2, 792);
-            			attr_dev(div1, "class", "shaded svelte-u7rpcx");
-            			add_location(div1, file$1, 34, 0, 769);
+            			attr_dev(section, "class", "svelte-rngfx");
+            			add_location(section, file$1, 41, 2, 913);
+            			attr_dev(div1, "class", "shaded svelte-rngfx");
+            			add_location(div1, file$1, 40, 0, 890);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, div1, anchor);
