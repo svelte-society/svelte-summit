@@ -1,7 +1,7 @@
 <script>
   export let link = false;
   export let speaker;
-  const { image, title, name, twitter, twitterUser } = speaker.frontmatter;
+  const { image, title, name, twitter } = speaker;
 </script>
 
 <style>
@@ -69,12 +69,15 @@
       <span class="name">{name}</span>
       <div class="twitter">
         <img src="/images/twitter.svg" alt="Twitter logo" />
-        <a href={twitter}>{twitterUser}</a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="http://twitter.com/{twitter}">{twitter}</a>
       </div>
     </div>
     <h3>
       {#if link}<a href="/talks/{speaker.slug}">{title}</a>{:else}{title}{/if}
     </h3>
-    {@html speaker.html}
+    {@html speaker.content}
   </div>
 </div>

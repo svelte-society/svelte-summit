@@ -51,7 +51,7 @@
 
 <Hero />
 <Sponsors />
-<Speakers talks={data.markdown.talks} />
+<Speakers talks={data.speakers} />
 <SignUp />
 <FAQ>
   <Question title="What is this?">
