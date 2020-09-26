@@ -33,6 +33,7 @@
   .sponsors {
     width: 100%;
     display: grid;
+    justify-content: center;
     grid-gap: 43px;
   }
   .sponsors + .sponsors {
@@ -40,10 +41,10 @@
     margin-top: var(--small-top, 0);
   }
   .gold {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 330fr));
   }
   .silver {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 240px));
   }
   .sponsor {
     display: grid;
@@ -62,10 +63,6 @@
     padding: 20px 40px;
   }
 
-  .silver.sponsors span {
-    font-size: 16px;
-  }
-
   .gold img {
     height: 66px;
     max-height: 66px;
@@ -78,6 +75,8 @@
     object-fit: contain;
   }
   .info {
+    color: #e4eef0;
+    opacity: 50%;
     margin: 0 auto;
     margin-top: 40px;
     max-width: 575px;
@@ -137,7 +136,7 @@
 
 <div class="background" id="sponsors">
   <div class="container">
-    <h2>SPONSORED BY*</h2>
+    <h2>SPONSORED BY</h2>
     <div class="gold sponsors">
       <a
         href="https://aws.amazon.com/amplify/"
@@ -154,7 +153,6 @@
         class="sponsor">
         <img src="/images/sponsors/b3coderight.svg" alt="" />
       </a>
-      <div class="sponsor"><span>Sponsor spot open</span></div>
     </div>
     <div class="silver sponsors">
       <a
@@ -173,13 +171,10 @@
         data-tooltip="Whether it is a website, a business application or a mobile app; we take care of the entire process, from the first consultation to an end product with maximum added value for the customer and end users.">
         <img src="/images/sponsors/humancontent.svg" alt="" />
       </a>
-      <div class="sponsor"><span>Sponsor spot open</span></div>
-      <div class="sponsor"><span>Sponsor spot open</span></div>
-      <div class="sponsor"><span>Sponsor spot open</span></div>
     </div>
     <p class="info">
-      *We’re looking for more sponsors for the event. Any financial backing will
-      be used to support the event and further development of Svelte itself. <a
+      More sponsors welcome! Any financial backing will be used to support the
+      event and further development of Svelte itself. <a
         href="mailto:sponsors@sveltesociety.dev">Get in touch</a>.
     </p>
   </div>
