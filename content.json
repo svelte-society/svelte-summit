@@ -24,5 +24,35 @@
       "image": "peter.png",
       "content": "<p>A REPL, or online playground, is a great way to allow users to test-drive tools you have built without needing to install a thing, but they are also great for interactive tutorials, sharing snippets and reporting bugs!</p><p>The Svelte REPL has been a feature of the svelte ecosystem since time immemorial and while REPLs can be complex, the principles are simple when you know them.</p><p>We will take a dive into how the Svelte REPL works and build the simplest possible version. LIVE!</p>"
     }
+  ],
+  "sponsors": [
+    {
+      "type": "silver",
+      "url": "https://www.humancontent.nl",
+      "name": "Human Content",
+      "description": "Whether it is a website, a business application or a mobile app; we take care of the entire process, from the first consultation to an end product with maximum added value for the customer and end users.",
+      "image": "humancontent.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Oasis Digital",
+      "url": "https://oasisdigital.com",
+      "description": "Oasis Digital delivers advanced software product development and training services, focused on web technology and full stack solutions.",
+      "image": "oasis.svg"
+    },
+    {
+      "url": "https://www.coderight.se",
+      "type": "gold",
+      "name": "b3 coderight",
+      "description": "We develop innovative and secure digital experiences, websites, integrations and systems.",
+      "image": "b3coderight.svg"
+    },
+    {
+      "type": "gold",
+      "name": "AWS Amplify",
+      "url": "https://aws.amazon.com/amplify/",
+      "image": "aws.svg",
+      "description": "AWS Amplify – The fastest, easiest way to develop mobile and web apps that scale"
+    }
   ]
 }
