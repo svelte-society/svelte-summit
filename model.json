@@ -1,21 +1,40 @@
 {
-  ":name": "FrontAid CMS Example Model",
-  ":description": "This is a very basic example of a FrontAid CMS model file. Feel free to update it according to your needs.",
-  "custom-field": {
-    ":description": "This example text is used as a description.",
-    ":type": "line"
-  },
-  "custom-object": {
-    "custom-line": {
-      ":type": "line"
-    },
-    "custom-text": {
-      ":type": "text"
+  ":name": "Svelte Summit October 2020",
+  ":description": "Contains content for Svelte Summit 2020",
+  "speaker": {
+    ":description": "Speaker",
+    ":items": {
+      "name": {
+        ":type": "line"
+      },
+      "title": {
+        ":type": "line"
+      },
+      "slug": {
+        ":type": "line"
+      },
+      "twitter": {
+        ":type": "line"
+      },
+      "image": {
+        ":type": "line"
+      },
+      "content": {
+        ":type": "text",
+        ":richtext": true
+      }
     }
   },
-  "custom-list": {
+  "sponsors": {
+    ":description": "Sponsor",
     ":items": {
-      "custom-list-item": {
+      "name": {
+        ":type": "line"
+      },
+      "description": {
+        ":type": "line"
+      },
+      "image": {
         ":type": "line"
       }
     }
