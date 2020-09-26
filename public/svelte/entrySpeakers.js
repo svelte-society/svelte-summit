@@ -752,7 +752,7 @@ System.register([], function (exports) {
             	return child_ctx;
             }
 
-            // (45:6) {#each talks as speaker}
+            // (49:6) {#each talks as speaker}
             function create_each_block(ctx) {
             	let speaker;
             	let current;
@@ -796,7 +796,7 @@ System.register([], function (exports) {
             		block,
             		id: create_each_block.name,
             		type: "each",
-            		source: "(45:6) {#each talks as speaker}",
+            		source: "(49:6) {#each talks as speaker}",
             		ctx
             	});
 
@@ -861,15 +861,15 @@ System.register([], function (exports) {
             			this.h();
             		},
             		h: function hydrate() {
-            			attr_dev(h2, "class", "svelte-3fay1e");
-            			add_location(h2, file$1, 42, 4, 941);
-            			attr_dev(div0, "class", "grid svelte-3fay1e");
-            			add_location(div0, file$1, 43, 4, 963);
+            			attr_dev(h2, "class", "svelte-1hwapxl");
+            			add_location(h2, file$1, 46, 4, 1019);
+            			attr_dev(div0, "class", "grid svelte-1hwapxl");
+            			add_location(div0, file$1, 47, 4, 1041);
             			attr_dev(section, "id", "speakers");
-            			attr_dev(section, "class", "svelte-3fay1e");
-            			add_location(section, file$1, 41, 2, 913);
-            			attr_dev(div1, "class", "shaded svelte-3fay1e");
-            			add_location(div1, file$1, 40, 0, 890);
+            			attr_dev(section, "class", "svelte-1hwapxl");
+            			add_location(section, file$1, 45, 2, 991);
+            			attr_dev(div1, "class", "shaded svelte-1hwapxl");
+            			add_location(div1, file$1, 44, 0, 968);
             		},
             		m: function mount(target, anchor) {
             			insert_dev(target, div1, anchor);
