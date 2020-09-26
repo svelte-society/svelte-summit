@@ -21,7 +21,6 @@
     "@elderjs/elderjs": "^1.0.0",
     "@elderjs/plugin-browser-reload": "^0.1.7",
     "@elderjs/plugin-critical-path-css": "^0.1.6",
-    "@elderjs/plugin-markdown": "^0.1.7",
     "@elderjs/plugin-sitemap": "^0.1.7",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",

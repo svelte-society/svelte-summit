@@ -1,3 +1,10 @@
+<script>
+  export let sponsors;
+
+  const gold = sponsors.filter((s) => s.type === "gold");
+  const silver = sponsors.filter((s) => s.type === "silver");
+</script>
+
 <style>
   .background {
     --small-padding: var(--media-lte-sm) 50px 0;
@@ -131,39 +138,28 @@
   <div class="container">
     <h2>SPONSORED BY</h2>
     <div class="gold sponsors">
-      <a
-        href="https://aws.amazon.com/amplify/"
-        rel="noopener noreferrer"
-        target="_blank"
-        class="sponsor"
-        data-tooltip="AWS Amplify – The fastest, easiest way to develop mobile and web apps that scale">
-        <img src="/images/sponsors/aws.svg" alt="" />
-      </a>
-      <a
-        href="https://www.coderight.se"
-        rel="noopener noreferrer"
-        target="_blank"
-        class="sponsor">
-        <img src="/images/sponsors/b3coderight.svg" alt="" />
-      </a>
+      {#each gold as { url, description, name, image }}
+        <a
+          href={url}
+          rel="noopener noreferrer"
+          target="_blank"
+          class="sponsor"
+          data-tooltip={description}>
+          <img src="/images/sponsors/{image}" alt="{name} logo" />
+        </a>
+      {/each}
     </div>
     <div class="silver sponsors">
-      <a
-        href="https://oasisdigital.com"
-        rel="noopener noreferrer"
-        target="_blank"
-        class="sponsor"
-        data-tooltip="Oasis Digital delivers advanced software product development and training services, focused on web technology and full stack solutions.">
-        <img src="/images/sponsors/oasis.svg" alt="" />
-      </a>
-      <a
-        href="https://www.humancontent.nl"
-        rel="noopener noreferrer"
-        target="_blank"
-        class="sponsor"
-        data-tooltip="Whether it is a website, a business application or a mobile app; we take care of the entire process, from the first consultation to an end product with maximum added value for the customer and end users.">
-        <img src="/images/sponsors/humancontent.svg" alt="" />
-      </a>
+      {#each silver as { url, description, name, image }}
+        <a
+          href={url}
+          rel="noopener noreferrer"
+          target="_blank"
+          class="sponsor"
+          data-tooltip={description}>
+          <img src="/images/sponsors/{image}" alt="{name} logo" />
+        </a>
+      {/each}
     </div>
     <p class="info">
       More sponsors welcome! Any financial backing will be used to support the

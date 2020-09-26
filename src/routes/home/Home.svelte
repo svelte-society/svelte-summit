@@ -50,7 +50,7 @@
 </svelte:head>
 
 <Hero />
-<Sponsors />
+<Sponsors sponsors={data.sponsors} />
 <Speakers talks={data.speakers} />
 <SignUp />
 <FAQ>
