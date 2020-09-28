@@ -23,6 +23,13 @@
       "twitter": "evilpingwin",
       "image": "peter.png",
       "content": "<p>A REPL, or online playground, is a great way to allow users to test-drive tools you have built without needing to install a thing, but they are also great for interactive tutorials, sharing snippets and reporting bugs!</p><p>The Svelte REPL has been a feature of the svelte ecosystem since time immemorial and while REPLs can be complex, the principles are simple when you know them.</p><p>We will take a dive into how the Svelte REPL works and build the simplest possible version. LIVE!</p>"
+    },
+    {
+      "name": "Dominik G",
+      "title": "Introduction to Svite",
+      "slug": "introduction-to-svite",
+      "image": "svite.svg",
+      "content": "<p>An Introduction to svite and demonstration of its features:</p><ul><li><p>easy setup with cli</p></li><li><p>ultra fast hot-module-reloading</p></li><li><p>optimized production build</p></li></ul>"
     }
   ],
   "sponsors": [
