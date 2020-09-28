@@ -67,13 +67,15 @@
   <div>
     <div class="meta">
       <span class="name">{name}</span>
-      <div class="twitter">
-        <img src="/images/twitter.svg" alt="Twitter logo" />
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href="http://twitter.com/{twitter}">{twitter}</a>
-      </div>
+      {#if twitter}
+        <div class="twitter">
+          <img src="/images/twitter.svg" alt="Twitter logo" />
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="http://twitter.com/{twitter}">{twitter}</a>
+        </div>
+      {/if}
     </div>
     <h3>
       {#if link}<a href="/talks/{speaker.slug}">{title}</a>{:else}{title}{/if}
