@@ -16,6 +16,7 @@ module.exports = {
     automagic: false,
   },
   hooks: {
+    disable: 'elderAddDefaultIntersectionObserver'
     // disable: ['elderWriteHtmlFileToPublic'], // this is used to disable internal hooks. Uncommenting this would disabled writing your files on build.
   },
   plugins: {
