@@ -1,9 +1,9 @@
 <script>
-  export let templateHtml, settings;
+  export let templateHtml;
 </script>
 
 <svelte:head>
-  <link
+  <!-- <link
     rel="preload"
     href="/fonts/Anton-Regular.woff"
     as="font"
@@ -26,8 +26,9 @@
     href="/fonts/Inter-Regular.woff"
     as="font"
     type="font/woff2"
-    crossorigin />
+    crossorigin /> -->
   <link rel="stylesheet" href="/style.css" />
+  <!-- <link rel="stylesheet" href="/fonts/fonts.css" /> -->
 </svelte:head>
 <div class="container">
   {@html templateHtml}

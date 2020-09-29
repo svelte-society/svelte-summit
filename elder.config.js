@@ -23,6 +23,13 @@ module.exports = {
       // this reloads your browser when nodemon restarts your server.
       port: 8080,
     },
+    'elderjs-plugin-google-fonts': {
+      fonts: {
+        'Anton': ['400'],
+        'Overpass': ['400', '700'],
+        'Inter': ['400']
+      }
+    }
   },
   shortcodes: { closePattern: '}}', openPattern: '{{' },
 };

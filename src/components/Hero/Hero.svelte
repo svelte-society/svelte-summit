@@ -86,7 +86,9 @@
 </style>
 
 <div class="container" id="intro">
-  <Navigation hydrate-client={{ preload: true, loading: 'eager', menu }} />
+  <Navigation
+    hydrate-client={{ menu }}
+    hydrate-options={{ preload: true, loading: 'eager' }} />
   <div class="logo">
     <a href="https://sveltesociety.dev/"><img
         src="/images/svelte-society-logo.svg"

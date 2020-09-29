@@ -79,44 +79,6 @@ h3 {
   font-size: var(--small, var(--medium, 24px));
 }
 
-
-@font-face {
-  font-family: 'Anton';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Anton Regular'), local('Anton-Regular'),
-       url('./fonts/Anton-Regular.woff') format('woff')
-}
-
-/* overpass-regular - latin */
-@font-face {
-  font-family: 'Overpass';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Overpass Regular'), local('Overpass-Regular'),
-       url('./fonts/Overpass-Regular.woff2') format('woff2')
-}
-/* overpass-700 - latin */
-@font-face {
-  font-family: 'Overpass';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Overpass Bold'), local('Overpass-Bold'),
-  url('./fonts/Overpass-Bold.woff2') format('woff2')
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/Inter-Regular.woff') format('woff')
-}
-
 /**
  * css-media-vars
  * BSD 2-Clause License
