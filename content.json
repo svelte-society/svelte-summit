@@ -64,6 +64,13 @@
       "image": "oasis.svg"
     },
     {
+      "type": "silver",
+      "name": "Hyper 63",
+      "url": "https://hyper63.com",
+      "description": "A different approach to software development by improving the process of development for developers to speed up innovation",
+      "image": "hyper63.svg"
+    },
+    {
       "url": "https://www.coderight.se",
       "type": "gold",
       "name": "b3 coderight",
