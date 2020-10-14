@@ -124,7 +124,7 @@
     <a
       class="big-nav"
       rel="noreferrer"
-      href="https://forms.gle/6PBKXng9jfrvxjhX8"
+      href="https://emailoctopus.com/lists/a3d49b32-0df8-11eb-a3d0-06b4694bee2a/forms/subscribe"
       target="_blank"
       class:scrolled>
       Sign Up
