@@ -1,6 +1,6 @@
 <style>
   .container {
-    color: #808080;
+    color: white;
     width: calc(100% - 50px);
     --small-max-width: var(--media-lte-sm) 300px;
     max-width: var(--small-max-width, var(--container-width));
@@ -44,12 +44,20 @@
   .design-by img {
     height: 30px;
   }
+
+  span,
+  .info {
+    opacity: 0.5;
+  }
 </style>
 
 <div class="container">
   <div class="info">Svelte Summit is a volunteer effort.</div>
   <div class="organised-by">
-    <span>Organized by</span><a target="_blank" rel="noreferrer" href="https://svelte.school"><img
+    <span>Organized by</span><a
+      target="_blank"
+      rel="noreferrer"
+      href="https://svelte.school"><img
         src="/images/svelteschool.svg"
         alt="Svelte School Logo" /></a>
   </div>
