@@ -77,7 +77,7 @@
       "slug": "demystifying-svelte-transitions",
       "image": "lihau.png",
       "content": "<p>It's unbelievably easy to create a cool slick transition in Svelte. Do you ever wonder how Svelte make it so simple? or how does Svelte make it performant and smooth?</p><p>In this talk, we are going to take a deep dive to look at the transition mechanism, how Svelte coordinates transitions across components, and what make them performant.</p>",
-      "twitter": "h_i_g_s_c_h"
+      "twitter": "lihautan"
     },
     {
       "name": "Tim Raderschad",
