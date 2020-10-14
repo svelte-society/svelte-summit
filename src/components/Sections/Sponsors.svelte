@@ -161,10 +161,5 @@
         </a>
       {/each}
     </div>
-    <p class="info">
-      More sponsors welcome! Any financial backing will be used to support the
-      event and further development of Svelte itself. <a
-        href="mailto:sponsors@sveltesociety.dev">Get in touch</a>.
-    </p>
   </div>
 </div>
