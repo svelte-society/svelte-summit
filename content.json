@@ -42,10 +42,65 @@
     },
     {
       "name": "Dominik G",
-      "title": "Introduction to Svite",
+      "title": "Prototyping Testing with Real Data Models using Svelte",
       "slug": "introduction-to-svite",
       "image": "svite.svg",
       "content": "<p>An Introduction to svite and demonstration of its features:</p><ul><li><p>easy setup with cli</p></li><li><p>ultra fast hot-module-reloading</p></li><li><p>optimized production build</p></li></ul>"
+    },
+    {
+      "name": "Daniel E. Sandoval",
+      "title": "Prototyping Testing with Real Data Models using Svelte",
+      "slug": "prototyping-testing-with-real-data-models-using-svelte",
+      "image": "daniel.jpg",
+      "content": "<p>Rapid prototyping and feedback is the best way to ensure that our products are solving real problems and meeting user needs. Tools like Figma and InVision let us mock up something quickly and get static prototypes in front of users without having to dive into the intricacies of building real software. These tools fall short, however, when our prototype relies on real data in order to test our assumptions in a user interview or usability test.</p>",
+      "twitter": "d3sandoval"
+    },
+    {
+      "name": "R. Mark Volkmann",
+      "title": "Svelte Animations - Builtin and Custom",
+      "slug": "svelte-animations-builtin-and-custom",
+      "image": "mark.jpg",
+      "content": "<p>This talk equips Svelte developers to add animations to their apps. First, builtin animations using the svelte/animate, svelte/motion, and svelte/transition packages will be described and demonstrated. Then we will venture into creating custom animations and show how they are based on CSS rather than JavaScript for best performance. The content is derived from my book 'Svelte and Sapper in Action'.</p>",
+      "twitter": "mark_volkmann"
+    },
+    {
+      "name": "Matthias Stahl",
+      "title": "How you setup data visualization with Svelte",
+      "slug": "how-you-setup-data-visualization-with-svelte",
+      "image": "matthias.jpg",
+      "content": "<p>Svelte is not just a JavaScript compiler. It is a way of thinking to design complex data visualizations. Come with me on a journey through one of my recent Svelte data visualization works.</p><p>Lean back and I’ll show you the how and the wow!</p>",
+      "twitter": "h_i_g_s_c_h"
+    },
+    {
+      "name": "Tan Li Hau",
+      "title": "Demystifying Svelte Transitions",
+      "slug": "demystifying-svelte-transitions",
+      "image": "lihau.png",
+      "content": "<p>It's unbelievably easy to create a cool slick transition in Svelte. Do you ever wonder how Svelte make it so simple? or how does Svelte make it performant and smooth?</p><p>In this talk, we are going to take a deep dive to look at the transition mechanism, how Svelte coordinates transitions across components, and what make them performant.</p>",
+      "twitter": "h_i_g_s_c_h"
+    },
+    {
+      "name": "Tim Raderschad",
+      "title": "Modern fetch in svelte using stores",
+      "slug": "modern-fetch-in-svelte-using-stores",
+      "image": "tim.jpg",
+      "content": "<p>If you are building a Single-Page App (SPA), you will likely need a router for your app. With the lack of an official router for Svelte 3, there's quite a few options, so which one should you pick?</p><p>In this talk, we'll look at the two different kinds of routers (based on the History API or based on the page's hash), how they differ, and when you should pick which. We'll also go through a demo of implementing routing for a Svelte 3 SPA using svelte-spa-router.</p>",
+      "twitter": "cstrnt"
+    },
+    {
+      "name": "Alessandro Segala",
+      "title": "So you want to pick a router?",
+      "slug": "so-you-want-to-pick-a-router",
+      "image": "alessandro.jpg",
+      "content": "<p>In this short talk we will take a look at using Svelte and their awesome stores to create a modified version of fetch which will make our UIs feel responsive and clean. At the end we will also sprinkle in a bit of caching to further improve the performance. We will also talk about Loading Spinners and how can avoid bored users!</p>",
+      "twitter": "ItalyPaleAle"
+    },
+    {
+      "name": "Benjamin Schachter",
+      "title": "Learn Svelte Using React",
+      "slug": "learn-svelte-using-react",
+      "image": "benjamin.jpg",
+      "content": "<p>Let's use mental models we already know to learn Svelte.</p>"
     }
   ],
   "sponsors": [
