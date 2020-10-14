@@ -108,7 +108,8 @@
       "title": "Learn Svelte Using React",
       "slug": "learn-svelte-using-react",
       "image": "benjamin.jpg",
-      "content": "<p>Let's use mental models we already know to learn Svelte.</p>"
+      "content": "<p>Let's use mental models we already know to learn Svelte.</p>",
+      "twitter": "benschac"
     }
   ],
   "sponsors": [
