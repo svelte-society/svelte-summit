@@ -92,7 +92,7 @@
       "title": "Modern fetch in svelte using stores",
       "slug": "modern-fetch-in-svelte-using-stores",
       "image": "tim.jpg",
-      "content": "<p>If you are building a Single-Page App (SPA), you will likely need a router for your app. With the lack of an official router for Svelte 3, there's quite a few options, so which one should you pick?</p><p>In this talk, we'll look at the two different kinds of routers (based on the History API or based on the page's hash), how they differ, and when you should pick which. We'll also go through a demo of implementing routing for a Svelte 3 SPA using svelte-spa-router.</p>",
+      "content": "<p>In this short talk we will take a look at using Svelte and their awesome stores to create a modified version of fetch which will make our UIs feel responsive and clean. At the end we will also sprinkle in a bit of caching to further improve the performance. We will also talk about Loading Spinners and how can avoid bored users!</p>",
       "twitter": "cstrnt"
     },
     {
@@ -100,7 +100,7 @@
       "title": "So you want to pick a router?",
       "slug": "so-you-want-to-pick-a-router",
       "image": "alessandro.jpg",
-      "content": "<p>In this short talk we will take a look at using Svelte and their awesome stores to create a modified version of fetch which will make our UIs feel responsive and clean. At the end we will also sprinkle in a bit of caching to further improve the performance. We will also talk about Loading Spinners and how can avoid bored users!</p>",
+      "content": "<p>If you are building a Single-Page App (SPA), you will likely need a router for your app. With the lack of an official router for Svelte 3, there's quite a few options, so which one should you pick?</p><p>In this talk, we'll look at the two different kinds of routers (based on the History API or based on the page's hash), how they differ, and when you should pick which. We'll also go through a demo of implementing routing for a Svelte 3 SPA using svelte-spa-router.</p>",
       "twitter": "ItalyPaleAle"
     },
     {
