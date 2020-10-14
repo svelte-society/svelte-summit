@@ -64,6 +64,14 @@
       "twitter": "mark_volkmann"
     },
     {
+      "name": "Ron Au",
+      "title": "The Web à la Mode",
+      "slug": "the-web-a-la-mode",
+      "image": "ron.jpg",
+      "content": "<p>The web is a mouthwatering platform, fashionably served with a side of sweet reactivity. Take a wild ride exploring what it has to offer you and how Svelte ties it all together.</p>",
+      "twitter": "ronvoluted"
+    },
+    {
       "name": "Matthias Stahl",
       "title": "How you setup data visualization with Svelte",
       "slug": "how-you-setup-data-visualization-with-svelte",
