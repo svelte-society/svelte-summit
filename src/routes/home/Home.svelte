@@ -68,7 +68,7 @@
     speakers to be present when their talks are given so that they can answer
     questions.
   </Question>
-  <Question title="Will it be recorded">
+  <Question title="Will it be recorded?">
     Absolutely! You'll find it on the Svelte Society <a
       rel="noreferrer"
       target="_blank"
