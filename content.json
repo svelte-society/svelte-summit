@@ -92,7 +92,7 @@
       "title": "Modern fetch in svelte using stores",
       "slug": "modern-fetch-in-svelte-using-stores",
       "image": "tim.jpg",
-      "content": "<p>In this short talk we will take a look at using Svelte and their awesome stores to create a modified version of fetch which will make our UIs feel responsive and clean. At the end we will also sprinkle in a bit of caching to further improve the performance. We will also talk about Loading Spinners and how can avoid bored users!</p>",
+      "content": "<p>In this short talk we will take a look at using Svelte and their awesome stores to create a modified version of fetch which will make our UIs feel responsive and clean. At the end we will also sprinkle in a bit of caching to further improve the performance. We will also talk about Loading Spinners and how we can avoid bored users!</p>",
       "twitter": "cstrnt"
     },
     {
