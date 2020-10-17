@@ -76,14 +76,18 @@
     Absolutely! You'll find it on the Svelte Society <a
       rel="noreferrer"
       target="_blank"
-      href="https://www.youtube.com/channel/UCZSr5B0l07JXK2FIeWA0-jw">
+      href="https://youtube.com/sveltesociety">
       YouTube channel
     </a> once the event has been finished.
   </Question>
   <Question title="How do I watch it?">
-    Once the day arrives, tune in to the Svelte Society YouTube channel and
-    start watching. We'll also make sure to post a notice at the top of this
-    page if you forget where to go.
+    Once the day arrives, tune in to the Svelte Society <a
+      rel="noreferrer"
+      target="_blank"
+      href="https://youtube.com/sveltesociety">
+      YouTube channel
+    </a> and start watching. We'll also make sure to post a notice at the top of
+    this page if you forget where to go.
   </Question>
   <Question title="Can you remind me when the date gets closer?">
     Yes, <a rel="noreferrer" href="https://forms.gle/6PBKXng9jfrvxjhX8" target="_blank"> enter
