@@ -1,6 +1,30 @@
 {
   "speaker": [
     {
+      "name": "Rich Harris",
+      "title": "Futuristic Web Development",
+      "slug": "futuristic-web-development",
+      "twitter": "rich_harris",
+      "image": "rich.jpeg",
+      "content": "<p>The front end development landscape has been transformed since we started building Svelte and Sapper. What would a reimagined, truly modern workflow look like?</p>"
+    },
+    {
+      "name": "Annie Taylor Chen",
+      "title": "How to build a cat-themed streaming service with Svelte",
+      "twitter": "annietaylorchen",
+      "slug": "svelte-at-the-edge-using-cloudflare-workers",
+      "image": "annie.jpg",
+      "content": "<p>Have you heard of Meowflix, a Netflix but dedicated only to cat-themed movies, built by a group of diligent cats? Tune in for a brief walkthrough on how it was made.</p>"
+    },
+    {
+      "name": "Jim Fisk",
+      "title": "Zero config Svelte websites with Plenti",
+      "slug": "zero-config-svelte-websites-with-Plenti",
+      "twitter": "@jimafisk ",
+      "image": "jim.jpg",
+      "content": "<p>Plenti is an open source static site generator (SSG) that uses Svelte to give developers a dead simple way to make dynamic and speedy websites. It takes a new approach by cutting out bundlers, hitting the compiler directly in V8, and building scaffolding in Go to give an extremely fast and consistent developer experience. We'll go over how the data source, content structure, layout, routing, and hydration are all connected to work out-of-the-box. You don't need any tools or configuration to get started — NodeJS and NPM are optional.</p>"
+    },
+    {
       "name": "Luke Edwards",
       "title": "Svelte at the Edge: Powering Svelte Apps with Cloudflare Workers",
       "twitter": "lukeed05",
