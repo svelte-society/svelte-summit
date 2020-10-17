@@ -17,10 +17,18 @@
       "content": "<p>Have you heard of Meowflix, a Netflix but dedicated only to cat-themed movies, built by a group of diligent cats? Tune in for a brief walkthrough on how it was made.</p>"
     },
     {
+      "name": "Nicolo Davis",
+      "title": "How does Svelte's crossfade function work?",
+      "slug": "how-does-sveltes-crossfade-function-work",
+      "twitter": "nicolodavis",
+      "image": "jim.jpg",
+      "content": "<p>Declarative programming is nice. However, actions performed on a web app are imperative. Svelte's crossfade function provides a way to bridge the gap seamlessly.</p>"
+    },
+    {
       "name": "Jim Fisk",
       "title": "Zero config Svelte websites with Plenti",
       "slug": "zero-config-svelte-websites-with-Plenti",
-      "twitter": "@jimafisk ",
+      "twitter": "jimafisk ",
       "image": "jim.jpg",
       "content": "<p>Plenti is an open source static site generator (SSG) that uses Svelte to give developers a dead simple way to make dynamic and speedy websites. It takes a new approach by cutting out bundlers, hitting the compiler directly in V8, and building scaffolding in Go to give an extremely fast and consistent developer experience. We'll go over how the data source, content structure, layout, routing, and hydration are all connected to work out-of-the-box. You don't need any tools or configuration to get started — NodeJS and NPM are optional.</p>"
     },
