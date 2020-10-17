@@ -42,7 +42,7 @@
     },
     {
       "name": "Dominik G",
-      "title": "Prototyping Testing with Real Data Models using Svelte",
+      "title": "Introduction to Svite",
       "slug": "introduction-to-svite",
       "image": "svite.svg",
       "content": "<p>An Introduction to svite and demonstration of its features:</p><ul><li><p>easy setup with cli</p></li><li><p>ultra fast hot-module-reloading</p></li><li><p>optimized production build</p></li></ul>"
