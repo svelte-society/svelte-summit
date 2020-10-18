@@ -76,7 +76,7 @@
       <span class="live">LIVE</span>
       on
       <a
-        href="hhttps://www.youtube.com/watch?v={videoId}"
+        href="https://www.youtube.com/watch?v={videoId}"
         rel="noreferrer"
         target="_blank"
       >YouTube</a>!
