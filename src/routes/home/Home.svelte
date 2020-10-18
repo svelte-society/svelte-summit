@@ -6,6 +6,7 @@
   import Speakers from "../../components/Sections/Speakers.svelte";
   import SignUp from "../../components/Sections/SignUp.svelte";
   import FAQ from "../../components/Sections/FAQ.svelte";
+  import Live from "../../components/Sections/Live.svelte";
   import Footer from "../../components/Sections/Footer.svelte";
 </script>
 
@@ -50,6 +51,7 @@
 </svelte:head>
 
 <Hero />
+<Live videoId="vHHLLJA0b70" />
 <Sponsors sponsors={data.sponsors} />
 <Speakers talks={data.speakers} />
 <SignUp />
