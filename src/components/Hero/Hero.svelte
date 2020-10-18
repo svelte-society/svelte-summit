@@ -10,6 +10,10 @@
       url: "#intro",
     },
     {
+      name: "Live!",
+      url: "#live",
+    },
+    {
       name: "Sponsors",
       url: "#sponsors",
     },
