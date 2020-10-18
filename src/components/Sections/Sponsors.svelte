@@ -17,7 +17,7 @@
     --small-grid: var(--media-lte-sm) 0;
     grid-gap: var(--small-grid, 30px);
     max-width: var(--container-width);
-    --small-margin: var(--media-lte-sm) 0px 20px -50px 20px;
+    --small-margin: var(--media-lte-sm) 0px 20px 0px 20px;
     margin: var(--small-margin, -120px auto 70px auto);
   }
   h2 {
