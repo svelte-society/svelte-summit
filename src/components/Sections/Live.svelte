@@ -74,7 +74,7 @@
     <h2>
       Watch it
       <span class="live">LIVE</span>
-      now on
+      on
       <a
         href="hhttps://www.youtube.com/watch?v={videoId}"
         rel="noreferrer"
