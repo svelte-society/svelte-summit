@@ -10,13 +10,7 @@
     --small-padding: var(--media-lte-sm) 50px 0;
     padding: var(--small-padding, 200px 40px 50px 40px);
 
-    background: #2b636c;
-    background-image: url(/images/lake.svg);
-    background-position: top;
-    background-repeat: no-repeat;
-
-    --mobile-backgrounds: var(--media-lte-sm) auto 130px;
-    background-size: var(--mobile-backgrounds, auto 150px);
+    background: var(--background-super-dark);
   }
   .container {
     display: grid;
