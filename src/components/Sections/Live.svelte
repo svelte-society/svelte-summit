@@ -1,5 +1,5 @@
 <script>
-  export let videoId = '';
+  export let videoId = "";
 </script>
 
 <style>
@@ -25,43 +25,19 @@
   h2 {
     width: 100%;
   }
-  .live {
-    background-color: #ff3e00;
-    padding: 0 3px 0 5px;
-    border-radius: 3px;
-    font-size: 75%;
-    letter-spacing: 2px;
-    position: relative;
-    z-index: 1;
-  }
-  .live:before {
-    content: '';
-    z-index: -1;
-    position: absolute;
-    display: block;
-    border-radius: inherit;
-    top: 1px;
-    right: 1px;
-    bottom: 1px;
-    left: 1px;
-    box-shadow: 0 0 5px #ffffff80, 0 0 10px 8px var(--svelte-orange);
-    opacity: 0.3;
-    transform: scale(0.8);
-    animation: fade-radiosity infinite 2s ease-in-out;
-  }
+
   @keyframes fade-radiosity {
-    0%, 100% {
+    0%,
+    100% {
       opacity: 0.3;
       transform: scale(0.8);
     }
     40% {
-      opacity: .6;
+      opacity: 0.6;
       transform: scale(1);
     }
   }
-  a:hover {
-    color: #e4eef0;
-  }
+
   iframe {
     max-width: 90%;
     max-height: 80vmin;
@@ -71,23 +47,15 @@
 
 <div class="background" id="live">
   <div class="container">
-    <h2>
-      Watch it
-      <span class="live">LIVE</span>
-      on
-      <a
-        href="https://www.youtube.com/watch?v={videoId}"
-        rel="noreferrer"
-        target="_blank"
-      >YouTube</a>!
-    </h2>
+    <h2>Thank you for being a part of Svelte Summit 2020!</h2>
+    <!-- svelte-ignore a11y-missing-attribute -->
+
     <iframe
       width="840"
       height="420"
       src="https://www.youtube.com/embed/{videoId}"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+      allowfullscreen />
   </div>
 </div>
