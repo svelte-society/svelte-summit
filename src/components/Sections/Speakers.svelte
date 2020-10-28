@@ -48,7 +48,7 @@
     <h2>SPEAKERS</h2>
     <div class="grid">
       {#each talks as speaker}
-        <Speaker {speaker} />
+        <Speaker {speaker} viewTalk={true} />
       {/each}
     </div>
   </section>

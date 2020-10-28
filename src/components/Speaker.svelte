@@ -1,5 +1,6 @@
 <script>
   export let link = false;
+  export let viewTalk = false;
   export let speaker;
   const { image, title, name, twitter } = speaker;
 </script>
@@ -58,6 +59,13 @@
     color: #bedde2;
     line-height: 170%;
   }
+  .viewTalk a {
+    background: #307F8B;
+    padding: 1em;
+  }
+  .viewTalk {
+    margin-top: 2em;
+  }
 </style>
 
 <div class="speaker">
@@ -81,5 +89,8 @@
       {#if link}<a href="/talks/{speaker.slug}">{title}</a>{:else}{title}{/if}
     </h3>
     {@html speaker.content}
+    {#if viewTalk}
+      <div class="viewTalk"><a href="/talks/{speaker.slug}">View Talk</a></div>
+    {/if}
   </div>
 </div>
