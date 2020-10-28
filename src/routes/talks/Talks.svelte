@@ -13,9 +13,6 @@
     display: grid;
     place-items: center;
   }
-  h1 {
-    margin-bottom: 10px;
-  }
 
   .container {
     display: grid;
@@ -131,7 +128,7 @@
 <div class="container" id="intro">
   <div class="content">
     <div id="speaker">
-      <Speaker speaker={data} />
+      <Speaker speaker={data} singleTalk />
     </div>
 
     <iframe

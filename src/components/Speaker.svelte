@@ -1,6 +1,7 @@
 <script>
   export let link = false;
   export let viewTalk = false;
+  export let singleTalk = false;
   export let speaker;
   const { image, title, name, twitter } = speaker;
 </script>
@@ -35,6 +36,13 @@
     padding-top: 5px;
     font-size: 2em;
   }
+  h1 {
+    font-family: "Overpass";
+    margin: 0 auto;
+    line-height: 140%;
+    padding-top: 5px;
+    font-size: 2em;
+  }
   a {
     text-decoration: none;
   }
@@ -60,7 +68,7 @@
     line-height: 170%;
   }
   .viewTalk a {
-    background: #307F8B;
+    background: #307f8b;
     padding: 1em;
   }
   .viewTalk {
@@ -85,9 +93,15 @@
         </div>
       {/if}
     </div>
-    <h3>
-      {#if link}<a href="/talks/{speaker.slug}">{title}</a>{:else}{title}{/if}
-    </h3>
+    {#if singleTalk}
+      <h1>
+        {#if link}<a href="/talks/{speaker.slug}">{title}</a>{:else}{title}{/if}
+      </h1>
+    {:else}
+      <h3>
+        {#if link}<a href="/talks/{speaker.slug}">{title}</a>{:else}{title}{/if}
+      </h3>
+    {/if}
     {@html speaker.content}
     {#if viewTalk}
       <div class="viewTalk"><a href="/talks/{speaker.slug}">View Talk</a></div>
