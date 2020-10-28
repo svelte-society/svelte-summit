@@ -1,17 +1,14 @@
+const content = require("../../../content.json");
 module.exports = {
   // WARNING: Here be dragons and magic of all sorts.
-
-  // 'data' and 'all' for this route are populated by /plugins/elder-plugin/markdown/index.js
-  // This example is designed to show you the power of plugins.
-
-  // If you look in your `elder.config.js` you will see that the plugin is configured as so:
-  // 'elderjs-plugin-markdown': {
-  //   routes: ['blog'],
-  // },
-
-  // This is telling the simple markdown plugin, which route to control.
-
-  data: {},
-  all: () => [],
+  data: ({data, request}) => {
+    let x = content.speaker.find(s => s.slug === request.slug)
+    // console.log('data returned2', request)
+    return x
+  },
+  all: ({data}) => {
+    // require('fs').writeFileSync('data.json', JSON.stringify(content.speaker, null, 2))
+    return content.speaker.map(speaker => ({ slug: speaker.slug }))
+  },
   permalink: ({ request }) => `/talks/${request.slug}/`,
 };
