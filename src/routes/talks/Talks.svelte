@@ -4,13 +4,14 @@
   export let data; // data is mainly being populated from the /plugins/edlerjs-plugin-markdown/index.js
   $: otherTalks = data.speakers.filter((spkr) => spkr.slug !== data.slug); // not the current talk
   $: nextTalk = otherTalks[Math.floor(Math.random() * otherTalks.length)];
-  $: seoTitle = `${data.name} - ${data.title}: SvelteSummit.com`
+  $: seoTitle = `${data.name} - ${data.title}: SvelteSummit.com`;
 </script>
 
 <style>
-  
   a {
     text-decoration: none;
+    display: grid;
+    place-items: center;
   }
   h1 {
     margin-bottom: 10px;
@@ -50,10 +51,10 @@
     text-decoration: underline;
   }
   .nextTalk {
-    display: flex
+    display: flex;
   }
   .nextTalk {
-    background: #307F8B;
+    background: #307f8b;
     padding: 1em;
   }
 
@@ -93,16 +94,24 @@
 
 <svelte:head>
   <title>{seoTitle}</title>
-  <meta name="theme-color" content="#317EFB"/>
+  <meta name="theme-color" content="#317EFB" />
   <meta property="title" content={seoTitle} />
   <meta property="og:title" content={seoTitle} />
   <meta name="description" content={data.name + "'s talk at Svelte Summit!"} />
-  <meta property="og:description" content={data.name + "'s talk at Svelte Summit!"} />
-  <meta property="og:image" content="https://sveltesummit.com/images/metatagimg.png" />
+  <meta
+    property="og:description"
+    content={data.name + "'s talk at Svelte Summit!"} />
+  <meta
+    property="og:image"
+    content="https://sveltesummit.com/images/metatagimg.png" />
   <meta property="og:url" content="http://sveltesummit.com" />
   <meta property="twitter:title" content={seoTitle} />
-  <meta property="twitter:description" content={data.name + "'s talk at Svelte Summit!"} />
-  <meta property="twitter:image" content="https://sveltesummit.com/images/metatagimg.png" />
+  <meta
+    property="twitter:description"
+    content={data.name + "'s talk at Svelte Summit!"} />
+  <meta
+    property="twitter:image"
+    content="https://sveltesummit.com/images/metatagimg.png" />
   <meta property="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@sveltesociety" />
 </svelte:head>
@@ -141,9 +150,8 @@
       target="_blank">✉️ Sign up for Svelte Summit 2021!</a>
     <div class="nextTalk">
       <span>Next talk: &nbsp; </span>
-      <div>
-        <a href={`/talks/${nextTalk.slug}`}> {nextTalk.title}</a></div>
-      </div>
+      <div><a href={`/talks/${nextTalk.slug}`}> {nextTalk.title}</a></div>
+    </div>
   </div>
 </div>
 
