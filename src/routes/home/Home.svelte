@@ -12,6 +12,7 @@
 
 <svelte:head>
   <title>Svelte Summit 2020</title>
+  <meta name="theme-color" content="#2D626B" />
   <link rel="canonical" href="https://sveltesummit.com/" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Primary Meta Tags -->

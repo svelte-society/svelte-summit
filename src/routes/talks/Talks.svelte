@@ -108,7 +108,7 @@
 
 <svelte:head>
   <title>{seoTitle}</title>
-  <meta name="theme-color" content="#317EFB" />
+  <meta name="theme-color" content="#2D626B" />
   <meta property="title" content={seoTitle} />
   <meta property="og:title" content={seoTitle} />
   <meta name="description" content={data.name + "'s talk at Svelte Summit!"} />
