@@ -28,7 +28,7 @@
     "css-media-vars": "^1.0.1",
     "del": "^5.1.0",
     "dotenv": "^8.2.0",
-    "elderjs-plugin-google-fonts": "^1.0.0",
+    "elderjs-plugin-google-fonts": "^1.0.2",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
     "gray-matter": "^4.0.2",
