@@ -1,11 +1,10 @@
 <style>
   img {
     position: absolute;
-    --moon-display: var(--media-lte-sm) none;
-    display: var(--moon-display, initial);
-    top: 55%;
-    right: 5%;
-    height: 275px;
+    --sun-display: var(--media-lte-sm) none;
+    display: var(--sun-display, initial);
+    top: -29.5%;
+    left: 5%;
   }
 </style>
 
