@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "./src/build.js",
   "scripts": {
-    "start": "npm run build:rollup && npm run dev:server",
     "build": "node ./src/cleanPublic.js && npm run build:rollup && npm run build:html && node ./src/afterBuild.js",
     "build:rollup": "rollup -c",
     "build:html": "node ./src/build.js",
