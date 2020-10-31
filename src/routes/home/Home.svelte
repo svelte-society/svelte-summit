@@ -13,7 +13,7 @@
 <svelte:head>
   <title>Svelte Summit 2020</title>
   <link rel="canonical" href="https://sveltesummit.com/" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <!-- Primary Meta Tags -->
   <title>Svelte Summit is a FREE whole-day online event.</title>
   <meta
@@ -48,6 +48,7 @@
   <meta
     property="twitter:image"
     content="https://sveltesummit.com/images/metatagimg.png" />
+
 </svelte:head>
 
 <Hero />

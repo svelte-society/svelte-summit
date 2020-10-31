@@ -1,18 +1,26 @@
 <script>
+
   import Speaker from "../../components/Speaker.svelte";
   import Footer from "../../components/Sections/Footer.svelte";
+
   export let data; // data is mainly being populated from the /plugins/edlerjs-plugin-markdown/index.js
+
   $: otherTalks = data.speakers.filter((spkr) => spkr.slug !== data.slug); // not the current talk
   $: nextTalk = otherTalks[Math.floor(Math.random() * otherTalks.length)];
   $: seoTitle = `${data.name} - ${data.title}: SvelteSummit.com`;
+
 </script>
 
 <style>
+
   a {
     text-decoration: none;
-    display: grid;
-    place-items: center;
   }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
 
   .container {
     display: grid;
@@ -21,12 +29,33 @@
     place-items: center;
     padding: 3rem;
   }
+
   .content {
     display: flex;
     flex-direction: column;
   }
+
   #speaker {
     margin-right: 2rem;
+  }
+
+
+  .nextTalk {
+    display: flex;
+    background: #307F8B;
+    padding: 1em;
+  }
+
+  @media (min-width: 1000px) {
+
+    .content {
+      flex-direction: row;
+    }
+
+    #speaker {
+      max-width: 400px;
+    }
+
   }
 
   #HomeButton {
@@ -35,49 +64,36 @@
     align-items: center;
     margin-top: 2rem;
     margin-left: 3rem;
-    background: #1c464d;
+    background: #1C464D;
     border-radius: 50%;
     padding: 1rem;
   }
-  .Footer {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  .nextTalk {
-    display: flex;
-  }
-  .nextTalk {
-    background: #307f8b;
-    padding: 1em;
-  }
-
-  /* #signUp {
-    font-family: "Inter";
-    text-decoration: none;
-    padding: 15px 20px;
-    font-weight: 500;
-    background: #050606;
-    font-size: 20px;
-    color: #bedde2;
-  } */
 
   @media (min-width: 1000px) {
-    .content {
-      flex-direction: row;
-    }
-    #speaker {
-      max-width: 400px;
-    }
 
     #HomeButton {
       position: absolute;
       top: 3rem;
       left: 2rem;
     }
+
+  }
+
+  /* Footer */
+
+  .Footer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Footer a {
+    display: grid;
+    place-items: center;
+  }
+
+  @media (min-width: 1000px) {
+
     .Footer {
       margin-top: 1rem;
       display: flex;
@@ -87,14 +103,17 @@
       flex-direction: row;
     }
   }
+
 </style>
 
 <svelte:head>
+
   <title>{seoTitle}</title>
-  <meta name="theme-color" content="#317EFB" />
+
   <meta property="title" content={seoTitle} />
   <meta property="og:title" content={seoTitle} />
   <meta name="description" content={data.name + "'s talk at Svelte Summit!"} />
+
   <meta
     property="og:description"
     content={data.name + "'s talk at Svelte Summit!"} />
@@ -106,11 +125,7 @@
   <meta
     property="twitter:description"
     content={data.name + "'s talk at Svelte Summit!"} />
-  <meta
-    property="twitter:image"
-    content="https://sveltesummit.com/images/metatagimg.png" />
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@sveltesociety" />
+
 </svelte:head>
 <div id="HomeButton">
   <a href="/#speakers"><svg
