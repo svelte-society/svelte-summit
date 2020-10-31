@@ -107,11 +107,13 @@
 </style>
 
 <svelte:head>
+
   <title>{seoTitle}</title>
-  <meta name="theme-color" content="#2D626B" />
+
   <meta property="title" content={seoTitle} />
   <meta property="og:title" content={seoTitle} />
   <meta name="description" content={data.name + "'s talk at Svelte Summit!"} />
+
   <meta
     property="og:description"
     content={data.name + "'s talk at Svelte Summit!"} />
@@ -123,11 +125,7 @@
   <meta
     property="twitter:description"
     content={data.name + "'s talk at Svelte Summit!"} />
-  <meta
-    property="twitter:image"
-    content="https://sveltesummit.com/images/metatagimg.png" />
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@sveltesociety" />
+
 </svelte:head>
 <div id="HomeButton">
   <a href="/#speakers"><svg

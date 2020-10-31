@@ -1,9 +1,11 @@
 <script>
+
   export let link = false;
   export let viewTalk = false;
   export let singleTalk = false;
   export let speaker;
   const { image, title, name, twitter } = speaker;
+
 </script>
 
 <style>
