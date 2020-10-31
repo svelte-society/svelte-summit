@@ -17,7 +17,7 @@ Navigate to [localhost:3000](http://localhost:3000). You should see your app run
 
 ### Development:
 
-For development, we recommend running two separate terminals. One for the server and the other for rollup.
+For development, we recommend running two separate terminals. One for the server and the other for rollup (note that this command does not have an explicit `npm start` command for this reason).
 
 **Terminal 1**
 
