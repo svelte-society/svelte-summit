@@ -1,8 +1,2 @@
-export { default as BackMountain } from './BackMountain.svelte'
-export { default as FrontMountain } from './FrontMountain.svelte'
-export { default as MidMountain } from './MidMountain.svelte'
-export { default as Bears } from './Bears.svelte'
-export { default as Reflection } from './Reflection.svelte'
-export { default as Moon } from './Moon.svelte'
-export { default as EveningSun } from './EveningSun.svelte'
-export { default as MorningSun } from './MorningSun.svelte'
+export { default as Mountain } from "./Mountain.svelte";
+export { default as Lake } from "./Lake.svelte";

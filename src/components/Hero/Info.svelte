@@ -1,5 +1,6 @@
 <style>
   .info {
+    margin-top: 12px;
     display: grid;
     grid-gap: 12px;
 
@@ -10,6 +11,9 @@
     place-items: var(--small-placement, start);
   }
   time {
+    --text-color: var(--media-lte-sm) #D6F1F5;
+    color: var(--text-color, #A8434D);
+    
     line-height: 105%;
     --small: var(--media-lte-sm) 40px;
 
@@ -24,6 +28,8 @@
     text-align: var(--align-text-mobile, initial);
   }
   .sub {
+    color: #D6F1F5;
+
     --small: var(--media-lte-sm) 33px;
     font-size: var(--small, 40px);
 
@@ -40,9 +46,9 @@
 </style>
 
 <div class="info">
-  <time class="display" datetime="2020-10-18">
-    <span>OCT 18</span>
-    <span>2020</span>
+  <time class="display" datetime="2021-04-25">
+    <span>APR 25</span>
+    <span>2021</span>
   </time>
-  <div class="sub display">THE 2ND VIRTUAL CONFERENCE ABOUT SVELTE</div>
+  <div class="sub display">THE 3RD VIRTUAL SVELTE CONFERENCE</div>
 </div>

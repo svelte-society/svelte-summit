@@ -4,9 +4,9 @@
 
 <style>
   .container {
-    background: #17353a;
+    background: var(--background-super-dark);
     position: fixed;
-    z-index: 1001;
+    z-index: 990;
     top: 0;
     left: 0;
     right: 0;
@@ -31,7 +31,7 @@
     opacity: 1;
   }
   a {
-    color: var(--sky-blue);
+    color: white;
     opacity: 0.6;
     text-decoration: none;
     letter-spacing: 0.6px;

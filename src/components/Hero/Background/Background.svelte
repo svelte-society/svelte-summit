@@ -1,11 +1,7 @@
 <script>
   import {
-    BackMountain,
-    MidMountain,
-    FrontMountain,
-    Reflection,
-    Bears,
-    MorningSun,
+    Mountain,
+    Lake
   } from "./SVG/";
 </script>
 
@@ -14,20 +10,17 @@
     overflow: hidden;
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
     right: 0;
-    z-index: -1;
+    z-index: -10;
+    --padding-tablet: var(--media-lte-md) 105px;
+    padding-top: var(--padding-tablet, 180px);
 
-    background: #d6f1f5;
+    background: #F4E7F1;
   }
 </style>
 
 <div class="container">
-  <MorningSun />
-  <BackMountain type="morning" />
-  <MidMountain type="morning" />
-  <FrontMountain type="morning" />
-  <Bears />
-  <Reflection />
+  <Mountain />
+  <Lake />
 </div>

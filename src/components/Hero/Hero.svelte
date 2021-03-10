@@ -9,18 +9,18 @@
       name: "Intro",
       url: "#intro",
     },
-    {
-      name: "Live!",
-      url: "#live",
-    },
+    // {
+    //   name: "Live!",
+    //   url: "#live",
+    // },
     {
       name: "Sponsors",
       url: "#sponsors",
     },
-    {
-      name: "Speakers",
-      url: "#speakers",
-    },
+    // {
+    //   name: "Speakers",
+    //   url: "#speakers",
+    // },
     {
       name: "FAQ",
       url: "#faq",
@@ -31,16 +31,15 @@
 <style>
   .container {
     position: relative;
-    z-index: 1001;
 
-    --small-padding: var(--media-lte-sm) 43px;
+    --small-padding: var(--media-lte-sm) 350px;
     padding-bottom: var(--small-padding, 125px);
 
     display: grid;
     --small-gap: var(--media-lte-sm) 42px;
     --medium-gap: var(--media-md) 42px;
     grid-gap: var(--small-gap, var(--medium-gap, 82px));
-    place-items: start center;
+    place-items: center;
   }
 
   .logo {
@@ -70,20 +69,14 @@
   .text {
     display: grid;
     --columns-small: var(--media-lte-sm) 1fr;
-    grid-template-columns: var(--columns-small, auto auto);
+    grid-template-columns: var(--columns-small, 1fr 1fr);
 
-    --small-gap: var(--media-lte-sm) 30px;
-    grid-gap: var(--small-gap, 40px);
-
-    --mobile-justify: var(--media-lte-sm);
-    justify-self: var(--small-gap, end);
-
-    --mobile-margin-offset: var(--media-lte-sm) 0;
-    margin-right: var(--mobile-margin-offset, 15vw);
+    --small-gap: var(--media-lte-sm) 10px;
+    grid-gap: var(--small-gap, 20px);
 
     padding: 0 20px;
-
-    place-items: start center;
+    
+    align-items: start;
     color: var(--background);
     line-height: 125%;
   }

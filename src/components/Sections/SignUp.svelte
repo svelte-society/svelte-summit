@@ -1,18 +1,15 @@
-<script>
-  import BackMountain from "../Hero/Background/SVG/BackMountain.svelte";
-</script>
-
 <style>
   .background {
     --small-padding: var(--media-lte-sm) 45px 25px;
     padding: var(--small-padding, 90px 40px);
-    background: var(--background-dark);
   }
   .container {
+    padding: 20px;
     display: grid;
     grid-gap: 5px;
     justify-items: start;
     margin: 0 auto;
+    background: var(--background-super-dark);
     max-width: var(--container-width);
   }
   h2 {
@@ -23,12 +20,8 @@
     text-decoration: none;
     padding: 15px 20px;
     font-weight: 500;
-    background: #050606;
     font-size: 20px;
-    color: #bedde2;
-  }
-  p {
-    color: #bedde2;
+    background: var(--background-dark);
   }
 </style>
 
