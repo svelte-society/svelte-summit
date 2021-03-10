@@ -10,14 +10,14 @@
     --small-padding: var(--media-lte-sm) 50px 0;
     padding: var(--small-padding, 200px 40px 50px 40px);
 
-    background: var(--background-super-dark);
+    background: var(--background-dark);
   }
   .container {
     display: grid;
     --small-grid: var(--media-lte-sm) 0;
     grid-gap: var(--small-grid, 30px);
     max-width: var(--container-width);
-    --small-margin: var(--media-lte-sm) 0px 20px 0px 20px;
+    --small-margin: var(--media-lte-sm) -300px 20px 0px 20px;
     margin: var(--small-margin, -120px auto 70px auto);
   }
   h2 {
@@ -48,7 +48,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    background: #1c464d;
+    background: var(--background-super-dark);
     padding: 30px 50px;
   }
 
@@ -132,27 +132,29 @@
   <div class="container">
     <h2>SPONSORED BY</h2>
     <div class="gold sponsors">
-      {#each gold as { url, description, name, image }}
-        <a
+      {#each new Array(3) as _}
+        <!-- <a
           href={url}
           rel="noopener noreferrer"
           target="_blank"
           class="sponsor"
-          data-tooltip={description}>
+          data-tooltip={description}>GOLD SPONSOR SPOT
           <img src="/images/sponsors/{image}" alt="{name} logo" />
-        </a>
+        </a> -->
+        <div class="sponsor">Your company (Gold)</div>
       {/each}
     </div>
     <div class="silver sponsors">
-      {#each silver as { url, description, name, image }}
-        <a
+      {#each new Array(4) as _}
+        <!-- <a
           href={url}
           rel="noopener noreferrer"
           target="_blank"
           class="sponsor"
           data-tooltip={description}>
           <img src="/images/sponsors/{image}" alt="{name} logo" />
-        </a>
+        </a> -->
+          <div class="sponsor">Your company (Silver)</div>
       {/each}
     </div>
   </div>

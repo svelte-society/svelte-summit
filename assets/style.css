@@ -1,22 +1,22 @@
 :root {
   /* Colors */
-  --background: #2B636C;
-  --background-dark: #1C464D;
-  --background-darkest: #162B2E;
-  --background-super-dark: #142E32;
-  --mountain-grey: #D5E2E4;
-  --sky-blue: #D6F1F5;
-  --sky-pink: #E4D6D5;
-  --svelte-orange: #FF3E00;
-  --bear-brown: #7B5855;
-  --mountain-yellow: #F5E6D4;
+  --background: #5b3d3b;
+  --background-dark: #5b3d3b;
+  --background-darkest: #5b3d3b;
+  --background-super-dark: #471318;
+  --mountain-grey: #d5e2e4;
+  --sky-blue: #d6f1f5;
+  --sky-pink: #e4d6d5;
+  --svelte-orange: #ff3e00;
+  --bear-brown: #7b5855;
+  --mountain-yellow: #f5e6d4;
 
   --body-text: white;
 
   --container-width: 1100px;
 
   /* Font settings */
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--body-text);
 
   --small: var(--media-lte-sm) 18px;
@@ -31,29 +31,32 @@ body {
   line-height: 1.7;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: white;
   font-weight: bold;
 }
 
 h1.display {
-  font-family: 'Anton', Impact, sans-serif;
+  font-family: "Anton", Impact, sans-serif;
   line-height: 110%;
 
   --small: var(--media-lte-sm) 84px;
   font-size: var(--small, 160px);
 }
 
-h2.display, time.display, .sub.display {
-  font-family: 'Anton', Impact, sans-serif;
+h2.display,
+time.display,
+.sub.display {
+  font-family: "Anton", Impact, sans-serif;
   line-height: 110%;
-  
+
   --small: var(--media-lte-sm) 40px;
   font-size: var(--small, 73px);
 }
 
 h1 {
-  font-family: 'Overpass', Arial, sans-serif;
+  font-family: "Overpass", Arial, sans-serif;
   font-weight: 700;
 
   --small: var(--media-lte-sm) 29px;
@@ -62,7 +65,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Overpass', Arial, sans-serif;
+  font-family: "Overpass", Arial, sans-serif;
   font-weight: 700;
 
   --small: var(--media-lte-sm) 22px;
@@ -71,7 +74,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Overpass', Arial, sans-serif;
+  font-family: "Overpass", Arial, sans-serif;
   font-weight: 700;
 
   --small: var(--media-lte-sm) 20px;
@@ -85,7 +88,7 @@ h3 {
  * Copyright (c) James0x57, PropJockey, 2020
  */
 
- html {
+html {
   --media-print: initial;
   --media-screen: initial;
   --media-speech: initial;
@@ -120,13 +123,19 @@ h3 {
   --media-pointer-none: initial;
 }
 @media print {
-  html { --media-print: ; }
+  html {
+    --media-print: ;
+  }
 }
 @media screen {
-  html { --media-screen: ; }
+  html {
+    --media-screen: ;
+  }
 }
 @media speech {
-  html { --media-speech: ; }
+  html {
+    --media-speech: ;
+  }
 }
 @media (max-width: 37.499em) {
   html {

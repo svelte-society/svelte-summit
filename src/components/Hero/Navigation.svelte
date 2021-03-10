@@ -20,14 +20,17 @@
     display: var(--small, flex);
   }
   .navcontainer.scrolled {
-    background-color: #162b2e;
+    background-color: #471318;
+
+
   }
 
   .big-nav {
-    color: #2a8290;
+    color: #A8434D;
     font-size: 19px;
     margin: 0 24px;
-    padding: 4px 20px;
+    --small-pad: var(--media-lte-md) 4px 10px;
+    padding: var(--small-pad, 4px 20px);
     text-decoration: none;
     display: inline-flex;
 
@@ -35,7 +38,7 @@
   }
 
   .big-nav:visited {
-    color: #2a8290;
+    color: #A8434D;
   }
 
   .big-nav:hover,
@@ -76,7 +79,7 @@
     justify-items: center;
   }
   .container {
-    background: #17353a;
+    background: var(--background-super-dark);
     position: fixed;
     top: 0;
     left: 0;
