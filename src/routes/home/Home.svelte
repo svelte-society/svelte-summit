@@ -67,11 +67,8 @@
       rel="noreferrer"
       target="_blank"
       href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201018T140000&p1=tz_gmt"
-    >October 18th, 2020 at 2PM GMT!</a> We will aim to do what we did last time
-    and have talks all throughout the day. In practice this means that we will
-    start 14GMT and continue until we're done. This has the added benefit of
-    making it possible for our speakers to be present when their talks are given
-    so that they can answer questions.
+    >April 25th, 2021 </a> We will aim to do what we did last time
+    and have talks all throughout the day. An exact starting time not yet been decided on but we can tell you that the event will go on for about 5-6 hours (including breaks).
   </Question>
   <Question title="Will it be recorded?">
     Absolutely! You'll find it on the Svelte Society <a
