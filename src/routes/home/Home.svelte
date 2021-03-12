@@ -34,7 +34,7 @@
     content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 25th 2021." />
   <meta
     property="og:image"
-    content="https://sveltesummit.com/images/metatagimg.png" />
+    content="https://sveltesummit.com/images/metatagimg-spring.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@
     content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place onApril 25th 2021." />
   <meta
     property="twitter:image"
-    content="https://sveltesummit.com/images/metatagimg.png" />
+    content="https://sveltesummit.com/images/metatagimg-spring.png" />
 
 </svelte:head>
 
