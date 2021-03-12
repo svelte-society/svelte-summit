@@ -3,6 +3,7 @@
   import { Hero } from "../../components/Hero";
   import Question from "../../components/Question.svelte";
   import Sponsors from "../../components/Sections/Sponsors.svelte";
+  import CallForPeople from "../../components/Sections/CallForPeople.svelte";
   import Speakers from "../../components/Sections/Speakers.svelte";
   import SignUp from "../../components/Sections/SignUp.svelte";
   import FAQ from "../../components/Sections/FAQ.svelte";
@@ -53,6 +54,7 @@
 <Hero />
 <!-- <Live videoId="vHHLLJA0b70" /> -->
 <Sponsors sponsors={data.sponsors} />
+<CallForPeople />
 <!-- <Speakers talks={data.speakers} /> -->
 <SignUp />
 <FAQ>

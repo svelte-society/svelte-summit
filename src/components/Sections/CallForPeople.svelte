@@ -5,17 +5,9 @@
 
 <style>
   .background {
-    --small-padding: var(--media-lte-sm) 0 0 220px 0;
-    padding: var(--small-padding, 200px 40px 270px 40px);
-
-    background: #2b636c;
-    background-image: url(/images/forest.svg), url(/images/lake.svg);
-    background-position: bottom left, top;
-    background-repeat: repeat-x, no-repeat;
-
-    --mobile-backgrounds: var(--media-lte-sm) auto 130px;
-    background-size: var(--mobile-backgrounds, auto 150px);
-
+    padding: 100px 0;
+    
+    background: var(--background-super-dark);
     display: grid;
     justify-content: center;
   }
@@ -56,9 +48,9 @@
           Svelte discord server
         </a> .
       </p>
-      <Button href="https://forms.gle/sGLyg5sLd4kKwRXZ6">Send proposal</Button>
+      <Button href="https://sessionize.com/svelte-summit-spring-2021/">Send proposal</Button>
     </Card>
-    <Card center darkest>
+    <Card center>
       <h3>Looking for sponsors</h3>
       <p>
         Since last time we've decided to try to bring the online experience to another level by improving the quality.

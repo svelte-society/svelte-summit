@@ -5,13 +5,13 @@
 <style>
   .container {
     padding: 35px;
-    background: #1c464d;
+    background: var(--background-dark);
     display: grid;
     grid-gap: 20px;
     place-items: start;
   }
   .darkest {
-    background: #162b2e;
+    background: var(--background-super-dark);
   }
   .center {
     margin: 0 auto;
