@@ -20,7 +20,7 @@
     content="Svelte Summit is a FREE whole-day online event." />
   <meta
     name="description"
-    content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on October 18th 2020." />
+    content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 25th 2021." />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -30,7 +30,7 @@
     content="Svelte Summit is a FREE whole-day online event." />
   <meta
     property="og:description"
-    content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on October 18th." />
+    content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 25th 2021." />
   <meta
     property="og:image"
     content="https://sveltesummit.com/images/metatagimg.png" />
@@ -43,7 +43,7 @@
     content="Svelte Summit is a FREE whole-day online event." />
   <meta
     property="twitter:description"
-    content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on October 18th." />
+    content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place onApril 25th 2021." />
   <meta
     property="twitter:image"
     content="https://sveltesummit.com/images/metatagimg.png" />
