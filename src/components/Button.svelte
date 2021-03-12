@@ -8,7 +8,7 @@
     text-decoration: none;
     border: 0;
     padding: 12px 30px;
-    background: #307f8b;
+    background: var(--background-super-dark);
     color: white;
     font-size: 18px;
     font-family: "Inter";
@@ -19,7 +19,7 @@
     background: #000000;
   }
   a:hover {
-    background: #26636d;
+   opacity: 0.9;
   }
   .black:hover {
     background: #131313;
