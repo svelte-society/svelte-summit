@@ -61,8 +61,8 @@
 <Hero />
 <!-- <Live videoId="vHHLLJA0b70" /> -->
 <Sponsors sponsors={data.sponsors} />
-<CallForPeople />
 <Speakers talks={data.speakers} />
+<CallForPeople />
 <SignUp />
 <FAQ>
 	<Question title="What is this?">

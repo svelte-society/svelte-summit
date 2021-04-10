@@ -3,7 +3,7 @@
 	import Speaker from "../Speaker.svelte";
 </script>
 
-<div class="shaded">
+<div class="container">
 	<section id="speakers">
 		<h2>SPEAKERS</h2>
 		<div class="grid">
@@ -15,6 +15,10 @@
 </div>
 
 <style>
+	.container {
+		--small-margin: var(--media-lte-sm) 0 20px;
+		margin: var(--small-margin, 0 auto);
+	}
 	h2 {
 		--small-font: var(--media-lte-sm) 34px;
 		font-size: var(--small-font, 60px);
@@ -40,9 +44,4 @@
 			minmax(var(--small-grid, 400px, 1fr))
 		);
 	}
-	/* @media screen and (max-width: 600px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
-  } */
 </style>
