@@ -16,8 +16,8 @@
 
 <style>
 	.container {
-		--small-margin: var(--media-lte-sm) 0 20px;
-		margin: var(--small-margin, 0 auto);
+		--small-margin: var(--media-lte-sm) 0 20px 50px 20px;
+		margin: var(--small-margin, 0 auto 50px auto);
 	}
 	h2 {
 		--small-font: var(--media-lte-sm) 34px;
