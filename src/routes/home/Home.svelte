@@ -72,14 +72,9 @@
 		server.
 	</Question>
 	<Question title="When is it? What time?">
-		<a
-			rel="noreferrer"
-			target="_blank"
-			href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201018T140000&p1=tz_gmt"
-			>April 25th, 2021
-		</a> We will aim to do what we did last time and have talks all throughout the
-		day. An exact starting time not yet been decided on but we can tell you that
-		the event will go on for about 5-6 hours (including breaks).
+		<b>April 25th, 2021</b> We will aim to do what we did last time and have talks
+		all throughout the day. An exact starting time not yet been decided on but we
+		can tell you that the event will go on for about 5-6 hours (including breaks).
 	</Question>
 	<Question title="Will it be recorded?">
 		Absolutely! You'll find it on the Svelte Society <a
