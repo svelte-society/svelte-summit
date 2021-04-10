@@ -1,8 +1,4 @@
 <script>
-	export let sponsors;
-
-	const silver = sponsors.filter((s) => s.type === "silver");
-
 	const gold = [
 		{
 			url: "https://filevine.com/",
@@ -11,7 +7,13 @@
 				"Client, workflow and document management - the Work Operating System for Professionals",
 			image: "filevine.svg",
 		},
-		{},
+		{
+			url: "https://gitpod.io",
+			name: "Gitpod",
+			description:
+				"Remove all friction from the developer experience to be always ready-to-code and make software engineering more collaborative, joyful, and secure.",
+			image: "gitpod.svg",
+		},
 		{},
 	];
 </script>
