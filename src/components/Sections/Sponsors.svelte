@@ -8,7 +8,7 @@
 			image: "filevine.svg",
 		},
 		{
-			url: "https://gitpod.io",
+			url: "https://www.gitpod.io",
 			name: "Gitpod",
 			description:
 				"Remove all friction from the developer experience to be always ready-to-code and make software engineering more collaborative, joyful, and secure.",
