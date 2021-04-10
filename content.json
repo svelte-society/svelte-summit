@@ -1,202 +1,76 @@
 {
-  "speaker": [
-    {
-      "name": "Rich Harris",
-      "title": "Futuristic Web Development",
-      "slug": "futuristic-web-development",
-      "twitter": "rich_harris",
-      "image": "rich.jpeg",
-      "video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
-      "content": "<p>The front end development landscape has been transformed since we started building Svelte and Sapper. What would a reimagined, truly modern workflow look like?</p>"
-    },
-    {
-      "name": "Annie Taylor Chen",
-      "title": "How to build a cat-themed streaming service with Svelte",
-      "twitter": "annietaylorchen",
-      "slug": "meowflix",
-      "image": "annie.jpg",
-      "video": "https://www.youtube.com/embed/axpeyzQOVxM",
-      "content": "<p>Have you heard of Meowflix, a Netflix but dedicated only to cat-themed movies, built by a group of diligent cats? Tune in for a brief walkthrough on how it was made.</p>"
-    },
-    {
-      "name": "Nicolo Davis",
-      "title": "How does Svelte's crossfade function work?",
-      "slug": "how-does-sveltes-crossfade-function-work",
-      "twitter": "nicolodavis",
-      "image": "nicolo.jpg",
-      "video": "https://www.youtube.com/embed/wuFEvYW_phA",
-      "content": "<p>Declarative programming is nice. However, actions performed on a web app are imperative. Svelte's crossfade function provides a way to bridge the gap seamlessly.</p>"
-    },
-    {
-      "name": "Jim Fisk",
-      "title": "Zero config Svelte websites with Plenti",
-      "slug": "zero-config-svelte-websites-with-Plenti",
-      "twitter": "jimafisk ",
-      "image": "jim.jpg",
-      "video": "https://www.youtube.com/embed/mPA_60o0Bek",
-      "content": "<p>Plenti is an open source static site generator (SSG) that uses Svelte to give developers a dead simple way to make dynamic and speedy websites. It takes a new approach by cutting out bundlers, hitting the compiler directly in V8, and building scaffolding in Go to give an extremely fast and consistent developer experience. We'll go over how the data source, content structure, layout, routing, and hydration are all connected to work out-of-the-box. You don't need any tools or configuration to get started — NodeJS and NPM are optional.</p>"
-    },
-    {
-      "name": "Luke Edwards",
-      "title": "Svelte at the Edge: Powering Svelte Apps with Cloudflare Workers",
-      "twitter": "lukeed05",
-      "slug": "svelte-at-the-edge-using-cloudflare-workers",
-      "image": "lukeed.jpeg",
-      "video": "https://www.youtube.com/embed/CgfF1Otav_o",
-      "content": "<p>Will Svelte run inside a Cloudflare Worker? What are the benefits? Are there trade-offs? Can we make this easier?</p>"
-    },
-    {
-      "name": "Nick Reese",
-      "title": "Building SEO Friendly Sites with Svelte and Elder.js",
-      "twitter": "nickreese",
-      "slug": "building-seo-friendly-sites-with-svelte-and-elderjs",
-      "image": "nick.jpeg",
-      "video": "https://www.youtube.com/embed/lAWoV0wg7-4",
-      "content": "<p>Svelte makes interactivity a breeze but building SEO focused websites with Svelte isn't as easy as it seems.</p><p>In this talk we'll explore how you can use Svelte and Elder.js to build flagship SEO sites. We'll cover routing, partial hydration, hooks, and shortcodes so you can hit the ground running.</p>"
-    },
-    {
-      "name": "Peter Allen",
-      "title": "REPLicant",
-      "slug": "replicant",
-      "twitter": "evilpingwin",
-      "image": "peter.png",
-      "video": "https://www.youtube.com/embed/S3j1fLzC8_E",
-      "content": "<p>A REPL, or online playground, is a great way to allow users to test-drive tools you have built without needing to install a thing, but they are also great for interactive tutorials, sharing snippets and reporting bugs!</p><p>The Svelte REPL has been a feature of the svelte ecosystem since time immemorial and while REPLs can be complex, the principles are simple when you know them.</p><p>We will take a dive into how the Svelte REPL works and build the simplest possible version. LIVE!</p>"
-    },
-    {
-      "name": "Kirill Vasiltsov",
-      "title": "Unlocking The Power of Svelte Actions",
-      "slug": "unlocking-the-power-of-svelte-actions",
-      "image": "kirill.jpg",
-      "video": "https://www.youtube.com/embed/9S8GUTcMsgA",
-      "content": "<p>Learn how to make development easier with Svelte actions.<br>Create custom events, extend DOM attributes, share animation logic and<br>more.</p>",
-      "twitter": "virtualkirill"
-    },
-    {
-      "name": "Morgan Williams",
-      "title": "The Zen of Svelte",
-      "slug": "the-zen-of-svelte",
-      "image": "morgan.jpg",
-      "video": "https://www.youtube.com/embed/51K1Yo2e5TA",
-      "content": "<p>Approaching frontend as a backend developer, Svelte feels surprisingly pythonic. Let's take a quick look at what's familiar, what's foreign, and how to explore the gap.</p>",
-      "twitter": "mrgnw"
-    },
-    {
-      "name": "Dominik G",
-      "title": "Introduction to Svite",
-      "slug": "introduction-to-svite",
-      "image": "svite.svg",
-      "video": "https://www.youtube.com/embed/vn4heLCh-Iw",
-      "content": "<p>An Introduction to svite and demonstration of its features:</p><ul><li><p>easy setup with cli</p></li><li><p>ultra fast hot-module-reloading</p></li><li><p>optimized production build</p></li></ul>"
-    },
-    {
-      "name": "Daniel E. Sandoval",
-      "title": "Prototyping Testing with Real Data Models using Svelte",
-      "slug": "prototyping-testing-with-real-data-models-using-svelte",
-      "image": "daniel.jpg",
-      "video": "https://www.youtube.com/embed/S0uUJqTJA44",
-      "content": "<p>Rapid prototyping and feedback is the best way to ensure that our products are solving real problems and meeting user needs. Tools like Figma and InVision let us mock up something quickly and get static prototypes in front of users without having to dive into the intricacies of building real software. These tools fall short, however, when our prototype relies on real data in order to test our assumptions in a user interview or usability test.</p>",
-      "twitter": "d3sandoval"
-    },
-    {
-      "name": "R. Mark Volkmann",
-      "title": "Svelte Animations - Builtin and Custom",
-      "slug": "svelte-animations-builtin-and-custom",
-      "image": "mark.jpg",
-      "video": "https://www.youtube.com/embed/wMpKD0IDiHc",
-      "content": "<p>This talk equips Svelte developers to add animations to their apps. First, builtin animations using the svelte/animate, svelte/motion, and svelte/transition packages will be described and demonstrated. Then we will venture into creating custom animations and show how they are based on CSS rather than JavaScript for best performance. The content is derived from my book 'Svelte and Sapper in Action'.</p>",
-      "twitter": "mark_volkmann"
-    },
-    {
-      "name": "Ron Au",
-      "title": "The Web à la Mode",
-      "slug": "the-web-a-la-mode",
-      "image": "ron.jpg",
-      "video": "https://www.youtube.com/embed/7J3Ij3vuIOY",
-      "content": "<p>The web is a mouthwatering platform, fashionably served with a side of sweet reactivity. Take a wild ride exploring what it has to offer you and how Svelte ties it all together.</p>",
-      "twitter": "ronvoluted"
-    },
-    {
-      "name": "Matthias Stahl",
-      "title": "How you setup data visualization with Svelte",
-      "slug": "how-you-setup-data-visualization-with-svelte",
-      "image": "matthias.jpg",
-      "video": "https://www.youtube.com/embed/xtTrcCp2aVU",
-      "content": "<p>Svelte is not just a JavaScript compiler. It is a way of thinking to design complex data visualizations. Come with me on a journey through one of my recent Svelte data visualization works.</p><p>Lean back and I’ll show you the how and the wow!</p>",
-      "twitter": "h_i_g_s_c_h"
-    },
-    {
-      "name": "Tan Li Hau",
-      "title": "Demystifying Svelte Transitions",
-      "slug": "demystifying-svelte-transitions",
-      "image": "lihau.png",
-      "video": "https://www.youtube.com/embed/FxMyqxc8Fx0",
-      "content": "<p>It's unbelievably easy to create a cool slick transition in Svelte. Do you ever wonder how Svelte make it so simple? or how does Svelte make it performant and smooth?</p><p>In this talk, we are going to take a deep dive to look at the transition mechanism, how Svelte coordinates transitions across components, and what make them performant.</p>",
-      "twitter": "lihautan"
-    },
-    {
-      "name": "Tim Raderschad",
-      "title": "Modern fetch in svelte using stores",
-      "slug": "modern-fetch-in-svelte-using-stores",
-      "image": "tim.jpg",
-      "video": "https://www.youtube.com/embed/IUHkSoBxyLM",
-      "content": "<p>In this short talk we will take a look at using Svelte and their awesome stores to create a modified version of fetch which will make our UIs feel responsive and clean. At the end we will also sprinkle in a bit of caching to further improve the performance. We will also talk about Loading Spinners and how we can avoid bored users!</p>",
-      "twitter": "cstrnt"
-    },
-    {
-      "name": "Alessandro Segala",
-      "title": "So you want to pick a router?",
-      "slug": "so-you-want-to-pick-a-router",
-      "image": "alessandro.jpg",
-      "video": "https://www.youtube.com/embed/EL1qM0cv0eA",
-      "content": "<p>If you are building a Single-Page App (SPA), you will likely need a router for your app. With the lack of an official router for Svelte 3, there's quite a few options, so which one should you pick?</p><p>In this talk, we'll look at the two different kinds of routers (based on the History API or based on the page's hash), how they differ, and when you should pick which. We'll also go through a demo of implementing routing for a Svelte 3 SPA using svelte-spa-router.</p>",
-      "twitter": "ItalyPaleAle"
-    },
-    {
-      "name": "Benjamin Schachter",
-      "title": "Learn Svelte Using React",
-      "slug": "learn-svelte-using-react",
-      "image": "benjamin.jpg",
-      "video": "https://www.youtube.com/embed/vHHLLJA0b70&t=3090s&TODO=FIXME",
-      "content": "<p>Let's use mental models we already know to learn Svelte.</p>",
-      "twitter": "benschac"
-    }
-  ],
-  "sponsors": [
-    {
-      "type": "silver",
-      "url": "https://www.humancontent.nl",
-      "name": "Human Content",
-      "description": "Whether it is a website, a business application or a mobile app; we take care of the entire process, from the first consultation to an end product with maximum added value for the customer and end users.",
-      "image": "humancontent.svg"
-    },
-    {
-      "type": "silver",
-      "name": "Oasis Digital",
-      "url": "https://oasisdigital.com",
-      "description": "Oasis Digital delivers advanced software product development and training services, focused on web technology and full stack solutions.",
-      "image": "oasis.svg"
-    },
-    {
-      "type": "silver",
-      "name": "Hyper 63",
-      "url": "https://hyper63.com",
-      "description": "A different approach to software development by improving the process of development for developers to speed up innovation",
-      "image": "hyper63.svg"
-    },
-    {
-      "url": "https://www.coderight.se",
-      "type": "gold",
-      "name": "b3 coderight",
-      "description": "We develop innovative and secure digital experiences, websites, integrations and systems.",
-      "image": "b3coderight.svg"
-    },
-    {
-      "type": "gold",
-      "name": "AWS Amplify",
-      "url": "https://aws.amazon.com/amplify/",
-      "image": "aws.svg",
-      "description": "AWS Amplify – The fastest, easiest way to develop mobile and web apps that scale"
-    }
-  ]
+	"speaker": [
+		{
+			"name": "Amelia Wattenberg & Russel Goldenberg",
+			"title": "Declarative Data Visualization: Creating a bar chart race",
+			"slug": "declarativec-data-visualization",
+			"twitter": ["wattenberger", "codenberg"],
+			"image": "amelia_russel.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>We'll create a recently popularized data visualization: the bar chart race! As we build, we'll discuss the benefits of using Svelte and how it compares to a pure d3 implementation. We'll cover lots of interesting techniques, like rendering with SVG & HTML, easy-to-maintain transitions, and componentizing chart parts!</p>"
+		},
+		{
+			"name": "Stephane Vanraes",
+			"title": "Optimizing your Svelte Community Experience",
+			"slug": "optimizing-your-svelte-community-experience",
+			"twitter": ["StephaneVanraes"],
+			"image": "stephane_vanraes.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Getting stuck while working with Svelte is never nice, but where and how do you get the help you need, especially in a community that is fully volunteer driven ?</p><p>I will take you through the several venues for bugs, general questions and specific use cases as well as how to best prepare your issue to get quick and precise answers without alienating other users.</p>"
+		},
+		{
+			"name": "Tane Piper",
+			"title": "Reactive Forms with Svelte",
+			"slug": "reactive-forms-with-svelte",
+			"twitter": ["tanepiper"],
+			"image": "Tane_Piper.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Learn about Formula - a library for Svelte designed for building fully reactive data-driven applications with HTML5 forms, Svelte Actions and Stores.</p>"
+		},
+		{
+			"name": "Isaac Hagoel",
+			"title": "Untangling Composition and Higher Order Components",
+			"slug": "untangling-composition",
+			"image": "Isaac_Hagoel.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Svelte offers us two tools for components composition: slots (with or without props) and svelte:component.</p><ul><li>We will go over common composition use-cases such as simple composition and higher order components.</li><li>We will learn some patterns for implementing them in Svelte.</li><li>I will try to convince you to think twice before reaching for slots with props and provide an alternative.</li></ul>"
+		}
+	],
+	"sponsors": [
+		{
+			"type": "silver",
+			"url": "https://www.humancontent.nl",
+			"name": "Human Content",
+			"description": "Whether it is a website, a business application or a mobile app; we take care of the entire process, from the first consultation to an end product with maximum added value for the customer and end users.",
+			"image": "humancontent.svg"
+		},
+		{
+			"type": "silver",
+			"name": "Oasis Digital",
+			"url": "https://oasisdigital.com",
+			"description": "Oasis Digital delivers advanced software product development and training services, focused on web technology and full stack solutions.",
+			"image": "oasis.svg"
+		},
+		{
+			"type": "silver",
+			"name": "Hyper 63",
+			"url": "https://hyper63.com",
+			"description": "A different approach to software development by improving the process of development for developers to speed up innovation",
+			"image": "hyper63.svg"
+		},
+		{
+			"url": "https://www.coderight.se",
+			"type": "gold",
+			"name": "b3 coderight",
+			"description": "We develop innovative and secure digital experiences, websites, integrations and systems.",
+			"image": "b3coderight.svg"
+		},
+		{
+			"type": "gold",
+			"name": "AWS Amplify",
+			"url": "https://aws.amazon.com/amplify/",
+			"image": "aws.svg",
+			"description": "AWS Amplify – The fastest, easiest way to develop mobile and web apps that scale"
+		}
+	]
 }
