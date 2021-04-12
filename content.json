@@ -31,9 +31,10 @@
 			"name": "Isaac Hagoel",
 			"title": "Untangling Composition and Higher Order Components",
 			"slug": "untangling-composition",
+			"twitter": ["isaac_hagoel"],
 			"image": "Isaac_Hagoel.jpg",
 			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
-			"content": "<p>Svelte offers us two tools for components composition: slots (with or without props) and svelte:component.</p><ul><li>We will go over common composition use-cases such as simple composition and higher order components.</li><li>We will learn some patterns for implementing them in Svelte.</li><li>I will try to convince you to think twice before reaching for slots with props and provide an alternative.</li></ul>"
+			"content": "<p>A short yet deep dive into higher order components in Svelte. We will learn what higher order components are and see two distinct patterns for implementing them in svelte: slots and svelte:component. We will discuss some tradeoffs, gotchas and insights gained from a year of using svelte in production</p>"
 		}
 	],
 	"sponsors": [
