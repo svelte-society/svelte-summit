@@ -14,7 +14,12 @@
 				"Remove all friction from the developer experience to be always ready-to-code and make software engineering more collaborative, joyful, and secure.",
 			image: "gitpod.svg",
 		},
-		{},
+		{
+			url: "https://www.budibase.com",
+			name: "Budibase",
+			description: "Build internal tools on your own infrastructure in minutes",
+			image: "budibase.svg",
+		},
 	];
 </script>
 
