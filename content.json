@@ -10,6 +10,15 @@
 			"content": "<p>We'll create a recently popularized data visualization: the bar chart race! As we build, we'll discuss the benefits of using Svelte and how it compares to a pure d3 implementation. We'll cover lots of interesting techniques, like rendering with SVG & HTML, easy-to-maintain transitions, and componentizing chart parts!</p>"
 		},
 		{
+			"name": "Martin McKeaveney",
+			"title": "Building the Next Generation of Low Code with Svelte",
+			"slug": "building-the-next-generation-of-low-code",
+			"twitter": ["shogun_purple"],
+			"image": "martin_mck.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>A dive into budibase - an open source low code platform for building internal tools on your own infrastructure in minutes.</p><p>The platform relies heavily on svelte and this talk will detail how we leverage svelte within budibase to produce lightweight, incredibly performant applications with a low code tool.</p>"
+		},
+		{
 			"name": "Stephane Vanraes",
 			"title": "Optimizing your Svelte Community Experience",
 			"slug": "optimizing-your-svelte-community-experience",
@@ -19,6 +28,24 @@
 			"content": "<p>Getting stuck while working with Svelte is never nice, but where and how do you get the help you need, especially in a community that is fully volunteer driven ?</p><p>I will take you through the several venues for bugs, general questions and specific use cases as well as how to best prepare your issue to get quick and precise answers without alienating other users.</p>"
 		},
 		{
+			"name": "Anthony Le Goas",
+			"title": "Compile for accessibility with Svelte",
+			"slug": "compile-for-accessibility",
+			"twitter": ["anthony_legoas"],
+			"image": "anthony_le.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>What if your favorite frontend framework could (really) help you create accessible web applications?</p><p>A sweet dream, no? Well, don't dream anymore because Svelte integrates checks on good accessibility practices directly in its compiler. Let's figure out together how this is done, the benefits and the limits.</p>"
+		},
+		{
+			"name": "Dele Omotosho",
+			"title": "Building for An Emerging Economy",
+			"slug": "building-for-an-emerging-economy",
+			"twitter": ["imdeletosh "],
+			"image": "dele_om.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Why and how we settled on Svelte to build the research and collaboration platform for Lawyers and Law Firms in Africa where internet connection is a challenge and speed was the #1 factor.</p>"
+		},
+		{
 			"name": "Tane Piper",
 			"title": "Reactive Forms with Svelte",
 			"slug": "reactive-forms-with-svelte",
@@ -26,6 +53,15 @@
 			"image": "Tane_Piper.jpg",
 			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
 			"content": "<p>Learn about Formula - a library for Svelte designed for building fully reactive data-driven applications with HTML5 forms, Svelte Actions and Stores.</p>"
+		},
+		{
+			"name": "Francisco Bernardo",
+			"title": "A signal engine for audio and music in your Svelte app",
+			"slug": "signal-engine-for-audio-and-music",
+			"twitter": ["frantic0 "],
+			"image": "francisco_be.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>The sema-engine library (https://bit.ly/3dh3cEU) provides a high-performance audio engine for modern Web applications, with an easy-to-use API that has been previously used in the making of Svelte-based apps. It uses the Web Audio API Audio Worklet and Maximilian DSP C++ library to render audio in a dedicated thread. This lightning talk will cover the basics of setting up and usage of the sema-engine with Svelte-based apps for music and sound control.</p>"
 		},
 		{
 			"name": "Isaac Hagoel",
