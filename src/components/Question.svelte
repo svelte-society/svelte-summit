@@ -4,7 +4,7 @@
 
 <style>
   p {
-    color: var(--sky-blue);
+    color: var(--rosebud);
     font-size: 16px;
     --small-font-size: var(--media-lte-sm) 14px;
   }

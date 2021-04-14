@@ -53,14 +53,8 @@
 	}
 
 	.twitter-container {
-		display: grid;
+		display: flex;
 		grid-gap: 10px;
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.image {
-		background-position: top left;
-		background-image: url(/hanami_flower.svg);
 	}
 
 	.image img {
@@ -120,9 +114,12 @@
 		width: 15px;
 	}
 
+  :global(p) {
+		color: var(--rosebud);
+  }
+
 	div :global(p) {
 		font-size: 18px;
-		color: #bedde2;
 		line-height: 170%;
 	}
 

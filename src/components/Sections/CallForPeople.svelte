@@ -13,7 +13,7 @@
 				interested in sponsoring the event, reach out to us via email using the
 				link below and we can have a chat.
 			</p>
-			<Button href="mailto:sponsors@sveltesociety.dev" black>Send email</Button>
+			<Button href="mailto:sponsors@sveltesociety.dev" dark>Send email</Button>
 		</Card>
 	</div>
 </div>
@@ -45,6 +45,8 @@
 		margin: 0;
 		--small-width: var(--media-lte-sm) 100%;
 		width: var(--small-width, 90%);
-		color: var(--sky-blue);
 	}
+  p {
+		color: var(--rosebud);
+  }
 </style>
