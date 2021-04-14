@@ -70,7 +70,7 @@
 			"twitter": ["isaac_hagoel"],
 			"image": "Isaac_Hagoel.jpg",
 			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
-			"content": "<p>A short yet deep dive into higher order components in Svelte. We will learn what higher order components are and see two distinct patterns for implementing them in svelte: slots and svelte:component. We will discuss some tradeoffs, gotchas and insights gained from a year of using svelte in production</p>"
+			"content": "<p>A short yet deep dive into higher order components in Svelte. We will learn what higher order components are and see two distinct patterns for implementing them in svelte: slots and svelte:component. We will discuss some tradeoffs, gotchas and insights gained from a year of using svelte in production</p><p>Special thanks to Thomas Dune for his help in making this</p>"
 		}
 	],
 	"sponsors": [
