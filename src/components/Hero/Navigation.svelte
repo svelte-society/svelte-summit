@@ -88,7 +88,7 @@
 		z-index: 100;
 		top: 0;
 		left: 0;
-		padding: 25px 0 20px 0;
+		padding: 20px 0 20px 0;
 		width: 100%;
 		align-items: center;
 		justify-content: center;
@@ -181,7 +181,7 @@
 		opacity: 1;
 	}
 	.small-nav {
-		color: var(--sky-blue);
+		color: var(--rosebud);
 		opacity: 0.6;
 		text-decoration: none;
 		letter-spacing: 0.6px;

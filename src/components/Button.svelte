@@ -1,5 +1,5 @@
 <script>
-  export let black;
+  export let dark;
   export let href;
 </script>
 
@@ -15,17 +15,19 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  .black {
-    background: #000000;
+
+  .dark {
+    background: #2C0C0A;
   }
-  a:hover {
-   opacity: 0.9;
+
+  a:hover,
+  a:active,
+  a:focus {
+   opacity: 0.7;
   }
-  .black:hover {
-    background: #131313;
-  }
+
 </style>
 
-<a {href} rel="noreferrer" target="_blank" class:black>
+<a {href} rel="noreferrer" target="_blank" class:dark>
   <slot />
 </a>

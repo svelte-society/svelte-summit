@@ -10,6 +10,7 @@
   --svelte-orange: #ff3e00;
   --bear-brown: #7b5855;
   --mountain-yellow: #f5e6d4;
+  --rosebud: #ffc5c1;
 
   --body-text: white;
 
@@ -28,7 +29,7 @@ body {
   margin: 0;
   background: var(--background);
   display: grid;
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
 a,

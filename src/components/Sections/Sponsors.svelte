@@ -163,8 +163,7 @@
 		z-index: 1000;
 		padding: 8px;
 		width: 260px;
-		background-color: #000;
-		background-color: hsla(0, 0%, 20%, 0.9);
+		background-color: hsla(4, 63%, 11%, 0.86);
 		color: #fff;
 		font-weight: normal;
 		content: attr(data-tooltip);
