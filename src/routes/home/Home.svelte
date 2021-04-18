@@ -72,12 +72,6 @@
 		and discussions all while chatting to other Svelthusiasts on the Discord
 		server.
 	</Question>
-	<Question title="When is it? What time?">
-		<b>April 25th, 2021, 2:00pm (14:00) London time.</b> The event will last
-		for about 5-6 hours (including breaks). For your convenience, here's a
-		sample of start times across the globe.
-		<StartTimes />
-	</Question>
 	<Question title="Will it be recorded?">
 		Absolutely! You'll find it on the Svelte Society <a
 			rel="noreferrer"
@@ -102,5 +96,11 @@
 			enter your email here.
 		</a>
 	</Question>
+	<Question title="When is it? What time?">
+		<b>April 25th, 2021, 2:00pm (14:00) London time.</b> The event will last
+		for about 5-6 hours (including breaks). For your convenience, here's a
+		sample of start times across the globe.
+	</Question>
+	<StartTimes />
 </FAQ>
 <Footer />
