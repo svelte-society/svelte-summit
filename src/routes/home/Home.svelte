@@ -7,6 +7,7 @@
 	import Speakers from "../../components/Sections/Speakers.svelte";
 	import SignUp from "../../components/Sections/SignUp.svelte";
 	import FAQ from "../../components/Sections/FAQ.svelte";
+	import StartTimes from "../../components/StartTimes.svelte";
 	import Footer from "../../components/Sections/Footer.svelte";
 </script>
 
@@ -72,9 +73,10 @@
 		server.
 	</Question>
 	<Question title="When is it? What time?">
-		<b>April 25th, 2021</b> We will aim to do what we did last time and have talks
-		all throughout the day. An exact starting time not yet been decided on but we
-		can tell you that the event will go on for about 5-6 hours (including breaks).
+		<b>April 25th, 2021, 2:00pm (14:00) London time.</b> The event will last
+		for about 5-6 hours (including breaks). For your convenience, here's a
+		sample of start times across the globe.
+		<StartTimes />
 	</Question>
 	<Question title="Will it be recorded?">
 		Absolutely! You'll find it on the Svelte Society <a
