@@ -4,7 +4,7 @@
 		{ tz: 'MDT', country: 'Salt Lake City', start: '7:00 am' },
 		{ tz: 'CDT', country: 'Chicago', start: '8:00 am' },
 		{ tz: 'CDT', country: 'Mexico City', start: '8:00 am' },
-		{ tz: 'EDT', country: 'New City', start: '9:00 am' },
+		{ tz: 'EDT', country: 'New York City', start: '9:00 am' },
 		{ tz: 'CLT', country: 'Santiago', start: '9:00 am' },
 		{ tz: 'ART', country: 'Buenos Aires', start: '10:00 am' },
 		{ tz: 'BRT', country: 'São Paulo', start: '10:00 am' },
