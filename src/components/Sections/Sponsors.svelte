@@ -42,19 +42,6 @@
 				{/if}
 			{/each}
 		</div>
-		<div class="silver sponsors">
-			{#each new Array(4) as _}
-				<!-- <a
-          href={url}
-          rel="noopener noreferrer"
-          target="_blank"
-          class="sponsor"
-          data-tooltip={description}>
-          <img src="/images/sponsors/{image}" alt="{name} logo" />
-        </a> -->
-				<div class="sponsor">Your company (Silver)</div>
-			{/each}
-		</div>
 	</div>
 </div>
 

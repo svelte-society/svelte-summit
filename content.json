@@ -19,6 +19,78 @@
 			"content": "<p>A dive into budibase - an open source low code platform for building internal tools on your own infrastructure in minutes.</p><p>The platform relies heavily on svelte and this talk will detail how we leverage svelte within budibase to produce lightweight, incredibly performant applications with a low code tool.</p>"
 		},
 		{
+			"name": "Eirik Vågeskar & Gløer Olav Langslet",
+			"title": "Generation Svelte – Our textbook will make Svelte the first language for Norwegian high schoolers",
+			"slug": "generation-svelte-textbook",
+			"twitter": ["gloerolav"],
+			"image": "gloer.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Norway's largest text book publisher has allowed the authors of its high school programming textbooks to teach programming using Svelte as the main teaching language. In this talk, the book's main author, Gloer Langslet, and one of the co-authors, Eirik Vageskar, will talk about why they chose Svelte. They will also discuss the ongoing work with their book, which is to be released this fall.</p>"
+		},
+		{
+			"name": "Fred Schott",
+			"title": "Svelte without the JavaScript",
+			"slug": "svelte-without-the-javascript",
+			"twitter": ["FredKSchott"],
+			"image": "fred_schott.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>If Svelte runs on a server and no one is around to see it, does it still make a sound?</p><p>CSR, SSR, SSG... There are seemingly hundreds of different ways to serve your site in production, each with different tradeoffs to consider. In this talk, Fred explores the world of server-side optimization: what's possible today and what comes next?</p>"
+		},
+		{
+			"name": "Alex Cabrera",
+			"title": "Interactive Data Science Widgets with Svelte and Jupyter",
+			"slug": "interactive-data-science-widgets-with-svelte-and-jupyter",
+			"twitter": ["a_a_cabrera"],
+			"image": "alex_cabrera.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Jupyter notebooks are one of the most popular platforms for data science and machine learning. Notebooks support interactive widgets which let users better visualize and interact with their data and code. While widgets are traditionally difficult to create, it is now possible to easily make Jupyter Widgets (or port existing apps) using Svelte. In this talk, we walk through how to create interactive data science widgets with Jupyter and Svelte.</p>"
+		},
+		{
+			"name": "Miguel Camba",
+			"title": "Svelte can compile and so can you",
+			"slug": "svelte-can-compile-and-so-can-you",
+			"twitter": ["MiguelCamba"],
+			"image": "miguel_camba.png",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Svelte's unique approach of acting as a compiler for web apps has proven to be groundbreaking in several ways.</p><p>Instead of being a runtime framework that evaluates your code in the client, Svelte analyzes and understands your code ahead of time to ship the smallest and fastest bundle possible with nothing but what you use.</p><p>That revelation sparked an idea on me. What if we applied the same principles to other facets of app development? Are there other pieces of apps that can be analyzed ahead of time to optimize it further.</p><p>It turns out the answer is yes, and I created https://github.com/cibernox/rollup-plugin-precompile-intl to demonstrate it.</p>"
+		},
+		{
+			"name": "Ron Au",
+			"title": "Zwoosh YEAHHH Shabam! 🤯 Whimsy in motion",
+			"slug": "zwoosh-yeahhh-shabam-whimsy-in-motion",
+			"twitter": ["ronvoluted"],
+			"image": "ron_au.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Websites provide a beautiful environment for expressing creativity and instilling wonder. There's something special about its tangibility that even native apps don't offer. I believe there is a place for whimsy on more sites than some developers realise.</p>"
+		},
+		{
+			"name": "Rodrigo Frenk",
+			"title": "Design Ñgineering: Writing a Design System in Spanish for our team in Mexican cultural public sector",
+			"slug": "design-engineering-writing-a-design-system-in-spanish",
+			"twitter": ["furenku"],
+			"image": "rodrigo_furenku.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Our workplace, Centro de Cultura Digital (a progressive state-run center for technology-based cultural agents - centroculturadigital.mx), has always had very high design standards. The nature of public service and institutional commitments has required us to keep a very demanding schedule, creating multiple webapps in parallel alongside revamping legacy projects, and doing consulting work to help multiple institutions develop viable solutions with none or small development teams. Tasked with balancing of all these factors, and with creating a sustainable future ecosystem, we decided to develop our Design System, choosing our native language to allow for future developers to easily deliver high-quality design projects inside the Mexican public sector. We take great efforts to develop a Spanish-speaking technological language.</p>"
+		},
+		{
+			"name": "Jamie Birch",
+			"title": "Svelte NodeGUI (and How to Build a Custom Svelte Renderer)",
+			"slug": "svelte-nodegui-and-how-to-build-a-custom-svelte-renderer",
+			"twitter": ["LinguaBrowse"],
+			"image": "jamie_birch.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>NodeGUI is a library that brings a Qt-based GUI to Node.js. Supporting macOS, Windows, and Linux, it serves as a framework for developing cross-platform desktop applications, while still using familiar web concepts such as Flexbox layout and CSS styling. And unlike the state-of-the-art framework, Electron, NodeGUI is lightweight, as it renders a native UI rather than hosting its UI in a web browser.</p><p>Svelte NodeGUI takes the project further by implementing a Svelte renderer for NodeGUI, abstracting away much of the learning curve of Qt and allowing you to write a NodeGUI app with about as easily as if you were writing a web app!</p>"
+		},
+		{
+			"name": "Dmitry Vinnik",
+			"title": "Testing Svelte with Jest: Validate Your Components Quickly!",
+			"slug": "testing-svelte-with-jest",
+			"twitter": ["DmitryVinnik"],
+			"image": "dmitry_vinnik.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>How confident are you in your Svelte app? Does your UI render after you add a new item to the nav menu? What about style changes - do you know how a font change affects the rest of your app?</p><p>If you want to have confidence in your Svelte app, you need to have tests. Unfortunately, most testing frameworks are hard to set up, and it takes too long to run them. But this is not the case with Jest!</p>"
+		},
+		{
 			"name": "Stephane Vanraes",
 			"title": "Optimizing your Svelte Community Experience",
 			"slug": "optimizing-your-svelte-community-experience",
@@ -53,15 +125,6 @@
 			"image": "Tane_Piper.jpg",
 			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
 			"content": "<p>Learn about Formula - a library for Svelte designed for building fully reactive data-driven applications with HTML5 forms, Svelte Actions and Stores.</p>"
-		},
-		{
-			"name": "Francisco Bernardo",
-			"title": "A signal engine for audio and music in your Svelte app",
-			"slug": "signal-engine-for-audio-and-music",
-			"twitter": ["frantic0 "],
-			"image": "francisco_be.jpg",
-			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
-			"content": "<p>The sema-engine library (https://bit.ly/3dh3cEU) provides a high-performance audio engine for modern Web applications, with an easy-to-use API that has been previously used in the making of Svelte-based apps. It uses the Web Audio API Audio Worklet and Maximilian DSP C++ library to render audio in a dedicated thread. This lightning talk will cover the basics of setting up and usage of the sema-engine with Svelte-based apps for music and sound control.</p>"
 		},
 		{
 			"name": "Isaac Hagoel",
