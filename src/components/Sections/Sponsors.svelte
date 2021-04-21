@@ -8,7 +8,7 @@
 			image: "filevine.svg",
 		},
 		{
-			url: "https://www.gitpod.io",
+			url: "https://www.gitpod.io/?utm_source=SvelteSummit&utm_medium=referral&utm_campaign=svelte-summit-2021",
 			name: "Gitpod",
 			description:
 				"Remove all friction from the developer experience to be always ready-to-code and make software engineering more collaborative, joyful, and secure.",
