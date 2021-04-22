@@ -1,6 +1,15 @@
 {
 	"speaker": [
 		{
+			"name": "Rich Harris",
+			"title": "SvelteKit status update",
+			"slug": "sveltekit-status-update",
+			"twitter": ["rich_harris"],
+			"image": "rich.jpeg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>We're almost there!</p>"
+		},
+		{
 			"name": "Amelia Wattenberg & Russel Goldenberg",
 			"title": "Declarative Data Visualization: Creating a bar chart race",
 			"slug": "declarativec-data-visualization",
