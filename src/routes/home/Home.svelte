@@ -63,7 +63,6 @@
 <!-- <Live videoId="vHHLLJA0b70" /> -->
 <Sponsors sponsors={data.sponsors} />
 <Speakers talks={data.speakers} />
-<CallForPeople />
 <SignUp />
 <FAQ>
 	<Question title="What is this?">
@@ -97,9 +96,9 @@
 		</a>
 	</Question>
 	<Question title="When is it? What time?">
-		<b>April 25th, 2021, 2:00pm (14:00) London time.</b> The event will last
-		for about 5-6 hours (including breaks). For your convenience, here's a
-		sample of start times across the globe.
+		<b>April 25th, 2021, 2:00pm (14:00) London time.</b> The event will last for
+		about 5-6 hours (including breaks). For your convenience, here's a sample of
+		start times across the globe.
 	</Question>
 	<StartTimes />
 </FAQ>
