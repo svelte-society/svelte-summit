@@ -25,7 +25,7 @@
 			"twitter": ["gloerolav"],
 			"image": "gloer.jpg",
 			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
-			"content": "<p>Norway's largest text book publisher has allowed the authors of its high school programming textbooks to teach programming using Svelte as the main teaching language. In this talk, the book's main author, Gloer Langslet, and one of the co-authors, Eirik Vageskar, will talk about why they chose Svelte. They will also discuss the ongoing work with their book, which is to be released this fall.</p>"
+			"content": "<p>In this talk, Gløer Langslet and Eirik Vågeskar explain why we need to make programming fun again. Eirik will tell the story of when he learned to program -- using Adobe Flash in high school, with Gløer as his teacher. The two reconnected ten years later over their love of Svelte -- and convinced Norway's largest text book publisher, Cappelen Damm, to use Svelte to teach programming to the next generation of high schoolers. The talk will show interactive examples from their upcoming book.</p><p>Making programming fun and lowering the barrier to entry is an important step in getting enough programmers to meet demand in the near future. First impressions are important, and Svelte is sure to impress.</p>"
 		},
 		{
 			"name": "Fred Schott",
