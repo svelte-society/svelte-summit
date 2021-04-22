@@ -10,6 +10,15 @@
 			"content": "<p>We'll create a recently popularized data visualization: the bar chart race! As we build, we'll discuss the benefits of using Svelte and how it compares to a pure d3 implementation. We'll cover lots of interesting techniques, like rendering with SVG & HTML, easy-to-maintain transitions, and componentizing chart parts!</p>"
 		},
 		{
+			"name": "Ron Au",
+			"title": "Zwoosh YEAHHH Shabam! 🤯 Whimsy in motion",
+			"slug": "zwoosh-yeahhh-shabam-whimsy-in-motion",
+			"twitter": ["ronvoluted"],
+			"image": "ron_au.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>You've seen it on Dribbble, you've seen it on Disney. With a pop and a wiggle you can add some whimsy. Buckle your seat belt and pull up your socks. With good old Svelte we're animating out of the box!</p>"
+		},
+		{
 			"name": "Martin McKeaveney",
 			"title": "Building the Next Generation of Low Code with Svelte",
 			"slug": "building-the-next-generation-of-low-code",
@@ -53,15 +62,6 @@
 			"image": "miguel_camba.png",
 			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
 			"content": "<p>Svelte's unique approach of acting as a compiler for web apps has proven to be groundbreaking in several ways.</p><p>Instead of being a runtime framework that evaluates your code in the client, Svelte analyzes and understands your code ahead of time to ship the smallest and fastest bundle possible with nothing but what you use.</p><p>That revelation sparked an idea on me. What if we applied the same principles to other facets of app development? Are there other pieces of apps that can be analyzed ahead of time to optimize it further.</p><p>It turns out the answer is yes, and I created https://github.com/cibernox/rollup-plugin-precompile-intl to demonstrate it.</p>"
-		},
-		{
-			"name": "Ron Au",
-			"title": "Zwoosh YEAHHH Shabam! 🤯 Whimsy in motion",
-			"slug": "zwoosh-yeahhh-shabam-whimsy-in-motion",
-			"twitter": ["ronvoluted"],
-			"image": "ron_au.jpg",
-			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
-			"content": "<p>Websites provide a beautiful environment for expressing creativity and instilling wonder. There's something special about its tangibility that even native apps don't offer. I believe there is a place for whimsy on more sites than some developers realise.</p>"
 		},
 		{
 			"name": "Rodrigo Frenk",
