@@ -91,6 +91,15 @@
 			"content": "<p>NodeGUI is a library that brings a Qt-based GUI to Node.js. Supporting macOS, Windows, and Linux, it serves as a framework for developing cross-platform desktop applications, while still using familiar web concepts such as Flexbox layout and CSS styling. And unlike the state-of-the-art framework, Electron, NodeGUI is lightweight, as it renders a native UI rather than hosting its UI in a web browser.</p><p>Svelte NodeGUI takes the project further by implementing a Svelte renderer for NodeGUI, abstracting away much of the learning curve of Qt and allowing you to write a NodeGUI app with about as easily as if you were writing a web app!</p>"
 		},
 		{
+			"name": "Francisco Bernardo",
+			"title": "A signal engine for audio and music in your Svelte app",
+			"slug": "signal-engine-for-audio-and-music",
+			"twitter": ["frantic0"],
+			"image": "francisco_be.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>The sema-engine library (https://bit.ly/3dh3cEU) provides a high-performance audio engine for modern Web applications, with an easy-to-use API that has been previously used in the making of Svelte-based apps. It uses the Web Audio API Audio Worklet and Maximilian DSP C++ library to render audio in a dedicated thread. This lightning talk will cover the basics of setting up and usage of the sema-engine with Svelte-based apps for music and sound control.</p>"
+		},
+		{
 			"name": "Dmitry Vinnik",
 			"title": "Testing Svelte with Jest: Validate Your Components Quickly!",
 			"slug": "testing-svelte-with-jest",
