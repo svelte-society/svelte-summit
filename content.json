@@ -127,15 +127,6 @@
 			"content": "<p>What if your favorite frontend framework could (really) help you create accessible web applications?</p><p>A sweet dream, no? Well, don't dream anymore because Svelte integrates checks on good accessibility practices directly in its compiler. Let's figure out together how this is done, the benefits and the limits.</p>"
 		},
 		{
-			"name": "Dele Omotosho",
-			"title": "Building for An Emerging Economy",
-			"slug": "building-for-an-emerging-economy",
-			"twitter": ["deletosh "],
-			"image": "dele_om.jpg",
-			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
-			"content": "<p>Why and how we settled on Svelte to build the research and collaboration platform for Lawyers and Law Firms in Africa where internet connection is a challenge and speed was the #1 factor.</p>"
-		},
-		{
 			"name": "Tane Piper",
 			"title": "Reactive Forms with Svelte",
 			"slug": "reactive-forms-with-svelte",
