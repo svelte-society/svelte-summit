@@ -3,7 +3,7 @@
 	import { Hero } from "../../components/Hero";
 	import Question from "../../components/Question.svelte";
 	import Sponsors from "../../components/Sections/Sponsors.svelte";
-	import CallForPeople from "../../components/Sections/CallForPeople.svelte";
+	import Live from "../../components/Sections/Live.svelte";
 	import Speakers from "../../components/Sections/Speakers.svelte";
 	import SignUp from "../../components/Sections/SignUp.svelte";
 	import FAQ from "../../components/Sections/FAQ.svelte";
@@ -19,48 +19,40 @@
 	<title>Svelte Summit is a FREE whole-day online event.</title>
 	<meta
 		name="title"
-		content="Svelte Summit is a FREE whole-day online event."
-	/>
+		content="Svelte Summit is a FREE whole-day online event." />
 	<meta
 		name="description"
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 25th 2021."
-	/>
+		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 25th 2021." />
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://sveltesummit.com/" />
 	<meta
 		property="og:title"
-		content="Svelte Summit is a FREE whole-day online event."
-	/>
+		content="Svelte Summit is a FREE whole-day online event." />
 	<meta
 		property="og:description"
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 25th 2021."
-	/>
+		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 25th 2021." />
 	<meta
 		property="og:image"
-		content="https://sveltesummit.com/images/metatagimg-spring.png"
-	/>
+		content="https://sveltesummit.com/images/metatagimg-spring.png" />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content="https://sveltesummit.com/" />
 	<meta
 		property="twitter:title"
-		content="Svelte Summit is a FREE whole-day online event."
-	/>
+		content="Svelte Summit is a FREE whole-day online event." />
 	<meta
 		property="twitter:description"
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place onApril 25th 2021."
-	/>
+		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place onApril 25th 2021." />
 	<meta
 		property="twitter:image"
-		content="https://sveltesummit.com/images/metatagimg-spring.png"
-	/>
+		content="https://sveltesummit.com/images/metatagimg-spring.png" />
 </svelte:head>
 
 <Hero />
-<!-- <Live videoId="vHHLLJA0b70" /> -->
+<Live videoId="fnr9XWvjJHw" />
 <Sponsors sponsors={data.sponsors} />
 <Speakers talks={data.speakers} />
 <SignUp />
@@ -75,23 +67,22 @@
 		Absolutely! You'll find it on the Svelte Society <a
 			rel="noreferrer"
 			target="_blank"
-			href="https://youtube.com/sveltesociety">YouTube channel</a
-		> once the event has been finished.
+			href="https://youtube.com/sveltesociety">YouTube channel</a> once the event
+		has been finished.
 	</Question>
 	<Question title="How do I watch it?">
 		Once the day arrives, tune in to the Svelte Society <a
 			rel="noreferrer"
 			target="_blank"
-			href="https://youtube.com/sveltesociety">YouTube channel</a
-		> and start watching. We'll also make sure to post a notice at the top of this
-		page if you forget where to go.
+			href="https://youtube.com/sveltesociety">YouTube channel</a> and start watching.
+		We'll also make sure to post a notice at the top of this page if you forget where
+		to go.
 	</Question>
 	<Question title="Can you remind me when the date gets closer?">
 		Yes, <a
 			rel="noreferrer"
 			href="https://emailoctopus.com/lists/a3d49b32-0df8-11eb-a3d0-06b4694bee2a/forms/subscribe"
-			target="_blank"
-		>
+			target="_blank">
 			enter your email here.
 		</a>
 	</Question>

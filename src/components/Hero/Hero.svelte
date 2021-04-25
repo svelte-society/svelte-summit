@@ -9,10 +9,10 @@
 			name: "Intro",
 			url: "#intro",
 		},
-		// {
-		//   name: "Live!",
-		//   url: "#live",
-		// },
+		{
+			name: "Live!",
+			url: "#live",
+		},
 		{
 			name: "Sponsors",
 			url: "#sponsors",
@@ -31,12 +31,10 @@
 <div class="container" id="intro">
 	<Navigation
 		hydrate-client={{ menu }}
-		hydrate-options={{ preload: true, loading: "eager" }}
-	/>
+		hydrate-options={{ preload: true, loading: "eager" }} />
 	<div class="logo">
 		<a href="https://sveltesociety.dev/"
-			><img src="/images/svelte-society-logo.svg" alt="Svelte Society" /></a
-		>
+			><img src="/images/svelte-society-logo.svg" alt="Svelte Society" /></a>
 		<span class="present">presents</span>
 	</div>
 	<div class="text">
