@@ -73,15 +73,6 @@
 			"content": "<p>Svelte's unique approach of acting as a compiler for web apps has proven to be groundbreaking in several ways.</p><p>Instead of being a runtime framework that evaluates your code in the client, Svelte analyzes and understands your code ahead of time to ship the smallest and fastest bundle possible with nothing but what you use.</p><p>That revelation sparked an idea on me. What if we applied the same principles to other facets of app development? Are there other pieces of apps that can be analyzed ahead of time to optimize it further.</p><p>It turns out the answer is yes, and I created https://github.com/cibernox/rollup-plugin-precompile-intl to demonstrate it.</p>"
 		},
 		{
-			"name": "Rodrigo Frenk",
-			"title": "Design Ñgineering: Writing a Design System in Spanish for our team in Mexican cultural public sector",
-			"slug": "design-engineering-writing-a-design-system-in-spanish",
-			"twitter": ["furenku"],
-			"image": "rodrigo_furenku.jpg",
-			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
-			"content": "<p>Our workplace, Centro de Cultura Digital (a progressive state-run center for technology-based cultural agents - centroculturadigital.mx), has always had very high design standards. The nature of public service and institutional commitments has required us to keep a very demanding schedule, creating multiple webapps in parallel alongside revamping legacy projects, and doing consulting work to help multiple institutions develop viable solutions with none or small development teams. Tasked with balancing of all these factors, and with creating a sustainable future ecosystem, we decided to develop our Design System, choosing our native language to allow for future developers to easily deliver high-quality design projects inside the Mexican public sector. We take great efforts to develop a Spanish-speaking technological language.</p>"
-		},
-		{
 			"name": "Jamie Birch",
 			"title": "Svelte NodeGUI (and How to Build a Custom Svelte Renderer)",
 			"slug": "svelte-nodegui-and-how-to-build-a-custom-svelte-renderer",
@@ -89,6 +80,22 @@
 			"image": "jamie_birch.jpg",
 			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
 			"content": "<p>NodeGUI is a library that brings a Qt-based GUI to Node.js. Supporting macOS, Windows, and Linux, it serves as a framework for developing cross-platform desktop applications, while still using familiar web concepts such as Flexbox layout and CSS styling. And unlike the state-of-the-art framework, Electron, NodeGUI is lightweight, as it renders a native UI rather than hosting its UI in a web browser.</p><p>Svelte NodeGUI takes the project further by implementing a Svelte renderer for NodeGUI, abstracting away much of the learning curve of Qt and allowing you to write a NodeGUI app with about as easily as if you were writing a web app!</p>"
+		},
+		{
+			"name": "Rodrigo Frenk, José Carlos Hasbun, María Luisa González, Raúl Rodríguez, Sirena González and Yotzin Viacobo",
+			"title": "Design Ñgineering: Writing a Design System in Spanish for our team in Mexican cultural public sector",
+			"slug": "design-engineering-writing-a-design-system-in-spanish",
+			"twitter": [
+				"furenku",
+				"ill_slide",
+				"IrethGS",
+				"ralexrdz",
+				"asga_09",
+				"LaYotzin"
+			],
+			"image": "rodrigo_furenku.jpg",
+			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
+			"content": "<p>Our workplace, Centro de Cultura Digital (a progressive state-run center for technology-based cultural agents - centroculturadigital.mx), has always had very high design standards.</p><p>Tasked with creating a sustainable future tecnological ecosystem, we decided to develop our Design System, choosing our native language to allow for future developers to easily deliver high-quality design projects inside the Mexican public sector.</p><p>We take great efforts to develop a Spanish-speaking technological language.</p>"
 		},
 		{
 			"name": "Francisco Bernardo",
