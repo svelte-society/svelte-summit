@@ -8,14 +8,16 @@
 			image: "filevine.svg",
 		},
 		{
-			url: "https://www.gitpod.io/?utm_source=SvelteSummit&utm_medium=referral&utm_campaign=svelte-summit-2021",
+			url:
+				"https://www.gitpod.io/?utm_source=SvelteSummit&utm_medium=referral&utm_campaign=svelte-summit-2021",
 			name: "Gitpod",
 			description:
 				"Remove all friction from the developer experience to be always ready-to-code and make software engineering more collaborative, joyful, and secure.",
 			image: "gitpod.svg",
 		},
 		{
-			url: "https://www.budibase.com",
+			url:
+				"https://www.budibase.com?utm_source=sveltesummit&utm_medium=referral&utm_campaign=svelte_summit_2021",
 			name: "Budibase",
 			description: "Build internal tools on your own infrastructure in minutes",
 			image: "budibase.svg",
@@ -35,8 +37,7 @@
 						target="_blank"
 						class="sponsor"
 						data-tooltip={sp.description}
-						><img src="/images/sponsors/{sp.image}" alt="{sp.name} logo" /></a
-					>
+						><img src="/images/sponsors/{sp.image}" alt="{sp.name} logo" /></a>
 				{:else}
 					<div class="sponsor">Your company (Gold)</div>
 				{/if}
