@@ -10,11 +10,11 @@
 			"content": "<p>We're almost there!</p>"
 		},
 		{
-			"name": "Amelia Wattenberg & Russel Goldenberg",
+			"name": "Amelia Wattenberger & Russell Goldenberg",
 			"title": "Declarative Data Visualization: Creating a bar chart race",
-			"slug": "declarativec-data-visualization",
+			"slug": "declarative-data-visualization",
 			"twitter": ["wattenberger", "codenberg"],
-			"image": "amelia_russel.jpg",
+			"image": "amelia_russell.jpg",
 			"video": "https://www.youtube.com/embed/qSfdtmcZ4d0",
 			"content": "<p>We'll create a recently popularized data visualization: the bar chart race! As we build, we'll discuss the benefits of using Svelte and how it compares to a pure d3 implementation. We'll cover lots of interesting techniques, like rendering with SVG & HTML, easy-to-maintain transitions, and componentizing chart parts!</p>"
 		},
